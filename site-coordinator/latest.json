@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
-  "notes": "About page, Check for updates, live update window",
-  "pub_date": "2026-10-10T11:06:41Z",
+  "version": "0.1.3",
+  "notes": "Update window with live progress, About page",
+  "pub_date": "2026-10-10T11:14:57Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkNSRnpxNVVJbDNweVZBOEVoek55emg2bER2SFNZMXV2UlF6RXlZV01XUEx2THhPelJTTUtEb3JHSElKRDlxRFZ0SHlPODVaVUNSSTBzL0J6UHFIaHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMwMzU4CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjJfYW1kNjQuQXBwSW1hZ2UKY2JIUml3TVMraDk1RUJ5KzhpdFRzWXIxUWZlekFuNEZ3Mkt5ODZ0WmNzVUEwWHpwL3Z1cVY4Z0FmdnREM1BFaEpyS0I4cGs1Y25pRzZWVERHemlxQ0E9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.2/site-coordinator_0.1.2_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkRnTXNHamk2dkJ6dU1scUZGTHBxVjBkUjNQMDVBMStlUU9vRW1tNDBXbWE3Y0pzaDBobEJyUEI5TWF3c00vbktJbzY2VlZYcC9OQ3EwNElZVVRLeXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMwNzE5CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjNfYW1kNjQuQXBwSW1hZ2UKZjhwMkZ5YTRqYWxtRnRRcE1EWVR3Vi9qcnpQQ0NZUng5S3g2a1VFdVNZZGhiT1FyazhuSlR6T1lXZWcxUGVSb1U2TDBmOVhpcXBGdDBBdjZmeUg3Qmc9PQo=",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.3/site-coordinator_0.1.3_amd64.AppImage"
     }
   }
 }
