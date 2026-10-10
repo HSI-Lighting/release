@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "notes": "Fix: update window events on Installer",
-  "pub_date": "2026-10-10T11:27:24Z",
+  "version": "0.1.5",
+  "notes": "Test update 0.1.5",
+  "pub_date": "2026-10-10T11:35:55Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkhGMHhuYmZSSmhrWDZEdDk1Nm1zenA5ODB1SjlObC9PS0RJRFhJalR4RDlIQ0pTUXBaQkhYcXMzQWNVZmpoYzU3RkR0MmpMUGhETXpPbUIrNHhTZmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMxNDYwCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjRfYW1kNjQuQXBwSW1hZ2UKR0t3OERDVDNoUFFFL0x3c1hwWEM2V0dGSk55NjAxMW1YZHRxTDBFVFp0cERpTisyZTRxYVFGVTVkakxtRUZOdVFwRDVjY05wQlllQ3k0djhKcHdMQlE9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.4/site-coordinator_0.1.4_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkdVRFdTN2I0VUZSVE1Dd3VNT1pPRTZMWVcydXdpT2dnOUdObjdzTGdKUEFCS1dJNUxVbTlQUjNxSkV6bGxVdmhpSUREWVNOWUZVTEEwTVAxVEJjeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMxOTMyCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjVfYW1kNjQuQXBwSW1hZ2UKcjFGQ2Y4aXZkeUtpaFdabElNWDBmNjcyZnU4RVFHN1hERUJvWlJDVzgzQnFaSjJkT1Rkc0FlVVI1T1BTT2R0RTBvREovTlVUcFhIOG1zdHN4Ynl3QXc9PQo=",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.5/site-coordinator_0.1.5_amd64.AppImage"
     }
   }
 }
