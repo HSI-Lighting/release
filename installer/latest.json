@@ -1,11 +1,11 @@
 {
-  "version": "0.1.4",
-  "notes": "Fix: update window events on Installer",
-  "pub_date": "2026-10-10T11:28:00Z",
+  "version": "0.1.5",
+  "notes": "Test update 0.1.5",
+  "pub_date": "2026-10-10T11:35:17Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkpxdE13c2pJaENPRTl0REJ4MUpUYjRtTm9QWWpDdkc3T3F1SlBpYjFyM1MxS2dIb3AwWlVTY2plRllMUXRqeVBSK0RUUnpyRkpDVWtKeml5aFk0Z1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMxNTkxCWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuNF9hbWQ2NC5BcHBJbWFnZQpQVHpET2xvZTk1aXNKRnJINDFvb0lqL3ZVdTJZNXhDNzB5b3hBcFpwWjAzcTZsNkJDV3dESnoyRU9KNkhYa1JPWWgvdXFvcThUVVk4YUFMU1VjZzBDQT09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.4/installer_0.1.4_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk9tb0FyR3JZN2N5M1JDUW1tTDVxNGtDWStYTXBpSXAya3JOK0VndDR5RzFhM2gzRFhIbzNJTUlmd3lvbjJKYUVyQUk4R3dyRmZTd0lwSE9xK0RPcGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMyMDU5CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuNV9hbWQ2NC5BcHBJbWFnZQppSVpVNEhyN2NYZUZQTHFFT3FwNE1WY1F3cXRETW1lT1dwMGx1M1pnc3lrQm9xNzFCU2VEK3NQbFVQaDBIZnBycUJHWGJ2azloUWtmdGVhSFdWQU5Edz09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.5/installer_0.1.5_amd64.AppImage"
     }
   }
 }
