@@ -1,15 +1,11 @@
 {
-  "version": "0.1.5",
-  "notes": "Test update 0.1.5",
-  "pub_date": "2026-10-10T12:28:24Z",
+  "version": "0.1.6",
+  "notes": "Update test 0.1.6",
+  "pub_date": "2026-10-10T12:42:22Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkdVRFdTN2I0VUZSVE1Dd3VNT1pPRTZMWVcydXdpT2dnOUdObjdzTGdKUEFCS1dJNUxVbTlQUjNxSkV6bGxVdmhpSUREWVNOWUZVTEEwTVAxVEJjeWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjMxOTMyCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjVfYW1kNjQuQXBwSW1hZ2UKcjFGQ2Y4aXZkeUtpaFdabElNWDBmNjcyZnU4RVFHN1hERUJvWlJDVzgzQnFaSjJkT1Rkc0FlVVI1T1BTT2R0RTBvREovTlVUcFhIOG1zdHN4Ynl3QXc9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.5/site-coordinator_0.1.5_amd64.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk9pM1M5d29LNEZqM21FV0RCdUlTTzZRb2Z3NmJ6S0R5YlJZWE12U3RvL1JFQ1RFM2huU3l6UnIwcjVxMS9mUzZKdVFhUzdGY012VVlhSFFqRnI5MGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjM1Mjk1CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjVfeDY0LXNldHVwLmV4ZQplbVhISHhkMmdVdTdaTmtuZ2J5bmtnVllScWh3MkdmVGloYm11WmtMeityQys4SnJjZmcyUThiRWRkWHlGdlF5b3E4WXNjNFl3dHFrenZrUzI4Q0ZCZz09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.5/site-coordinator_0.1.5_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkZ2dlNmK05jU3pIcUVTUmNSb2J6Z3ppbHAxSDBHNHZKQ1lBV0xnbVFBQVdmZFlucDVqejFScGRUakZGM2VlUm5QZUlmazVGOGltdDlBeDJXMXZIZlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjM1OTQxCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjZfYW1kNjQuQXBwSW1hZ2UKSkpPSWFQek5RNTB0QTVuRUJLWGJHajY0dHNrODB0dTFnS2dDUmpGQVNoZ3F1dXFFU2VNcGFDNXMrOEoyR3NnUFdVR2dMMHFZRnB1c3NINFkvVlpGQ1E9PQo=",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.6/site-coordinator_0.1.6_linux.AppImage"
     }
   }
 }
