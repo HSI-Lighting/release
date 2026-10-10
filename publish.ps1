@@ -43,6 +43,11 @@ try {
 } finally { Pop-Location }
 $sig = (Get-Content "$src.sig" -Raw).Trim()
 
+# From here on gh and git report on stderr as a matter of course ("release not found" is the
+# normal answer for a new version). Windows PowerShell 5.1 turns that into a terminating error
+# under "Stop", so their exit codes are checked instead.
+$ErrorActionPreference = "Continue"
+
 $repo = "HSI-Lighting/release"
 $file = "${App}_${ver}_${Platform}.$ext"; $tag = "$App-v$ver"
 $tmp = Join-Path ([IO.Path]::GetTempPath()) ([IO.Path]::GetRandomFileName())
