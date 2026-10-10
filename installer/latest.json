@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
-  "notes": "First release",
-  "pub_date": "2026-10-10T10:24:53Z",
+  "version": "0.1.1",
+  "notes": "Update test 0.1.1",
+  "pub_date": "2026-10-10T10:33:26Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkZSRmFPWUdNTVAzQnBRQmNWMDZ1dVdlTHQ3ZExNSHJzaUZML0doS1R5V2VPTEgvNEJSWjBOZEJ1eVIrWVI2UWJJS21GOHdmUWRRZ1JMdDFUT0RycUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI3ODA4CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuMF9hbWQ2NC5BcHBJbWFnZQpSZ0d6dENPRFh4b1hvZjg1Nm5kb2szM2Rpd051bzE2SDlCamY2ckc2T1NwbVNJNHE0UmFEK1NyUnVZSzRrcG1EeE5BQlhkL2NDSjN6OFY0ZlpMNEdBZz09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.0/installer_0.1.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk5LMkZKTjVMVnpic2lnMFVab2tremh4cDZ5VVloZnlsb2ZIcVdvYmVuL2VBVkRuZlhDSWx3WjhDR1VqelBSQVV3bTVMbGJYeGpTb0MvaEZxVkJnWFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI4Mjc4CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuMV9hbWQ2NC5BcHBJbWFnZQpoazNrTkl2QTRzR0RlaXd4R0hPV2dzOVlZTjA1OE1kTTNYc2hJQ0l0TnhGNEUvRTBxU1FPVkFPRWxudURaVkUwSzNGeFgyaXArWTM0ejBNWG9GM2lBUT09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.1/installer_0.1.1_amd64.AppImage"
     }
   }
 }
