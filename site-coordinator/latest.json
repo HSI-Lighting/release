@@ -1,11 +1,15 @@
 {
   "version": "0.1.6",
   "notes": "Update test 0.1.6",
-  "pub_date": "2026-10-10T12:42:22Z",
+  "pub_date": "2026-10-10T12:42:30Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkZ2dlNmK05jU3pIcUVTUmNSb2J6Z3ppbHAxSDBHNHZKQ1lBV0xnbVFBQVdmZFlucDVqejFScGRUakZGM2VlUm5QZUlmazVGOGltdDlBeDJXMXZIZlFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjM1OTQxCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjZfYW1kNjQuQXBwSW1hZ2UKSkpPSWFQek5RNTB0QTVuRUJLWGJHajY0dHNrODB0dTFnS2dDUmpGQVNoZ3F1dXFFU2VNcGFDNXMrOEoyR3NnUFdVR2dMMHFZRnB1c3NINFkvVlpGQ1E9PQo=",
       "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.6/site-coordinator_0.1.6_linux.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkRrWFU4dmtFVTBrU2NsUDRUNURGQWxxN1cyQ3FXcVZvMWFEVG93bjlvYnNRNVRobDdiODN3NHV3NXVWRURqcmdBc1JERmlJczFQd1Z2V2gxdUdXaUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjM2MTA1CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjZfeDY0LXNldHVwLmV4ZQpaQ1ZmdThCN2ZoVmlCK3RLZGxEZHlSazlkbzhxRHdjN21PRDR5R1JHbTgxL0JGeXVGUi9GZllzT0hzSjZlVkh4MTlKZW5sWDl3OGpicVpGcHVRcXBBQT09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.6/site-coordinator_0.1.6_windows.exe"
     }
   }
 }
