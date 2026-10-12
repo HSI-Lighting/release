@@ -1,7 +1,7 @@
 # HSI releases
 
 Signed builds of **HSI Site Coordinator** and **HSI Installer** (Linux AppImage), of
-**HSI Installer Assist** and **HSI BLE Devices** (Windows, macOS, Linux, Android), and of the
+**HSI Installer Assist** (Windows, Android) and **HSI BLE Devices** (Android only), and of the
 **HSI Firmware Flasher** (Windows) with its firmware library, and of **MQTT Pro** (Windows, Linux, Android). Each app reads its `<app>/latest.json`
 from this repo (`site-coordinator`, `installer`, `installer-assist`, `ble-devices`, `firmware-flasher`, `mqtt-pro`)
 and offers an update when the version there is newer; every download is checked against the signing
@@ -27,14 +27,14 @@ Maintainers: build with the signing key in the environment
 (`TAURI_SIGNING_PRIVATE_KEY="$(cat ~/.tauri/hsi-updater.key)"`, `TAURI_SIGNING_PRIVATE_KEY_PASSWORD=…`), then
 `./publish.sh site-coordinator|installer linux|windows ["notes"]`. Run it once per platform of the same version.
 
-HSI Installer Assist / HSI BLE Devices: build as usual (the Installer-assist repo's README), then
-`./publish.sh installer-assist|ble-devices linux|windows|macos|android ["notes"]` (Linux/macOS, the repo at
-`$HSI_INSTALLER_ASSIST`, default `~/workspace/Rust/Installer-assist`) or, on Windows,
-`powershell -ExecutionPolicy Bypass -File publish.ps1 installer-assist|ble-devices windows|android ["notes"]`
-(the repo at `$env:HSI_INSTALLER_ASSIST`, default `E:\Installer-assist`; needs `gh auth login`). macOS: build
-with `--config '{"bundle":{"createUpdaterArtifacts":true}}'` and the key in `TAURI_SIGNING_PRIVATE_KEY`, which
-makes the signed `.app.tar.gz`. Raise the version in `src-tauri/tauri.conf.json` first: an app only offers a
-newer version, and Android only installs a higher one.
+HSI Installer Assist (Windows + Android) / HSI BLE Devices (Android only): build as usual (the
+Installer-assist repo's README), then on Windows
+`powershell -ExecutionPolicy Bypass -File publish.ps1 installer-assist windows|android ["notes"]` or
+`publish.ps1 ble-devices android ["notes"]` (the repo at `$env:HSI_INSTALLER_ASSIST`, default
+`E:\Installer-assist`; needs `gh auth login`), or the same arguments to `./publish.sh` (the repo at
+`$HSI_INSTALLER_ASSIST`, default `~/workspace/Rust/Installer-assist`). Both scripts refuse other platforms
+for these two apps. Raise the version in `src-tauri/tauri.conf.json` first: an app only offers a newer
+version, and Android only installs a higher one.
 
 HSI Firmware Flasher: `publish.ps1 firmware-flasher windows` (after `build.bat`; version in
 `flasher/__init__.py`) and `publish.ps1 firmware-flasher firmware` (after the firmware is committed; the

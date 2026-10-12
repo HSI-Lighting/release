@@ -33,6 +33,11 @@ case $app in
   *) echo "unknown app $app" >&2; exit 1 ;;
 esac
 signdir=${signdir:-$dir}
+# HSI Installer Assist is built for Windows + Android, HSI BLE Devices for Android only.
+case "$app/$plat" in
+  installer-assist/windows|installer-assist/android|ble-devices/android) ;;
+  installer-assist/*|ble-devices/*) echo "$app is not published for $plat (installer-assist: windows|android, ble-devices: android)" >&2; exit 1 ;;
+esac
 if [ "$app" = firmware-flasher ]; then
   case $plat in
     windows)  ver=$(python3 -c 'import re,sys;print(re.search(r"__version__\s*=\s*\"([^\"]+)\"",open(sys.argv[1]).read()).group(1))' "$FL/flasher/__init__.py")

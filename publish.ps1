@@ -1,7 +1,8 @@
 # Publish a built build from Windows: GitHub release asset + <app>/latest.json (the feed the apps
 # read). The same as publish.sh, for the apps built on this PC.
 #
-#   powershell -ExecutionPolicy Bypass -File publish.ps1 installer-assist|ble-devices windows|android ["notes"]
+#   powershell -ExecutionPolicy Bypass -File publish.ps1 installer-assist windows|android ["notes"]
+#   powershell -ExecutionPolicy Bypass -File publish.ps1 ble-devices android ["notes"]     (Android only)
 #   powershell -ExecutionPolicy Bypass -File publish.ps1 firmware-flasher windows|firmware ["notes"]
 #
 # installer-assist / ble-devices: Windows = the NSIS setup .exe (npm run dist:win), Android = the
@@ -35,6 +36,7 @@ switch ($App) {
     "ble-devices"      { $dir = Join-Path $ia "BLE devices assist";  $target = Join-Path $dir "src-tauri\target"; $name = "HSI BLE Devices";      $apk = "HSI-BLE-Devices";      $signDir = $dir }
     "firmware-flasher" { $dir = $flasher; $name = "HSI Firmware Flasher" }
 }
+if ($App -eq "ble-devices" -and $Platform -ne "android") { throw "HSI BLE Devices is Android only" }
 if ($App -eq "firmware-flasher") {
     if ($Platform -eq "android") { throw "the flasher is a Windows app: windows or firmware" }
     if ($Platform -eq "windows") {
