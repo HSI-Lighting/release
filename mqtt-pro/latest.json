@@ -1,11 +1,15 @@
 {
   "version": "1.0.0",
   "notes": "MQTT Pro 1.0.0: plain-language message meanings, field diagnostics, About & updates",
-  "pub_date": "2026-10-12T05:41:35Z",
+  "pub_date": "2026-10-12T05:41:47Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLREw2M0xEKzNwQkd1K3FVbWJRYkVEc1d5NEUzc1NXSUZzdlI1b2FIVkhGbnU0YW1sVklqR3lzMWJsNC9DTTZWb0NJSFpNZlM3VkU0QjVydFN4RFM2dlFZPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4wIHdpbmRvd3MteDg2XzY0Ck5TQ3NOZWRYN1AzZ1lLbnBueDEwWWErMGJ6L2h2R2NMbWxWREhHMWxxRHhMb1pWb1FBQ1d5dnpoaXA3Wng0QnBseitVTE5PTksrRzRnanViU3B1YkNBPT0K",
       "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.0/mqtt-pro_1.0.0_windows.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLREZVQlZNbmxZclUwQVZzRWtieEppQitzV3lhWVdiT2xsTVJEVzVJUVdoakRmSnppU3VJRGJNS3VKU3hTMzh4WHNBSGU3emNRZUkyUTNCU0tsRFZHK0FRPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4wIGxpbnV4LXg4Nl82NAp1RkQvQlZoSGhTK3dPSVpZYkhseGhkWTNSdEVxeXgvY05VbmVLZ1psWlV4Q0YxM0p0Z1lPSTRlZUNZSHF3ZENOenpxY2NCcWV1eFVTSmlvWmxXajNBZz09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.0/mqtt-pro_1.0.0_linux"
     }
   }
 }
