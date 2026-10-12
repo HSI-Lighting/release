@@ -7,13 +7,18 @@
 # Build first with the signing key in the environment (see README); the key never leaves this PC.
 # installer-assist / ble-devices (both in the Installer-assist repo, $HSI_INSTALLER_ASSIST): the
 # package is signed here with hsi-updater.key ($HSI_UPDATER_KEY, $HSI_KEYS_DIR, or the app's keys/).
+#   ./publish.sh mqtt-pro windows|linux|android VERSION FILE ["notes"]
+# MQTT Pro (Windows/Linux/Android, E:\KEYS\mqtt-pro-updater.key, its own key): FILE is a bare .exe / Linux
+# binary / .apk already signed with its tools/mqtt-sign (`mqtt-sign FILE VERSION PLATFORM`, writes FILE.sig);
+# see "Publishing MQTT Pro" in the README. Run on Windows with Git Bash (publish.ps1 does not cover it).
 #   ./publish.sh firmware-flasher windows|firmware ["notes"]
 # HSI Firmware Flasher ($HSI_FIRMWARE_FLASHER): windows = dist/HSI_90111_Programmer.exe (built on
 # Windows by build.bat; version in flasher/__init__.py), firmware = its COMMITTED firmware library,
 # packed here by tools/make_firmware_bundle.py. Two entries of one feed: publishing one keeps the other.
 # On Windows, publish.ps1 does the same.
 set -euo pipefail
-app=${1:?site-coordinator|installer|installer-assist|ble-devices|firmware-flasher}; plat=${2:?linux|windows|macos|android|firmware}; notes=${3:-}
+app=${1:?site-coordinator|installer|installer-assist|ble-devices|firmware-flasher|mqtt-pro}; plat=${2:?linux|windows|macos|android|firmware}; notes=${3:-}
+if [ "$app" = mqtt-pro ]; then ver=${3:?version}; src=${4:?signed file}; notes=${5:-}; fi
 W=~/workspace/Rust
 IA=${HSI_INSTALLER_ASSIST:-$W/Installer-assist}
 FL=${HSI_FIRMWARE_FLASHER:-$W/HSI-Firmware-Flasher}
@@ -23,6 +28,7 @@ case $app in
   installer)        conf=$W/HSI_Admin_Panel_NodeFlow/tauri-app/tauri.conf.json;          root=$W/HSI_Admin_Panel_NodeFlow/tauri-app/target; name="HSI Installer" ;;
   installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Installer Assist"; apk=HSI-Installer-Assist ;;
   ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Devices";      apk=HSI-BLE-Devices ;;
+  mqtt-pro)         name="MQTT Pro" ;;
   firmware-flasher) dir="$FL"; name="HSI Firmware Flasher"; signdir="$IA/HSI Installer assist" ;;   # signdir: has the Tauri CLI
   *) echo "unknown app $app" >&2; exit 1 ;;
 esac
@@ -35,6 +41,13 @@ if [ "$app" = firmware-flasher ]; then
               fwjson=$(python3 "$FL/tools/make_firmware_bundle.py" "$src" | tail -1)
               ver=$(python3 -c 'import json,sys;print(json.loads(sys.argv[1])["version"])' "$fwjson"); key=; ext=zip ;;
     *) echo "the flasher publishes windows or firmware" >&2; exit 1 ;;
+  esac
+elif [ "$app" = mqtt-pro ]; then
+  case $plat in
+    windows) key=windows-x86_64; ext=exe ;;
+    linux)   key=linux-x86_64;   ext=linux ;;
+    android) key=android-aarch64; ext=apk ;;
+    *) echo "mqtt-pro publishes windows, linux or android" >&2; exit 1 ;;
   esac
 else
 [ "$plat" != firmware ] || { echo "$app has no firmware bundle" >&2; exit 1; }
@@ -59,8 +72,21 @@ if [ -n "$dir" ] && [ "$plat" != macos ] && [ -f "$src" ]; then
   (cd "$signdir" && npx --no-install tauri signer sign -f "$k" -p "${HSI_UPDATER_KEY_PASSWORD:-}" "$src" >/dev/null)
 fi
 [ -f "$src" ] && [ -f "$src.sig" ] || { echo "missing $src (+ .sig): build version $ver first" >&2; exit 1; }
+if [ "$app" = mqtt-pro ]; then
+  # the signature must be made for exactly this version + platform (mqtt-sign <file> <version> <platform-key>)
+  # and must be newer than the file, so a stale .sig from a rebuilt file is caught here, not on every client
+  [[ "$ver" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "version must look like 1.0.1" >&2; exit 1; }
+  [ "$src.sig" -nt "$src" ] || { echo "$src.sig is older than $src: sign it again" >&2; exit 1; }
+  python3 - "$src.sig" "mqtt-pro $ver $key" <<'PY' || { echo "$src.sig was not signed for mqtt-pro $ver $key: run mqtt-sign <file> $ver $key" >&2; exit 1; }
+import base64,sys
+text=base64.b64decode(open(sys.argv[1]).read().strip()).decode()
+lines=[l for l in text.splitlines() if l.startswith("trusted comment: ")]
+sys.exit(0 if lines and lines[0][len("trusted comment: "):]==sys.argv[2] else 1)
+PY
+fi
 if [ -n "$fwjson" ]; then file="${app}-firmware_${ver}.zip"; tag="$app-firmware-$ver"; title="$name firmware library $ver"
 else file="${app}_${ver}_${plat}.${ext}"; tag="$app-v$ver"; title="$name $ver"; fi
+[ "$app" = mqtt-pro ] && [ "$plat" = linux ] && file="${app}_${ver}_linux"   # MQTT Pro's Linux build is a bare binary
 cd "$(dirname "$0")"
 [ "$(git rev-parse --abbrev-ref HEAD)" = main ] || { echo "run this on main - the apps read the feed from main" >&2; exit 1; }
 tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
