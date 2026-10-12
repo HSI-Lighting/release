@@ -1,11 +1,15 @@
 {
   "version": "0.1.7",
   "notes": "Server images / install: site kit built into the app (fixes 'cannot read docker-compose.yml' on other PCs)",
-  "pub_date": "2026-10-12T10:27:51Z",
+  "pub_date": "2026-10-12T10:27:59Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWklIdnZFR3hzYThWNXVMRXhKbWJrdVloNldYK29PbTRUMEk5MGdrUWhGMEdEU1N0R205V2VNS1pDSEtGVGI1T2g0RDlwemJaNjdOaUN0NWkzZ2VTY1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAwODA3CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjdfYW1kNjQuQXBwSW1hZ2UKUW9PN2JTSFdLM0FVZTRrVml1TGtsWTBraE5HSXZwRzBBQ20rQVdmbDd5TnpWVzJVUjJyMTNJeENWc3U4WXA4V2RzVHFVQWRDaHZob011L2xNaDhFQ2c9PQo=",
       "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.7/site-coordinator_0.1.7_linux.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk8zUENEWTFIbDlaWWJ5UzNZdVBwSWlHRzVIRUxNTEZkazVjK1gvMlZ6Z3BlbU5iWS9mRkZLeVBXeVBpczFKZjY0QW1rM3hXcmJqanFpdlhFcnk3VkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAwODMwCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjdfeDY0LXNldHVwLmV4ZQpZVlBDOGJna2ROTlBKNE9VRHg0bXZKbmRTTVFpYWc5YlVvbTEvVnk4UGdUTXVaUmM3QWp1bm1QMnR3WTBXV0dRZTJzUEQrZnMzVk9rTDNiQjFTV3dDQT09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.7/site-coordinator_0.1.7_windows.exe"
     }
   }
 }
