@@ -6,7 +6,7 @@ Signed builds of **HSI Site Coordinator** and **HSI Installer** (Linux AppImage)
 from this repo (`site-coordinator`, `installer`, `installer-assist`, `ble-devices`, `firmware-flasher`, `mqtt-pro`)
 and offers an update when the version there is newer; every download is checked against the signing
 key built into the app. HSI Installer Assist, HSI BLE Devices and the HSI Firmware Flasher share one
-update key of their own (`hsi-updater.key`, kept on the build PC in `HSI_KEYS_DIR`, E:\KEYS\HSI Installer Assist + BLE Devices + Firmware Flasher).
+update key of their own (`hsi-updater.key`, kept on the build PC in `HSI_KEYS_DIR`, E:\KEYS\_master).
 
 Download: see [Releases](../../releases). Run an AppImage with `chmod +x file.AppImage && ./file.AppImage`
 (Ubuntu 22.04/24.04 also needs `sudo apt install libfuse2`). The app lists itself in the app menu on first run.
