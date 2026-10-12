@@ -1,11 +1,15 @@
 {
     "version":  "1.0.0",
     "notes":  "HSI Installer Assist 1.0.0: Check for updates on every platform; in-app Wi-Fi join fixed on Android.",
-    "pub_date":  "2026-10-10T14:34:21Z",
+    "pub_date":  "2026-10-12T13:23:02Z",
     "platforms":  {
                       "android-aarch64":  {
                                               "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODBkL1dxZ1MrNWlZaFVqWE00VnVXaHhvbG8zSExGL3RzeTY4cmVTdC9GVTJxRGozSmp2akVvRDF6ZGJIMGNBT0laK2xzMHg4UGIzSEJSamhqUEwwdWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjQyODQ3CWZpbGU6SFNJLUluc3RhbGxlci1Bc3Npc3QtMS4wLjAtYXJtNjQtcmVsZWFzZS5hcGsKSllaVk9SVWw4cFJTQk5BVXZETXBqdlN4RmJsN3NNdGNaS285SkY4NnFYWEVITUxaNWF4ckVWYmJUN1N4U1I5UGdXL1ZkV1E1amJBcExQZ0M5amVDQUE9PQo=",
                                               "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.0.0/installer-assist_1.0.0_android.apk"
-                                          }
+                                          },
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODNEK0Z6eXZJMnhJelJaOHFWYVdueVFQNG80NEtaeS9TSEltTEdmeU5lM01lSUcvQTM5eE9mVFFTU0VHbEpTTVNwOXZUQnFCanFieWVPSlg0K015RWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODExMzc2CWZpbGU6SFNJIEluc3RhbGxlciBBc3Npc3RfMS4wLjBfeDY0LXNldHVwLmV4ZQptZ25tb2JFQzVTYnByRys5WlllbDNCQlBYSERhdm9xbkRkWWJPUGlGQXRUMmxNZkkxcUN1alRQdE1UM2xDSWYzYkt0blArWGRjS0RCQ3VrS3pTalZDZz09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.0.0/installer-assist_1.0.0_windows.exe"
+                                         }
                   }
 }
