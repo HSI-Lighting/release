@@ -12,7 +12,7 @@
 #   tools\make_firmware_bundle.py (version = its last commit). The two are separate entries of one
 #   feed: publishing one keeps the other.
 #
-# Everything is signed here with hsi-updater.key from HSI_KEYS_DIR (E:\KEYS), $env:HSI_UPDATER_KEY,
+# Everything is signed here with hsi-updater.key from HSI_KEYS_DIR (a folder under E:\KEYS), $env:HSI_UPDATER_KEY,
 # or the app's keys\; the key never leaves this PC. Run it on main (it pushes the feed there).
 # Needs the GitHub CLI, signed in: gh auth login.
 #
