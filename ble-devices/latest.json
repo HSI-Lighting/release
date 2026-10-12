@@ -1,0 +1,11 @@
+{
+    "version":  "0.1.0",
+    "notes":  "HSI BLE Devices 0.1.0: first release with Updates (Check for updates).",
+    "pub_date":  "2026-10-12T13:18:56Z",
+    "platforms":  {
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODZpcytrYUlXNi9wbTNFZkRSYVhkenM2R1RkYXJhcnJaWGc1OXlzNG5CczlzczBCTzkvcVF2QzlCYmtRbWtGTDk5Q1Q3SUYzRTR2bGJZbXA4Vm1semdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODExMTIzCWZpbGU6SFNJLUJMRS1EZXZpY2VzLTAuMS4wLWFybTY0LXJlbGVhc2UuYXBrCkJ3REZVd3Z3QitqellFZDl3ZksraWVKaVVBdGNNWmlkQWduT1Bvb1B2bUxqYVU3eHBZS1ZOOGtDNy90OFBwTFN4M1krbFd0Zno4UC9jWnVaQmMrN0JBPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v0.1.0/ble-devices_0.1.0_android.apk"
+                                          }
+                  }
+}
