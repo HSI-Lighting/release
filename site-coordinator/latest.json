@@ -1,15 +1,11 @@
 {
-  "version": "0.1.7",
-  "notes": "Server images / install: site kit built into the app (fixes 'cannot read docker-compose.yml' on other PCs)",
-  "pub_date": "2026-10-12T10:27:59Z",
+  "version": "0.1.8",
+  "notes": "Fix: the built-in site kit now actually unpacks (0.1.7 never created its folder)",
+  "pub_date": "2026-10-12T10:41:11Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWklIdnZFR3hzYThWNXVMRXhKbWJrdVloNldYK29PbTRUMEk5MGdrUWhGMEdEU1N0R205V2VNS1pDSEtGVGI1T2g0RDlwemJaNjdOaUN0NWkzZ2VTY1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAwODA3CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjdfYW1kNjQuQXBwSW1hZ2UKUW9PN2JTSFdLM0FVZTRrVml1TGtsWTBraE5HSXZwRzBBQ20rQVdmbDd5TnpWVzJVUjJyMTNJeENWc3U4WXA4V2RzVHFVQWRDaHZob011L2xNaDhFQ2c9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.7/site-coordinator_0.1.7_linux.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk8zUENEWTFIbDlaWWJ5UzNZdVBwSWlHRzVIRUxNTEZkazVjK1gvMlZ6Z3BlbU5iWS9mRkZLeVBXeVBpczFKZjY0QW1rM3hXcmJqanFpdlhFcnk3VkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAwODMwCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjdfeDY0LXNldHVwLmV4ZQpZVlBDOGJna2ROTlBKNE9VRHg0bXZKbmRTTVFpYWc5YlVvbTEvVnk4UGdUTXVaUmM3QWp1bm1QMnR3WTBXV0dRZTJzUEQrZnMzVk9rTDNiQjFTV3dDQT09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.7/site-coordinator_0.1.7_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkh3eHhXV2FhMTJwblhEYmV0d3Y2U1l2QWorMG1VQ2hLaEY0KzJpV201MVlvL3lUVE9oUE5JYzFPVFhXb0NBUkJNQW5sTVFYeDNzdk5Ga3BzWE9DUGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAxNjE3CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjhfYW1kNjQuQXBwSW1hZ2UKME84dm8vQnUrQlRhbzAySklaa0VTNWtDcUlPbHFHQWl0QkFwRGROMUhsUDJWREo0Wk91T0VaWjZ2YlpNZWIwQy9LRzJLU0daYXhNTE1GaUd3WmdtQ2c9PQo=",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.8/site-coordinator_0.1.8_linux.AppImage"
     }
   }
 }
