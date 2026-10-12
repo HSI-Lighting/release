@@ -6,20 +6,38 @@
 # Publish every platform of one version: each call adds its platform to the same release and feed.
 # Build first with the signing key in the environment (see README); the key never leaves this PC.
 # installer-assist / ble-devices (both in the Installer-assist repo, $HSI_INSTALLER_ASSIST): the
-# package is signed here with the update key in that app's keys/ (or $HSI_UPDATER_KEY).
+# package is signed here with hsi-updater.key ($HSI_UPDATER_KEY, $HSI_KEYS_DIR, or the app's keys/).
+#   ./publish.sh firmware-flasher windows|firmware ["notes"]
+# HSI Firmware Flasher ($HSI_FIRMWARE_FLASHER): windows = dist/HSI_90111_Programmer.exe (built on
+# Windows by build.bat; version in flasher/__init__.py), firmware = its COMMITTED firmware library,
+# packed here by tools/make_firmware_bundle.py. Two entries of one feed: publishing one keeps the other.
 # On Windows, publish.ps1 does the same.
 set -euo pipefail
-app=${1:?site-coordinator|installer|installer-assist|ble-devices}; plat=${2:?linux|windows|macos|android}; notes=${3:-}
+app=${1:?site-coordinator|installer|installer-assist|ble-devices|firmware-flasher}; plat=${2:?linux|windows|macos|android|firmware}; notes=${3:-}
 W=~/workspace/Rust
 IA=${HSI_INSTALLER_ASSIST:-$W/Installer-assist}
-dir=
+FL=${HSI_FIRMWARE_FLASHER:-$W/HSI-Firmware-Flasher}
+dir=; signdir=; fwjson=
 case $app in
   site-coordinator) conf=$W/HSI_Site_Coordinator/apps/desktop/src-tauri/tauri.conf.json; root=$W/HSI_Site_Coordinator/target; name="HSI Site Coordinator" ;;
   installer)        conf=$W/HSI_Admin_Panel_NodeFlow/tauri-app/tauri.conf.json;          root=$W/HSI_Admin_Panel_NodeFlow/tauri-app/target; name="HSI Installer" ;;
   installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Installer Assist"; apk=HSI-Installer-Assist ;;
   ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Devices";      apk=HSI-BLE-Devices ;;
+  firmware-flasher) dir="$FL"; name="HSI Firmware Flasher"; signdir="$IA/HSI Installer assist" ;;   # signdir: has the Tauri CLI
   *) echo "unknown app $app" >&2; exit 1 ;;
 esac
+signdir=${signdir:-$dir}
+if [ "$app" = firmware-flasher ]; then
+  case $plat in
+    windows)  ver=$(python3 -c 'import re,sys;print(re.search(r"__version__\s*=\s*\"([^\"]+)\"",open(sys.argv[1]).read()).group(1))' "$FL/flasher/__init__.py")
+              src="$FL/dist/HSI_90111_Programmer.exe"; key=windows-x86_64; ext=exe ;;
+    firmware) src=$(mktemp -d)/firmware-bundle.zip
+              fwjson=$(python3 "$FL/tools/make_firmware_bundle.py" "$src" | tail -1)
+              ver=$(python3 -c 'import json,sys;print(json.loads(sys.argv[1])["version"])' "$fwjson"); key=; ext=zip ;;
+    *) echo "the flasher publishes windows or firmware" >&2; exit 1 ;;
+  esac
+else
+[ "$plat" != firmware ] || { echo "$app has no firmware bundle" >&2; exit 1; }
 ver=$(python3 -c 'import json,sys;print(json.load(open(sys.argv[1]))["version"])' "$conf")
 case $plat in
   linux)   src="$root/release/bundle/appimage/${name}_${ver}_amd64.AppImage"; key=linux-x86_64;   ext=AppImage ;;
@@ -31,33 +49,47 @@ case $plat in
            src="$dir/dist/${apk}-${ver}-arm64-release.apk"; key=android-aarch64; ext=apk ;;
   *) echo "unknown platform $plat" >&2; exit 1 ;;
 esac
-# Our two apps: sign the package itself (Tauri 2 updates from the installer / AppImage / APK as
-# built). Always re-sign, so a rebuilt file never goes out with an older build's signature.
-# macOS's .app.tar.gz is signed by the build (createUpdaterArtifacts), not here.
+fi
+# Our apps: sign the package itself (Tauri 2 updates from the installer / AppImage / APK as built;
+# the flasher checks the same signature). Always re-sign, so a rebuilt file never goes out with an
+# older build's signature. macOS's .app.tar.gz is signed by the build (createUpdaterArtifacts).
 if [ -n "$dir" ] && [ "$plat" != macos ] && [ -f "$src" ]; then
-  k=${HSI_UPDATER_KEY:-$dir/keys/hsi-updater.key}
-  [ -f "$k" ] || { echo "no update key at $k (run unlock-keys first)" >&2; exit 1; }
-  (cd "$dir" && npx --no-install tauri signer sign -f "$k" -p "${HSI_UPDATER_KEY_PASSWORD:-}" "$src" >/dev/null)
+  k=${HSI_UPDATER_KEY:-${HSI_KEYS_DIR:+$HSI_KEYS_DIR/hsi-updater.key}}; k=${k:-$dir/keys/hsi-updater.key}
+  [ -f "$k" ] || { echo "no update key at $k (set HSI_KEYS_DIR or unlock the keys first)" >&2; exit 1; }
+  (cd "$signdir" && npx --no-install tauri signer sign -f "$k" -p "${HSI_UPDATER_KEY_PASSWORD:-}" "$src" >/dev/null)
 fi
 [ -f "$src" ] && [ -f "$src.sig" ] || { echo "missing $src (+ .sig): build version $ver first" >&2; exit 1; }
-file="${app}_${ver}_${plat}.${ext}"; tag="$app-v$ver"
+if [ -n "$fwjson" ]; then file="${app}-firmware_${ver}.zip"; tag="$app-firmware-$ver"; title="$name firmware library $ver"
+else file="${app}_${ver}_${plat}.${ext}"; tag="$app-v$ver"; title="$name $ver"; fi
 cd "$(dirname "$0")"
+[ "$(git rev-parse --abbrev-ref HEAD)" = main ] || { echo "run this on main - the apps read the feed from main" >&2; exit 1; }
 tmp=$(mktemp -d); trap 'rm -rf "$tmp"' EXIT
 cp "$src" "$tmp/$file"
 if gh release view "$tag" --repo HSI-Lighting/release >/dev/null 2>&1; then
   gh release upload "$tag" "$tmp/$file" --repo HSI-Lighting/release --clobber
 else
-  gh release create "$tag" "$tmp/$file" --repo HSI-Lighting/release --title "$name $ver" --notes "${notes:-$name $ver}"
+  gh release create "$tag" "$tmp/$file" --repo HSI-Lighting/release --title "$title" --notes "${notes:-$title}"
 fi
+git pull -q --ff-only
 mkdir -p "$app"
-python3 - "$app" "$ver" "$notes" "$tag" "$file" "$src.sig" "$key" <<'PY'
+python3 - "$app" "$ver" "$notes" "$tag" "$file" "$src.sig" "$key" "$fwjson" <<'PY'
 import json,sys,os,datetime
-app,ver,notes,tag,file,sig,key=sys.argv[1:]
+app,ver,notes,tag,file,sig,key,fwjson=sys.argv[1:]
 f=f"{app}/latest.json"
 cur=json.load(open(f)) if os.path.exists(f) else {}
-plats=cur.get("platforms",{}) if cur.get("version")==ver else {}   # a new version starts with just this platform
-plats[key]={"signature":open(sig).read().strip(),"url":f"https://github.com/HSI-Lighting/release/releases/download/{tag}/{file}"}
-json.dump({"version":ver,"notes":notes or cur.get("notes") or ver,"pub_date":datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),"platforms":plats},open(f,"w"),indent=2)
+now=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+url=f"https://github.com/HSI-Lighting/release/releases/download/{tag}/{file}"
+if fwjson:   # the flasher's firmware library: its own entry; the app entry is kept
+    b=json.loads(fwjson)
+    out={k:v for k,v in cur.items() if k!="firmware"}
+    out["firmware"]={"version":ver,"notes":notes or f"Firmware library {ver} ({b['entries']} firmware)","pub_date":now,
+                     "entries":b["entries"],"size":b.get("size",0),"url":url,"signature":open(sig).read().strip()}
+else:
+    plats=cur.get("platforms",{}) if cur.get("version")==ver else {}   # a new version starts with just this platform
+    plats[key]={"signature":open(sig).read().strip(),"url":url}
+    out={"version":ver,"notes":notes or cur.get("notes") or ver,"pub_date":now,"platforms":plats}
+    if "firmware" in cur: out["firmware"]=cur["firmware"]
+json.dump(out,open(f,"w"),indent=2)
 PY
-git add "$app/latest.json" && git commit -qm "$name $ver ($plat)" && git push -q
+git add "$app/latest.json" && git commit -qm "$title ($plat)" && git push -q
 echo "published $tag ($plat)"
