@@ -7,5 +7,14 @@
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODVhQjQyMTF5TVBQOTdmdVpscVUxVDRtaDc5NlpiWWVjNkpBdnBNd01vSkIyOWVvMUUrQXVoQzNudVFON2o5OVowOVBYZGlDSjVCd1UwV0ZTdUJ1bkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzgyNTczCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCm5mU2R2V1dvSDF6STBMc0MxSmpqa0ZONUtKWE5Oc1FXTXdTQ2Z6MlFmdmNmemJyK05hR00xeEpvRFpKVUdsekZxYzQ5NENiS0NvUFE1S2Fad3pQcEFBPT0K",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.0/firmware-flasher_1.0.0_windows.exe"
                                          }
-                  }
+                  },
+    "firmware":  {
+                     "version":  "2026.10.5.1127",
+                     "notes":  "Firmware library 2026.10.5.1127 (49 firmware)",
+                     "pub_date":  "2026-10-12T05:23:29Z",
+                     "entries":  49,
+                     "size":  34453256,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.5.1127/firmware-flasher-firmware_2026.10.5.1127.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODZrK0dBMTZsaGlQMXk4TGRjaGxBcWUvNWVDRGFHNGVmenlmRFk1ZUcwTlh4NHZYeUtOVzhxaG55Z085REdHUVk2MmNHcy8rMlgrazJRQUM3Ny9OZFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzgyNTkyCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKUEkvTEx4TjByK1NwTFErRE42UEhDTFZISVFXZjJSYzR3UGMwWW5MTXYxd1dMRUczay9MYmwwdTl6ZnM3NjJiU0NFQkJta3lpdzVDa0NJaEdwRXIvREE9PQo="
+                 }
 }
