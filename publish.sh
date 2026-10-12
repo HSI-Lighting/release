@@ -8,7 +8,7 @@
 # installer-assist / ble-devices (both in the Installer-assist repo, $HSI_INSTALLER_ASSIST): the
 # package is signed here with hsi-updater.key ($HSI_UPDATER_KEY, $HSI_KEYS_DIR, or the app's keys/).
 #   ./publish.sh mqtt-pro windows|linux|android VERSION FILE ["notes"]
-# MQTT Pro (Windows/Linux/Android, E:\KEYS\mqtt-pro-updater.key, its own key): FILE is a bare .exe / Linux
+# MQTT Pro (Windows/Linux/Android, E:\KEYS\MQTT Pro\mqtt-pro-updater.key, its own key): FILE is a bare .exe / Linux
 # binary / .apk already signed with its tools/mqtt-sign (`mqtt-sign FILE VERSION PLATFORM`, writes FILE.sig);
 # see "Publishing MQTT Pro" in the README. Run on Windows with Git Bash (publish.ps1 does not cover it).
 #   ./publish.sh firmware-flasher windows|firmware ["notes"]

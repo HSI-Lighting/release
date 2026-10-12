@@ -6,7 +6,7 @@ Signed builds of **HSI Site Coordinator** and **HSI Installer** (Linux AppImage)
 from this repo (`site-coordinator`, `installer`, `installer-assist`, `ble-devices`, `firmware-flasher`, `mqtt-pro`)
 and offers an update when the version there is newer; every download is checked against the signing
 key built into the app. HSI Installer Assist, HSI BLE Devices and the HSI Firmware Flasher share one
-update key of their own (`hsi-updater.key`, kept on the build PC in `HSI_KEYS_DIR`, E:\KEYS).
+update key of their own (`hsi-updater.key`, kept on the build PC in `HSI_KEYS_DIR`, E:\KEYS\HSI Installer Assist + BLE Devices + Firmware Flasher).
 
 Download: see [Releases](../../releases). Run an AppImage with `chmod +x file.AppImage && ./file.AppImage`
 (Ubuntu 22.04/24.04 also needs `sudo apt install libfuse2`). The app lists itself in the app menu on first run.
@@ -79,7 +79,7 @@ and download the new build from a GitHub release.
 6. **GitHub caches** `raw.githubusercontent.com` for a few minutes, so a new release can show up in the apps with a short delay.
 
 Each product has its own key. Site Coordinator and Installer use the Tauri key (`~/.tauri/hsi-updater.key`); MQTT Pro
-uses its own key kept on the maintainer PC in `E:\KEYS` (`mqtt-pro-updater.key` + password, never committed). If a
+uses its own key kept on the maintainer PC in `E:\KEYS\MQTT Pro` (`mqtt-pro-updater.key` + password, never committed). If a
 private key or its password is lost, installed copies of that app can no longer be updated and must be reinstalled by
 hand, because they only trust their built-in public key.
 
@@ -102,7 +102,7 @@ hand, because they only trust their built-in public key.
    can never be installed on another. `mqtt-sign` also checks the result against the public key built into the app,
    so signing with the wrong key fails on your PC rather than on every installed copy. `publish.sh` re-checks all this.
 
-   (`mqtt-sign` reads `E:\KEYS\mqtt-pro-updater.key` and its password file; override with `MQTT_SIGN_KEY`,
+   (`mqtt-sign` reads `E:\KEYS\MQTT Pro\mqtt-pro-updater.key` and its password file; override with `MQTT_SIGN_KEY`,
    `MQTT_SIGN_PASSWORD` / `MQTT_SIGN_PASSWORD_FILE`. It prints only `wrote <file>.sig`.)
 4. Publish one platform at a time; the second and third call add their platform to the same release and feed:
 
