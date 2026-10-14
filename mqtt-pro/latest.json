@@ -1,11 +1,15 @@
 {
   "version": "1.0.2",
   "notes": "MQTT Pro 1.0.2: the Windows app adds itself to the Start menu (About & updates can add or remove it)",
-  "pub_date": "2026-10-14T13:36:54Z",
+  "pub_date": "2026-10-14T13:37:10Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLRExZMWF6d2hqN2dvdDBXUTJPRmlhbkVVM2VvQkJEWjNKYi81YWVEdFMzU3RrZE9hZk8wVHZKVnBTc0FHYUdPbkM3eG1ZekplT2xZQXVMemw3RUtMbUEwPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4yIHdpbmRvd3MteDg2XzY0Ckk3WTkrcjJvNElKRUwzeFpISHhFWjZFUkZXMDV2M2Z1UFgxMnIxSjd2RUZlZlhiYkNYWDRvUk5XOVlwZzBOUHZFeU9ONitPc2c1VGNjT0pQa2paTUNnPT0K",
       "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.2/mqtt-pro_1.0.2_windows.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLRE1mL3BBb2VLVVY1WXN0OFBjcTJjSGZIbTBKSkZ5QjNkcnRTREF5aS9XQ3IyajIrdVMyT1dwTEFXbFJmRDRhQ2V0VjJraHVMYUVYQXpVbDNSdFlwSVFzPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4yIGxpbnV4LXg4Nl82NAoyZzlEbGJoYzZYaFBjRHpFSlVwTjFheG9qSEtiejJhK21zNXNkNlp6akFQUjVBWE1EQlNYdGlYZWpQYjNaZE1HLzZpQm1Ualo4RmNySzluSmF3cjlBdz09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.2/mqtt-pro_1.0.2_linux"
     }
   }
 }
