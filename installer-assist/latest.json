@@ -1,11 +1,15 @@
 {
     "version":  "1.0.1",
     "notes":  "HSI Installer Assist 1.0.1: the Firmware tab\u0027s Use latest build works on every PC, phone and tablet - from the published firmware library when the workshop\u0027s HSI BUILDS folder isn\u0027t there.",
-    "pub_date":  "2026-10-14T14:47:19Z",
+    "pub_date":  "2026-10-14T14:47:33Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOC85dElra2JBaEkvL3hQQmZOYXlpZW5CUEVFSWxOM1ZVam9BclJ4WnplMC8venJ2MDF4K0cyZERrdWVSTlVObkZnV2l1T3JlWUFBa3hQUDJzVkpOSHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg5MjMxCWZpbGU6SFNJIEluc3RhbGxlciBBc3Npc3RfMS4wLjFfeDY0LXNldHVwLmV4ZQpPMUNPRlZCODJFQXZ0RDRLajdoMTRuNmUvUWNKZjk0MFZGbnpBMjdPMTBoQmxLYXljdGVJUDFaWC8za0g5bHhob0lFZWorRzZOU3BKM256eUVLZFpCZz09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.0.1/installer-assist_1.0.1_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODhuOFNtTE9BNXdPUXloZXg1ZW9zN2R6c0J4M1hEcW1Cejg2WnJzUGtIdlJ5emJjcDBudEkxU0ZoUk8ydTJ3UUt0Tmk1RkpTT3pMR2ZEc3duOFgwYndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg5MjQyCWZpbGU6SFNJLUluc3RhbGxlci1Bc3Npc3QtMS4wLjEtYXJtNjQtcmVsZWFzZS5hcGsKcW0vRzZQMWhkelJ0em9wWVExUjZxbTY5UENNRjdQMzdkeWpUVmNLU3ltM3Y5T2o0SzdESlZTZVdzR1Iwc3JuNHNYdkNFZHVDZDdwTklvOFVmYnBXQlE9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.0.1/installer-assist_1.0.1_android.apk"
+                                          }
                   }
 }
