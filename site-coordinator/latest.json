@@ -1,15 +1,11 @@
 {
-  "version": "0.1.8",
-  "notes": "Fix: the built-in site kit now actually unpacks (0.1.7 never created its folder)",
-  "pub_date": "2026-10-12T10:41:19Z",
+  "version": "0.1.9",
+  "notes": "MQTT bridge fix: a bridged message no longer reaches the site twice (bridge on MQTT 5 with No Local; needs MQTT broker v0.2.0 on the site). The bridge's default client id is now unique per site.",
+  "pub_date": "2026-10-14T12:16:28Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkh3eHhXV2FhMTJwblhEYmV0d3Y2U1l2QWorMG1VQ2hLaEY0KzJpV201MVlvL3lUVE9oUE5JYzFPVFhXb0NBUkJNQW5sTVFYeDNzdk5Ga3BzWE9DUGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAxNjE3CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjhfYW1kNjQuQXBwSW1hZ2UKME84dm8vQnUrQlRhbzAySklaa0VTNWtDcUlPbHFHQWl0QkFwRGROMUhsUDJWREo0Wk91T0VaWjZ2YlpNZWIwQy9LRzJLU0daYXhNTE1GaUd3WmdtQ2c9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.8/site-coordinator_0.1.8_linux.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkE3YjN1cUU4c2crRDl3eFozZDhNa2lQNUdxR3JsdE5uY0JoZXdYcXdReGZBa28wbEV5azFtM1Jac05TaWJ6cHF6NUNJRkkvZWI0U2hsQzJadzEzNWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODAxNjI5CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjhfeDY0LXNldHVwLmV4ZQpGa1h4cXRvZ1Y2dWlheG5ONDZKY1dxTUJ6SGUwZGViSW1tWFE2L3A1NWEzSEZ6bHI4NUZ2QVc3QVpNUXN4Wk8zZy9DV2poRzZ4OFRiWjBuOGg1OEJEdz09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.8/site-coordinator_0.1.8_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkZ4akR2Sy9PbXZRbFRJZlZVWGhKWTJmTGJoYmNhdDZZUUF5WjhOY3FGMmQrb0YxWVdvZlRJaUtXak5TbjlQYVlmVldNYm5sQ1JGK2s1eVI0M2pmYWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTgwMTI5CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjlfYW1kNjQuQXBwSW1hZ2UKeVRsQ0pwWEMvZFNWY1dDMkFzc0tDcnJTSzNGYkVCVm9xVFBaeHh2TC84N2VPL0xJV2s4V3M0VmxGVG4zeGFZK1dLWGhHTXRrRWtWemMxb29KaDV1QlE9PQo=",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.9/site-coordinator_0.1.9_linux.AppImage"
     }
   }
 }
