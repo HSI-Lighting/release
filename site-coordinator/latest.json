@@ -1,11 +1,15 @@
 {
   "version": "0.1.9",
   "notes": "MQTT bridge fix: a bridged message no longer reaches the site twice (bridge on MQTT 5 with No Local; needs MQTT broker v0.2.0 on the site). The bridge's default client id is now unique per site.",
-  "pub_date": "2026-10-14T12:16:28Z",
+  "pub_date": "2026-10-14T12:19:29Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkZ4akR2Sy9PbXZRbFRJZlZVWGhKWTJmTGJoYmNhdDZZUUF5WjhOY3FGMmQrb0YxWVdvZlRJaUtXak5TbjlQYVlmVldNYm5sQ1JGK2s1eVI0M2pmYWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTgwMTI5CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjlfYW1kNjQuQXBwSW1hZ2UKeVRsQ0pwWEMvZFNWY1dDMkFzc0tDcnJTSzNGYkVCVm9xVFBaeHh2TC84N2VPL0xJV2s4V3M0VmxGVG4zeGFZK1dLWGhHTXRrRWtWemMxb29KaDV1QlE9PQo=",
       "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.9/site-coordinator_0.1.9_linux.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk03c01YSS8zeDZKdVJ3WFBSOGtDL3pnbFBRRnFCd3VHMzJVZUFKWTExSjFiSjFyRjF4T1A0bGxKM092V0ZEMTQrVnBvL1VQTU1qcW1lcVh1ZnFnUEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTgwMzYzCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjlfeDY0LXNldHVwLmV4ZQpoSnVtZnJFY3pNeHVJZHpuc1VHTjNUNjY2N3lCRUJoa0pwSlVONnNJc015Rno1eHEzTTZLOFpZWkVES1IxWmR4RzdCNXprTm1GV2xkVlBBR1lmeUhDQT09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.9/site-coordinator_0.1.9_windows.exe"
     }
   }
 }
