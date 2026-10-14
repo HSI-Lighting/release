@@ -1,11 +1,15 @@
 {
   "version": "1.0.1",
   "notes": "MQTT Pro 1.0.1: who sent it (sender chips, follow this command, sender code on Bench), readable message meanings on iOS, lower memory use",
-  "pub_date": "2026-10-14T12:53:43Z",
+  "pub_date": "2026-10-14T12:54:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLREoxZjltUTUvRjYyM1lpQlI3V1J4N1k0cTliVnlyeHVWeERQTndXOGRiSUx2d2t4cDdBNXNDUitvaFBYMnRDZFd2RlVIQnBhdGgzeGFuczZabmlzOXc0PQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4xIHdpbmRvd3MteDg2XzY0CkkyalpnTS94TzluOTNUNTdsNDNaMzl2bE14NEhFLzEwN08wU2FrZWlINUlpWmU3Z3V0b1MyQjcxRnFZdU10S1BRRTZ4VDVuV2R4RVpvWk5LQStkdENnPT0K",
       "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.1/mqtt-pro_1.0.1_windows.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLREFDaU9IMzNkZ0FUODdLRlRQNTdKdmZjMnFZQUpKL1h4OXBubTJSTVhrbXdHemJqdnBlSXRFY1hKTUdNdHRJclFRVFAzeU95cUpyUTFmTEF3eEdQbVE0PQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4xIGxpbnV4LXg4Nl82NApvZ0FPV01rbVBzNW9tUmU2dTBESWFLVFBtWmtSZ0pQNlA0VXliRGNkK0R6dldwaFp0N0ZPMUlkU1Axa3Z5Nk00Wmg1bGNkT3M5NVdHY0xrRFZ2N2tBdz09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.1/mqtt-pro_1.0.1_linux"
     }
   }
 }
