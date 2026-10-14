@@ -133,3 +133,18 @@ if ($fw) {
 & git push -q
 if ($LASTEXITCODE -ne 0) { throw "git push failed - the release has the file but the feed is not updated yet" }
 "published $tag ($Platform)"
+
+# Firmware libraries: the feed names only the newest, so keep the last three (a little history)
+# and delete the older library releases. Only after the feed points at the new one. Nothing else.
+if ($fw) {
+    $keep = 3
+    # Assigned first: piped straight on, Windows PowerShell 5.1 hands the WHOLE parsed array to
+    # Where-Object as one item, the filter passes it, and every app's releases would be deleted.
+    $all = (& gh release list --repo $repo --limit 200 --json tagName,createdAt) -join "`n" | ConvertFrom-Json
+    $libs = @($all) | Where-Object { $_.tagName -like "$App-firmware-*" } | Sort-Object createdAt -Descending
+    foreach ($r in ($libs | Select-Object -Skip $keep)) {
+        if ($r.tagName -notlike "$App-firmware-*") { continue }      # never anything but an old library
+        & gh release delete $r.tagName --repo $repo --yes --cleanup-tag *> $null
+        if ($LASTEXITCODE -eq 0) { "  removed old library release $($r.tagName)" } else { "  could not remove $($r.tagName) (left in place)" }
+    }
+}

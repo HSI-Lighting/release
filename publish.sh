@@ -124,3 +124,11 @@ json.dump(out,open(f,"w"),indent=2)
 PY
 git add "$app/latest.json" && git commit -qm "$title ($plat)" && git push -q
 echo "published $tag ($plat)"
+# Firmware libraries: the feed names only the newest, so keep the last three and delete older
+# library releases. Only after the feed points at the new one. Nothing else.
+if [ -n "$fwjson" ]; then
+  gh release list --repo HSI-Lighting/release --limit 200 --json tagName,createdAt     --jq "[.[] | select(.tagName | startswith(\"$app-firmware-\"))] | sort_by(.createdAt) | reverse | .[3:] | .[].tagName" |
+  while read -r t; do
+    gh release delete "$t" --repo HSI-Lighting/release --yes --cleanup-tag >/dev/null 2>&1       && echo "  removed old library release $t" || echo "  could not remove $t (left in place)"
+  done
+fi
