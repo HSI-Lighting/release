@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.0",
-    "notes":  "HSI Firmware Flasher 1.0.0: Check for updates - the app and its firmware library update from here.",
-    "pub_date":  "2026-10-12T05:23:06Z",
+    "version":  "1.0.1",
+    "notes":  "HSI Firmware Flasher 1.0.1: adds itself to the Windows Start menu.",
+    "pub_date":  "2026-10-14T14:46:04Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODVhQjQyMTF5TVBQOTdmdVpscVUxVDRtaDc5NlpiWWVjNkpBdnBNd01vSkIyOWVvMUUrQXVoQzNudVFON2o5OVowOVBYZGlDSjVCd1UwV0ZTdUJ1bkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzgyNTczCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCm5mU2R2V1dvSDF6STBMc0MxSmpqa0ZONUtKWE5Oc1FXTXdTQ2Z6MlFmdmNmemJyK05hR00xeEpvRFpKVUdsekZxYzQ5NENiS0NvUFE1S2Fad3pQcEFBPT0K",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.0/firmware-flasher_1.0.0_windows.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODVQRkd6U2YwNk9QU0pQV05VVXNMaENSUnIvUFJCenptOWE5UWUybXRiTFE1cVJjcExJNVFFRXVyS1AvWWpPUjUzaWxjMmNNK3c0dUR0Y29GN2Z0VEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg5MTUyCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCmZ0SnhHZDlqMWNVdzgxQ1RQQ2VJM01JV21PZzVIc2hyTSt5c2hGUkM5L2l6OGZ0cXl5cGx6N0wwd0tjNi9MS0sxSXNuRGN3NVcyQkhUSzhrbVMrV0J3PT0K",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.1/firmware-flasher_1.0.1_windows.exe"
                                          }
                   },
     "firmware":  {
