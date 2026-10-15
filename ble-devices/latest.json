@@ -1,11 +1,11 @@
 {
-    "version":  "0.1.0",
-    "notes":  "HSI BLE Devices 0.1.0: first release with Updates (Check for updates).",
-    "pub_date":  "2026-10-12T13:18:56Z",
+    "version":  "0.2.0",
+    "notes":  "Renamed from HSI BLE Devices. MQTT Generate fills user and password (Autofill no longer does), Restart on the panel screens, WallkeyCore second labels and double-press window.",
+    "pub_date":  "2026-10-15T08:46:55Z",
     "platforms":  {
                       "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODZpcytrYUlXNi9wbTNFZkRSYVhkenM2R1RkYXJhcnJaWGc1OXlzNG5CczlzczBCTzkvcVF2QzlCYmtRbWtGTDk5Q1Q3SUYzRTR2bGJZbXA4Vm1semdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODExMTIzCWZpbGU6SFNJLUJMRS1EZXZpY2VzLTAuMS4wLWFybTY0LXJlbGVhc2UuYXBrCkJ3REZVd3Z3QitqellFZDl3ZksraWVKaVVBdGNNWmlkQWduT1Bvb1B2bUxqYVU3eHBZS1ZOOGtDNy90OFBwTFN4M1krbFd0Zno4UC9jWnVaQmMrN0JBPT0K",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v0.1.0/ble-devices_0.1.0_android.apk"
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHlqQkZqQklsSmdmTEl1ZWNmR01oWUphWkFFRGs1Ry9pZ1E2MDhIV0VyM3VvWS9FQjA1OEsvSHFVT21KdmVOMlE4OE1pcmRYTEgvbXNCRmlIU3hVVkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU0MDAwCWZpbGU6SFNJLUJMRS1EZXZpY2VzLTAuMi4wLWFybTY0LXJlbGVhc2UuYXBrCmE5VVpsVmVNRWpjYzFWblB6TlBZaVA0djczNGwrRFg3M3ZQS0hOanJjZlpuQ2R0YlNKdjFBdUJsNnFMS0pNdGtjbEZwVTVmbUpEKzhKV2lLRzlGekRBPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v0.2.0/ble-devices_0.2.0_android.apk"
                                           }
                   }
 }
