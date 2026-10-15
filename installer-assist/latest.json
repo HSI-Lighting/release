@@ -1,11 +1,15 @@
 {
     "version":  "1.2.0",
     "notes":  "HSI Device Configurator (was HSI Installer Assist). New Android package com.hsilighting.deviceconfigurator: it installs as a new app - uninstall the old HSI Installer Assist / HSI Device Configurator after installing this one.",
-    "pub_date":  "2026-10-15T13:24:32Z",
+    "pub_date":  "2026-10-15T13:24:47Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODRTblRydE1MV3VsUmR5VlRpYnNub3JjNm5CUkFCZmhUTkhIUStrR1d5cjhvZUp2aVV4Q1RMUllIcUhBcXdyV1JaMTljK25xc1h3a0hGK0lBZHFuY2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDcwNjYxCWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjBfeDY0LXNldHVwLmV4ZQo3NFc1MDhjaSsvVU1DaldqVWxURTRTMVFaamFEZGtvVFNmTzhJeDRQbXZySDRpTVp4eDliTkN4QzNBbWFpZHpDYVhhb21DcjhHeVJhV09MZkxUK1BBZz09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.0/HSI-Device-Configurator_1.2.0_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODZLbGdwT1J4NjY2QW82bWg0bDdKLzQvVGdCMHlYSGlMeEtzTGhKdVEvN3FGRGo0UWtUSXdOMk5MTkZQY0hrdm1KODFYWTFLeFJ3azhSOURGTzY5dGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDcwNjc1CWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjAtYXJtNjQtcmVsZWFzZS5hcGsKZUphU2lIcS9QekZ6aDN0ZEQ2b1cyOWJGelJRMWlYem10MHBGdDNhUE5EK1BSZ0JXYlBLcm43VCt6ZEMrMFB4WWFkc2poa0gvQTQ3WUNpVUM3TnNWQVE9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.0/HSI-Device-Configurator_1.2.0_android.apk"
+                                          }
                   }
 }
