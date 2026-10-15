@@ -1,15 +1,11 @@
 {
-    "version":  "1.1.2",
-    "notes":  "KNX gateway: group pairing over the network (Settings -\u003e Group pairing), the same screens as over Bluetooth. Needs KNX firmware with /api/knx/exchange.",
-    "pub_date":  "2026-10-15T12:44:20Z",
+    "version":  "1.2.0",
+    "notes":  "HSI Device Configurator (was HSI Installer Assist). New Android package com.hsilighting.deviceconfigurator: it installs as a new app - uninstall the old HSI Installer Assist / HSI Device Configurator after installing this one.",
+    "pub_date":  "2026-10-15T13:24:32Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHkrQytKUTE4L2VzTWdzTGRqaFNCcG5pYTFBa3NRQ0Y2TE1mVjR0cWxKbmdaYmxRbkNSc1JBems0bVQrWFNzZDIvMDBMN3hvRDFJbzFia3lQOFpBMUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDY4MjM0CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4xLjJfeDY0LXNldHVwLmV4ZQpmbE5JRllJaWNhTXM2SSt6WWtYWjBGd2FTVU5JcXJaT0tFaTRnbm5FUHRPcFZjYnUvOEg3QTV0MXNyRUM2QzJSN2dCaDVPOGxqSlBxeGhCLzdtUzBBdz09Cg==",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.2/installer-assist_1.1.2_windows.exe"
-                                         },
-                      "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdXdGZiTDUyN3JmR0FEREoxYkIzZmo0YkFpaWRvQzlwSWZndEt3OUpRVXIvMGUweFJFS1hDTVhWVVNteHhIVmZTMDNIRXBPUTZvZkFtQkF3WEpBWmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDY4MjUwCWZpbGU6SFNJLUluc3RhbGxlci1Bc3Npc3QtMS4xLjItYXJtNjQtcmVsZWFzZS5hcGsKeHc0eXZyTW1ERkdwS3kwcTEvUVVhTnBCems3djFjOVpnREdZaDdyaURkQ3N2OTE2L0ZCYTBFV05GVTZaRUhEMWJBNzRNRUhJNTk5cGxxNTM0UlM4QWc9PQo=",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.2/installer-assist_1.1.2_android.apk"
-                                          }
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODRTblRydE1MV3VsUmR5VlRpYnNub3JjNm5CUkFCZmhUTkhIUStrR1d5cjhvZUp2aVV4Q1RMUllIcUhBcXdyV1JaMTljK25xc1h3a0hGK0lBZHFuY2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDcwNjYxCWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjBfeDY0LXNldHVwLmV4ZQo3NFc1MDhjaSsvVU1DaldqVWxURTRTMVFaamFEZGtvVFNmTzhJeDRQbXZySDRpTVp4eDliTkN4QzNBbWFpZHpDYVhhb21DcjhHeVJhV09MZkxUK1BBZz09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.0/HSI-Device-Configurator_1.2.0_windows.exe"
+                                         }
                   }
 }
