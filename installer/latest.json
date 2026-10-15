@@ -1,15 +1,11 @@
 {
-  "version": "0.1.6",
-  "notes": "Update test 0.1.6",
-  "pub_date": "2026-10-10T12:43:13Z",
+  "version": "0.1.7",
+  "notes": "Zone map: newly added lights now appear in the centre of the map instead of being hidden at the corner (0,0)",
+  "pub_date": "2026-10-15T14:39:36Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkFTYVRTYk5RREw1M1hTT1BqOCtCd25Qd2VkQlRTd2dkeWxETmp2WHE1d0VRV1NHRmJiYlFqMWF6Tk1LUnkwczBLd01tNTVuR1lRU09uZkNyWVVYY2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjM2MDcwCWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuNl9hbWQ2NC5BcHBJbWFnZQpRMnFQV2lFSHNWZHNJTW80UmQ4cFBHQ09QM2hVQm1vMWF5NGJXUE1nVjFRWTIxME5PeUhjS1MxOEZFWTBWOEtYNzNKM1RJK1NBT0hWMFVOMWorK0JDZz09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.6/installer_0.1.6_linux.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkJFRlAvMDFuc09MS1FDNEJvekxKSy9Pd1JubVFnMHh2VW1tbjJKNDFBMFVjOGdxbU9ZUWtMRDRGSVkrYW9XbzFIOHJlL3BlVEVBTFJxaWk0VlRWcGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjM2MTA1CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuNl94NjQtc2V0dXAuZXhlClo2SFREclAxNnZrKzhFSUg3blRQQzllRmUyKzZxS3FlZEdwdmVWTloyZnN2NTNFOEkrQVVVZ2laeTJ3YWtMRWE3ODZCT2VGVmdQYXErSjlqSlhGNkJBPT0K",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.6/installer_0.1.6_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkhORVNUZ1R6YUxXTzBPNVZ4Q1Qxa0pzVkgzelIvb3VENEJjT0RvY2MrQnI0YmMvVFNRUXRvOVZ6N1Y3ZGU4OHZHMXRsL0h2RlRTTThQZHRVbThhdFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDc1MTMzCWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuN19hbWQ2NC5BcHBJbWFnZQpOL21FMzdTeitWbGVIcE1zT1U1ZWY0VTNRNy9kaFNKR0pxaEZsdVNlcytOY1QrYzBGa21VNzMwL2ZhaXVBZjYzbUFJd0EyOGJyZ2lYTkNoYWtGY1hEUT09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.7/installer_0.1.7_linux.AppImage"
     }
   }
 }
