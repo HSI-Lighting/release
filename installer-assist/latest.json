@@ -1,15 +1,11 @@
 {
-    "version":  "1.1.0",
-    "notes":  "Renamed from HSI Installer Assist. Network login for the REBUILD2 gateways, broker choice fix, Wi-Fi scan, time zone, Relay / DMX / KNX network settings, Modbus line and device lists, MQTT Generate fills user and password, panel rotation, home-dial targets.",
-    "pub_date":  "2026-10-15T08:46:37Z",
+    "version":  "1.1.1",
+    "notes":  "Wi-Fi scan follows the gateway\u0027s network mode (disabled while its Wi-Fi is off). Wall Display: light master and scene target shown, its own clock faces, screen buttons with command, name and icon. Wireless Knob: Vessel and Arc from 6.3. WallkeyCore: Restart into setup.",
+    "pub_date":  "2026-10-15T10:10:46Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHhIem5BU0lORVZPdWwxdFExdkdVM21Sc2JTbDNQTWczQ3pFNG9acFhCeTJXN3FkbjR3SFp3YkYzS1I3SjE2a3RtRHNlZ3BaQk5VbW5LelJ6WTNKeEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDUzOTc3CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4xLjBfeDY0LXNldHVwLmV4ZQpHNStEeTExZzYwZDZZcW1sOFNZYXBLaFFBc08zaHBxdzZ2TjhpZ25JQ0ZjMzZoTHRqZ1ZIaEtOWERtek5lNEZBN3NtS1g2YkJrODJ4M2FkSW5vTGlDZz09Cg==",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.0/installer-assist_1.1.0_windows.exe"
-                                         },
-                      "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHhQSGgwNjZJVjJuTjlvK3d2YlpxallHNW9rbzlIc1hpN2hCckF4YUFZeEk2YktwdU93OEU4U1pVVlBUclY4MFExUXYzM0dtNmxiby9FdyttOHJJcUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDUzOTg4CWZpbGU6SFNJLUluc3RhbGxlci1Bc3Npc3QtMS4xLjAtYXJtNjQtcmVsZWFzZS5hcGsKSSt3aVZjeG1Td2FxczNXNmRHL3dMZkxwT0xlU0VjTk9sZVZNNmZLejE3a1ZnOGJNSHBhN2w0TWpoamN1cHVCMCtZSWVURnZSWDE4d09nR3lkZkkrQUE9PQo=",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.0/installer-assist_1.1.0_android.apk"
-                                          }
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODlFaXJSM2xUVWZQdUFwajdJY2NsQ3g1cXdxa0FLaFZtNDljU2Zza2ZRNHFEVjBWTDdWOEd1cGpvSWlWWlRIbUxPUElJWGZuL0drRWhRUm1ONzVlM1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU5MDM3CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4xLjFfeDY0LXNldHVwLmV4ZQpKVThEZkJVbE1HcE5xbTRrNDBxUm1qR25vVTZLY1BQeFNDK3NtQjhRZ2RabE85M3JjVG1uUGxqUmhNeGVBSkVXVC9QUlpqNDJ5WXNYTVdFbnNodmVBUT09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.1/installer-assist_1.1.1_windows.exe"
+                                         }
                   }
 }
