@@ -26,8 +26,8 @@ dir=; signdir=; fwjson=
 case $app in
   site-coordinator) conf=$W/HSI_Site_Coordinator/apps/desktop/src-tauri/tauri.conf.json; root=$W/HSI_Site_Coordinator/target; name="HSI Site Coordinator" ;;
   installer)        conf=$W/HSI_Admin_Panel_NodeFlow/tauri-app/tauri.conf.json;          root=$W/HSI_Admin_Panel_NodeFlow/tauri-app/target; name="HSI Installer" ;;
-  installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Device Configurator"; apk=HSI-Installer-Assist ;;
-  ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Device Config";      apk=HSI-BLE-Devices ;;
+  installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Device Configurator"; apk=HSI-Device-Configurator ;;
+  ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Device Config";      apk=HSI-BLE-Device-Config ;;
   mqtt-pro)         name="MQTT Pro" ;;
   firmware-flasher) dir="$FL"; name="HSI Firmware Flasher"; signdir="$IA/HSI Installer assist" ;;   # signdir: has the Tauri CLI
   *) echo "unknown app $app" >&2; exit 1 ;;
@@ -90,7 +90,7 @@ sys.exit(0 if lines and lines[0][len("trusted comment: "):]==sys.argv[2] else 1)
 PY
 fi
 if [ -n "$fwjson" ]; then file="${app}-firmware_${ver}.zip"; tag="$app-firmware-$ver"; title="$name firmware library $ver"
-else file="${app}_${ver}_${plat}.${ext}"; tag="$app-v$ver"; title="$name $ver"; fi
+else file="${apk:-$app}_${ver}_${plat}.${ext}"; tag="$app-v$ver"; title="$name $ver"; fi   # download named after the app; tag + feed keep the key
 [ "$app" = mqtt-pro ] && [ "$plat" = linux ] && file="${app}_${ver}_linux"   # MQTT Pro's Linux build is a bare binary
 cd "$(dirname "$0")"
 [ "$(git rev-parse --abbrev-ref HEAD)" = main ] || { echo "run this on main - the apps read the feed from main" >&2; exit 1; }

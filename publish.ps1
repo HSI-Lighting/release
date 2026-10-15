@@ -32,8 +32,8 @@ $keysDir = if ($env:HSI_KEYS_DIR) { $env:HSI_KEYS_DIR } else { [Environment]::Ge
 $signDir = Join-Path $ia "HSI Installer assist"     # any folder with the Tauri CLI installed (npm ci)
 $fw = $null
 switch ($App) {
-    "installer-assist" { $dir = Join-Path $ia "HSI Installer assist"; $target = Join-Path $dir "target";           $name = "HSI Device Configurator"; $apk = "HSI-Installer-Assist"; $signDir = $dir }
-    "ble-devices"      { $dir = Join-Path $ia "BLE devices assist";  $target = Join-Path $dir "src-tauri\target"; $name = "HSI BLE Device Config";      $apk = "HSI-BLE-Devices";      $signDir = $dir }
+    "installer-assist" { $dir = Join-Path $ia "HSI Installer assist"; $target = Join-Path $dir "target";           $name = "HSI Device Configurator"; $apk = "HSI-Device-Configurator"; $signDir = $dir }
+    "ble-devices"      { $dir = Join-Path $ia "BLE devices assist";  $target = Join-Path $dir "src-tauri\target"; $name = "HSI BLE Device Config";      $apk = "HSI-BLE-Device-Config"; $signDir = $dir }
     "firmware-flasher" { $dir = $flasher; $name = "HSI Firmware Flasher" }
 }
 if ($App -eq "ble-devices" -and $Platform -ne "android") { throw "HSI BLE Device Config is Android only" }
@@ -85,7 +85,8 @@ $ErrorActionPreference = "Continue"
 
 $repo = "HSI-Lighting/release"
 if ($fw) { $file = "${App}-firmware_${ver}.zip"; $tag = "$App-firmware-$ver"; $title = "$name firmware library $ver" }
-else     { $file = "${App}_${ver}_${Platform}.$ext"; $tag = "$App-v$ver"; $title = "$name $ver" }
+# The download is named after the app (its staged APK name); the tag and feed keep the app key.
+else     { $file = "$(if ($apk) { $apk } else { $App })_${ver}_${Platform}.$ext"; $tag = "$App-v$ver"; $title = "$name $ver" }
 $tmp = Join-Path ([IO.Path]::GetTempPath()) ([IO.Path]::GetRandomFileName())
 New-Item -ItemType Directory $tmp | Out-Null
 try {
