@@ -32,11 +32,11 @@ $keysDir = if ($env:HSI_KEYS_DIR) { $env:HSI_KEYS_DIR } else { [Environment]::Ge
 $signDir = Join-Path $ia "HSI Installer assist"     # any folder with the Tauri CLI installed (npm ci)
 $fw = $null
 switch ($App) {
-    "installer-assist" { $dir = Join-Path $ia "HSI Installer assist"; $target = Join-Path $dir "target";           $name = "HSI Installer Assist"; $apk = "HSI-Installer-Assist"; $signDir = $dir }
-    "ble-devices"      { $dir = Join-Path $ia "BLE devices assist";  $target = Join-Path $dir "src-tauri\target"; $name = "HSI BLE Devices";      $apk = "HSI-BLE-Devices";      $signDir = $dir }
+    "installer-assist" { $dir = Join-Path $ia "HSI Installer assist"; $target = Join-Path $dir "target";           $name = "HSI Device Configurator"; $apk = "HSI-Installer-Assist"; $signDir = $dir }
+    "ble-devices"      { $dir = Join-Path $ia "BLE devices assist";  $target = Join-Path $dir "src-tauri\target"; $name = "HSI BLE Device Config";      $apk = "HSI-BLE-Devices";      $signDir = $dir }
     "firmware-flasher" { $dir = $flasher; $name = "HSI Firmware Flasher" }
 }
-if ($App -eq "ble-devices" -and $Platform -ne "android") { throw "HSI BLE Devices is Android only" }
+if ($App -eq "ble-devices" -and $Platform -ne "android") { throw "HSI BLE Device Config is Android only" }
 if ($App -eq "firmware-flasher") {
     if ($Platform -eq "android") { throw "the flasher is a Windows app: windows or firmware" }
     if ($Platform -eq "windows") {

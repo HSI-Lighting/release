@@ -26,14 +26,14 @@ dir=; signdir=; fwjson=
 case $app in
   site-coordinator) conf=$W/HSI_Site_Coordinator/apps/desktop/src-tauri/tauri.conf.json; root=$W/HSI_Site_Coordinator/target; name="HSI Site Coordinator" ;;
   installer)        conf=$W/HSI_Admin_Panel_NodeFlow/tauri-app/tauri.conf.json;          root=$W/HSI_Admin_Panel_NodeFlow/tauri-app/target; name="HSI Installer" ;;
-  installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Installer Assist"; apk=HSI-Installer-Assist ;;
-  ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Devices";      apk=HSI-BLE-Devices ;;
+  installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Device Configurator"; apk=HSI-Installer-Assist ;;
+  ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Device Config";      apk=HSI-BLE-Devices ;;
   mqtt-pro)         name="MQTT Pro" ;;
   firmware-flasher) dir="$FL"; name="HSI Firmware Flasher"; signdir="$IA/HSI Installer assist" ;;   # signdir: has the Tauri CLI
   *) echo "unknown app $app" >&2; exit 1 ;;
 esac
 signdir=${signdir:-$dir}
-# HSI Installer Assist is built for Windows + Android, HSI BLE Devices for Android only.
+# HSI Device Configurator (was HSI Installer Assist) is built for Windows + Android, HSI BLE Device Config (was HSI BLE Devices) for Android only.
 case "$app/$plat" in
   installer-assist/windows|installer-assist/android|ble-devices/android) ;;
   installer-assist/*|ble-devices/*) echo "$app is not published for $plat (installer-assist: windows|android, ble-devices: android)" >&2; exit 1 ;;
