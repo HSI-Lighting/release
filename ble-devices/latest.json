@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.1",
-    "notes":  "X0103: Wi-Fi scan disabled while the gateway runs on Ethernet (its Wi-Fi radio is off).",
-    "pub_date":  "2026-10-15T10:11:15Z",
+    "version":  "1.2.0",
+    "notes":  "Version 1.2.0.",
+    "pub_date":  "2026-10-15T12:44:35Z",
     "platforms":  {
                       "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOC9xWmRleFZGT1g1bDJXcTdiYlgxeml3YVdERVVTVkJCbEZxY1FwZVlYNHVHUHFoMlZiR0FwMGVUcGwvcHFweUg3LzFEaHVOdCtVVDJlb0xCdllMa3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU5MDY0CWZpbGU6SFNJLUJMRS1EZXZpY2VzLTAuMi4xLWFybTY0LXJlbGVhc2UuYXBrCmpreFJTMVhrMUk0WDFzWEZEUzAzL2xnbncvNUs5Uy8yblQ5R0tuQUZOK3J6RVlFUUV6M3BrZzFtclFkekNwUlJ4UEJyZ0FERWs2TXc2eURBYldDMkJnPT0K",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v0.2.1/ble-devices_0.2.1_android.apk"
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODJMVm95RjFyeVE5Z0FuOWlMaW9zc3R6U1dxVHFrOGtLY1Y0cHpuWEduMmg4RjhNcU05MXIxeCtRdTdKM3BQL3RhNDFBTWFCTVpONno5anBKMmRmdUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDY4MjYzCWZpbGU6SFNJLUJMRS1EZXZpY2VzLTEuMi4wLWFybTY0LXJlbGVhc2UuYXBrCmdTTkhpNTI1cGt4SjNYZXhwK0JjemZxeFNmaXZ4UlR3dHJKSlo5SXVTaFBpUUNyMm81NE1nbjd6RFdnQ0EzNlVqMm42cXA2TXJxZDRnVmcwTVFkcUNRPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v1.2.0/ble-devices_1.2.0_android.apk"
                                           }
                   }
 }
