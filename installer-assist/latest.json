@@ -1,11 +1,15 @@
 {
     "version":  "1.1.1",
     "notes":  "Wi-Fi scan follows the gateway\u0027s network mode (disabled while its Wi-Fi is off). Wall Display: light master and scene target shown, its own clock faces, screen buttons with command, name and icon. Wireless Knob: Vessel and Arc from 6.3. WallkeyCore: Restart into setup.",
-    "pub_date":  "2026-10-15T10:10:46Z",
+    "pub_date":  "2026-10-15T10:11:00Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODlFaXJSM2xUVWZQdUFwajdJY2NsQ3g1cXdxa0FLaFZtNDljU2Zza2ZRNHFEVjBWTDdWOEd1cGpvSWlWWlRIbUxPUElJWGZuL0drRWhRUm1ONzVlM1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU5MDM3CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4xLjFfeDY0LXNldHVwLmV4ZQpKVThEZkJVbE1HcE5xbTRrNDBxUm1qR25vVTZLY1BQeFNDK3NtQjhRZ2RabE85M3JjVG1uUGxqUmhNeGVBSkVXVC9QUlpqNDJ5WXNYTVdFbnNodmVBUT09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.1/installer-assist_1.1.1_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHpQNXBtQmVHQzc1anZHVktlZTYraDdJR0ZUZmVhMHBHbkxBbmRWMzJ3dXEyUjFKUnBKN0h3T0d2U0ZtaDlEUWRIQU94SDlBVkIvQmVWd1Z5NStRK1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU5MDQ5CWZpbGU6SFNJLUluc3RhbGxlci1Bc3Npc3QtMS4xLjEtYXJtNjQtcmVsZWFzZS5hcGsKS2VNcFI5R3RsRFQ3MHpxNTh2MVNLR3FoNTZzeTdPVHBabllnQ1RjTE8zc2VxTURXa0tGU05Pb0R4UzhvbWM0ald5eThVWDdpeWVDS0tzbjA5NEpyQ1E9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.1.1/installer-assist_1.1.1_android.apk"
+                                          }
                   }
 }
