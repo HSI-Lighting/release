@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.0",
-    "notes":  "Renamed from HSI BLE Devices. MQTT Generate fills user and password (Autofill no longer does), Restart on the panel screens, WallkeyCore second labels and double-press window.",
-    "pub_date":  "2026-10-15T08:46:55Z",
+    "version":  "0.2.1",
+    "notes":  "X0103: Wi-Fi scan disabled while the gateway runs on Ethernet (its Wi-Fi radio is off).",
+    "pub_date":  "2026-10-15T10:11:15Z",
     "platforms":  {
                       "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHlqQkZqQklsSmdmTEl1ZWNmR01oWUphWkFFRGs1Ry9pZ1E2MDhIV0VyM3VvWS9FQjA1OEsvSHFVT21KdmVOMlE4OE1pcmRYTEgvbXNCRmlIU3hVVkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU0MDAwCWZpbGU6SFNJLUJMRS1EZXZpY2VzLTAuMi4wLWFybTY0LXJlbGVhc2UuYXBrCmE5VVpsVmVNRWpjYzFWblB6TlBZaVA0djczNGwrRFg3M3ZQS0hOanJjZlpuQ2R0YlNKdjFBdUJsNnFMS0pNdGtjbEZwVTVmbUpEKzhKV2lLRzlGekRBPT0K",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v0.2.0/ble-devices_0.2.0_android.apk"
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOC9xWmRleFZGT1g1bDJXcTdiYlgxeml3YVdERVVTVkJCbEZxY1FwZVlYNHVHUHFoMlZiR0FwMGVUcGwvcHFweUg3LzFEaHVOdCtVVDJlb0xCdllMa3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDU5MDY0CWZpbGU6SFNJLUJMRS1EZXZpY2VzLTAuMi4xLWFybTY0LXJlbGVhc2UuYXBrCmpreFJTMVhrMUk0WDFzWEZEUzAzL2xnbncvNUs5Uy8yblQ5R0tuQUZOK3J6RVlFUUV6M3BrZzFtclFkekNwUlJ4UEJyZ0FERWs2TXc2eURBYldDMkJnPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v0.2.1/ble-devices_0.2.1_android.apk"
                                           }
                   }
 }
