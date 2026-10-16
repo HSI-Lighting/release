@@ -1,15 +1,11 @@
 {
-  "version": "0.1.7",
-  "notes": "Zone map: newly added lights now appear in the centre of the map instead of being hidden at the corner (0,0)",
-  "pub_date": "2026-10-16T05:50:45Z",
+  "version": "0.1.8",
+  "notes": "Zone map: newly added lights appear in the centre of the map instead of hidden at 0,0. Windows: fixes 0.1.7 not opening (missing WebView2Loader.dll).",
+  "pub_date": "2026-10-16T06:50:16Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkhORVNUZ1R6YUxXTzBPNVZ4Q1Qxa0pzVkgzelIvb3VENEJjT0RvY2MrQnI0YmMvVFNRUXRvOVZ6N1Y3ZGU4OHZHMXRsL0h2RlRTTThQZHRVbThhdFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDc1MTMzCWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuN19hbWQ2NC5BcHBJbWFnZQpOL21FMzdTeitWbGVIcE1zT1U1ZWY0VTNRNy9kaFNKR0pxaEZsdVNlcytOY1QrYzBGa21VNzMwL2ZhaXVBZjYzbUFJd0EyOGJyZ2lYTkNoYWtGY1hEUT09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.7/installer_0.1.7_linux.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkpvZDBqRklyRkxVWGUzaGhqMUFsbFhNbXZCeFB0b09ET1B6NkJLY2JoY3JRTzNHeXJnNUhQd3Y1b0hmbUJpbFg2UFk1dUFLQTVLenNNWXRiWGhpY0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTI5ODM3CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuN194NjQtc2V0dXAuZXhlCk5JUEhaa0JyUjJIVFFWN08vY1ZHM2plRllrWCtJdENKSUpOcFVGTjVWVDZBK05EcjBsTGpLWEFMRkJmWndybDRtUGMxSzlpRzVINDVTZ3J1VHZ4TEFBPT0K",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.7/installer_0.1.7_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk9ybVROUWpZUUxlbE85cmNyWjlKTDdOcndxVGE0MTRoS1liZEEzUHBPU2lwRCtKWVlqbTF2ZWc3Y2VMd0NGcU5hSEI1OXJTcURuTWFiL25FNDFiNXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTMzMzc0CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuOF9hbWQ2NC5BcHBJbWFnZQppZklLMWdUdXR4WmQ0Zk5WbGUwTFYxcVJIeHNqQW5sQUs2aFQwOUc5S2JRZE4zMUMxOE1jdEFXRmRnbEtYQWZqWVZ0UE1OekVMaytIWGdMYlB6MUhBQT09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.8/installer_0.1.8_linux.AppImage"
     }
   }
 }
