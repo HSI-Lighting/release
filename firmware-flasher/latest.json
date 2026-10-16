@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.10.14.1336",
-                     "notes":  "Firmware library: Wall Display 6.5.21 / TD8B 0.2.21 / AMLKN5B 6.5.31 (all boards) and Wireless Knob V7.0 (K518, K718) - centre-hold Settings, single setup QR page with Exit, BASE Wi-Fi scan/save fixes.",
-                     "pub_date":  "2026-10-14T13:37:34Z",
+                     "version":  "2026.10.16.1411",
+                     "notes":  "Firmware library: adds the X0103 REBUILD2 1.1.0, 90111 REBUILD2 2.1 and KNX 2.0.0 gateways (stamped for Installer Assist\u0027s Use latest build)",
+                     "pub_date":  "2026-10-16T14:17:23Z",
                      "entries":  49,
-                     "size":  34472355,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.14.1336/firmware-flasher-firmware_2026.10.14.1336.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHpMdTJHREFkVU82ckV5UVNxTGIvRTdnK1BXVjJndWJQNGdQYlZYTmdpMFM4M0lQczBPVjRIcHhaQUkvb1RWZGYzU2wxOGRXc0NRTVkyR3lSMStYcndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg1MDI3CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKMG5JeFgxTWt2b0dYQWVGN1ZZeThTcXlIc0FqQ3o4N1d3SE9YQnV5OHBOZHdVbFNTMVlYM21DMDFOelJGYVBBZmJKTjNIUlVXY0ZGYnlaL3c3UG9oRGc9PQo="
+                     "size":  33326493,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.16.1411/firmware-flasher-firmware_2026.10.16.1411.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODFxdWdYenBoMUhWQjNreXhhZjBmZFphSHRuUXNZenprQndtbHZnZm1zc0pCNFNQL01ObUM0bXZBakJTZXRDUDVKbWorTExiSFVob09TOVUyODJQdXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYwMjA4CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKcWRjSWE1WFhwM29EbGw1N2dXaXIrLzd6M0tIMWdRcDdGODBsQVVCa1hEa0hrejhqUHhUZDViS2Z2NGc3cTFkSjhmN2dWWk9LVy80V0pwN3pwMnE1Qnc9PQo="
                  }
 }
