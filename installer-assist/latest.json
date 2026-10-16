@@ -1,15 +1,11 @@
 {
-    "version":  "1.2.1",
-    "notes":  "Project sign-in prefilled with https://installer.hsisystems.de. Show/hide eye on every password field. Also in this build: S3x3 2.2.0 login and web-login password, X0103 REBUILD2 Control tab, firmware update progress resumes, Connect-by network mode, Home dial speed.",
-    "pub_date":  "2026-10-16T11:24:44Z",
+    "version":  "1.2.2",
+    "notes":  "HSI Device Configurator 1.2.2: Use latest build in the Firmware tab now covers the 90111 REBUILD2 and the KNX gateway (firmware library 2026.10.16.1411)",
+    "pub_date":  "2026-10-16T14:36:47Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODdxWmJuRFJLWTBzeGVxMkw5QjRUMW1sWHljNXo1MmljMGhhTURXRVMxbTRpTFZ2UTJiVE9ya1pIVjZUWFlKTHVUM0NPQmwrM25pVTZHeWQ2Qnh0T0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQ5ODYyCWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjFfeDY0LXNldHVwLmV4ZQp4V0x2ek0zUnN6aTV2akE2MG8rNStEMlQvQzQ3TzFLK2luWjV2cFRHM29WcjBlZ3JWcVVwOCtZOFJvb2UzbEhDTW5yVGxESm1mSXJFcHkrUTVydUZCdz09Cg==",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.1/HSI-Device-Configurator_1.2.1_windows.exe"
-                                         },
-                      "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIwd3ZzYWFBREtRUHZZOERvMzFTUzZyZUVXTkdTYmlESXA0SWl4UmVud1NncFhRYWxCUEgwMnhhQmVZbDNPQi9FSzJPbUlDVTlOZzI1Z0gyY2c0MkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQ5ODcyCWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjEtYXJtNjQtcmVsZWFzZS5hcGsKODRiRHZiL2xJRWhyUWlBVkpweHJWTnJORXpzN3ZDeGt4VnpUTUVnRWpJYkNZQjNzOFVrVXFYNG53eXA3RitYRVpzenZNMTk2YXN6MGZxQzU2RlVzQXc9PQo=",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.1/HSI-Device-Configurator_1.2.1_android.apk"
-                                          }
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHp1ZmJCaUJVNDhRZkhnSEhGVVA2Y1pDaEtjaUhGcTZTVjQ0THlLcGwwYUkzUU1vY1RLL2F1T1ZXaWxDYW8vbzJpNVBsdFhrcFI4UnhORzJOb1VJbUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYxMzk5CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjJfeDY0LXNldHVwLmV4ZQpnMGt0RHVvcWk3WXBEWFhmMmhhT3VubDY5N2I5V0taZVVJVmN1eWEvM2xBQ0JWNUxoZlpLZ3oyTmtCdDRDT3pzMi9xaE5Gd0I0eFZndXB6ajZXWVlCZz09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.2/HSI-Device-Configurator_1.2.2_windows.exe"
+                                         }
                   }
 }
