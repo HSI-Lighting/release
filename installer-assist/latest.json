@@ -1,11 +1,15 @@
 {
     "version":  "1.2.2",
     "notes":  "HSI Device Configurator 1.2.2: Use latest build in the Firmware tab now covers the 90111 REBUILD2 and the KNX gateway (firmware library 2026.10.16.1411)",
-    "pub_date":  "2026-10-16T14:36:47Z",
+    "pub_date":  "2026-10-16T14:37:01Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHp1ZmJCaUJVNDhRZkhnSEhGVVA2Y1pDaEtjaUhGcTZTVjQ0THlLcGwwYUkzUU1vY1RLL2F1T1ZXaWxDYW8vbzJpNVBsdFhrcFI4UnhORzJOb1VJbUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYxMzk5CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjJfeDY0LXNldHVwLmV4ZQpnMGt0RHVvcWk3WXBEWFhmMmhhT3VubDY5N2I5V0taZVVJVmN1eWEvM2xBQ0JWNUxoZlpLZ3oyTmtCdDRDT3pzMi9xaE5Gd0I0eFZndXB6ajZXWVlCZz09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.2/HSI-Device-Configurator_1.2.2_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHpNVUNycmJBdWNpSXJqYklvTHRjWGNhWVdDVVVJRXVHUUxKSS9Hbm94YnlLOHJJS0pXc2ZSVEttdUphU3RkSTJXa0RTUmtQRnFFT0w2QXQwdkFQUFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYxNDExCWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjItYXJtNjQtcmVsZWFzZS5hcGsKSzJ6Wmo5Y0Zrcmw0ZC9PMENieVlzcitpWHRKWDFqMitrTTc4cEdiUjQ3RnRadDFlQmJMMnRDK3hjMkFVc3pUa21xTjBOZGUxRDNsMTR1TUp5U01NQnc9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.2/HSI-Device-Configurator_1.2.2_android.apk"
+                                          }
                   }
 }
