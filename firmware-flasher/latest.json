@@ -1,11 +1,11 @@
 {
-    "version":  "1.0.1",
-    "notes":  "HSI Firmware Flasher 1.0.1: adds itself to the Windows Start menu.",
-    "pub_date":  "2026-10-14T14:46:04Z",
+    "version":  "1.0.2",
+    "notes":  "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
+    "pub_date":  "2026-10-20T09:44:35Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODVQRkd6U2YwNk9QU0pQV05VVXNMaENSUnIvUFJCenptOWE5UWUybXRiTFE1cVJjcExJNVFFRXVyS1AvWWpPUjUzaWxjMmNNK3c0dUR0Y29GN2Z0VEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg5MTUyCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCmZ0SnhHZDlqMWNVdzgxQ1RQQ2VJM01JV21PZzVIc2hyTSt5c2hGUkM5L2l6OGZ0cXl5cGx6N0wwd0tjNi9MS0sxSXNuRGN3NVcyQkhUSzhrbVMrV0J3PT0K",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.1/firmware-flasher_1.0.1_windows.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
                                          }
                   },
     "firmware":  {
