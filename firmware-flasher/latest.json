@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.10.16.1411",
-                     "notes":  "Firmware library: adds the X0103 REBUILD2 1.1.0, 90111 REBUILD2 2.1 and KNX 2.0.0 gateways (stamped for Installer Assist\u0027s Use latest build)",
-                     "pub_date":  "2026-10-16T14:17:23Z",
+                     "version":  "2026.10.20.858",
+                     "notes":  "90111 REBUILD2 V2.2 (7f2b431): NET + UI for Installer Assist OTA (Use latest build), DALI micro V2.2. Also WallkeyCore 4.7, X20 1.4.",
+                     "pub_date":  "2026-10-20T09:00:02Z",
                      "entries":  49,
-                     "size":  33326493,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.16.1411/firmware-flasher-firmware_2026.10.16.1411.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODFxdWdYenBoMUhWQjNreXhhZjBmZFphSHRuUXNZenprQndtbHZnZm1zc0pCNFNQL01ObUM0bXZBakJTZXRDUDVKbWorTExiSFVob09TOVUyODJQdXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTYwMjA4CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKcWRjSWE1WFhwM29EbGw1N2dXaXIrLzd6M0tIMWdRcDdGODBsQVVCa1hEa0hrejhqUHhUZDViS2Z2NGc3cTFkSjhmN2dWWk9LVy80V0pwN3pwMnE1Qnc9PQo="
+                     "size":  33336400,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.20.858/firmware-flasher-firmware_2026.10.20.858.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODlScjF0T2JoSDVaRU44R3lrcXF4QXlvWnhjdVpzRE5VdGNsakkwdjRGR2FTSW9oRWVUMzZ1NmovZHFhRXZLVWRacEVBYllvbkFIUkZka3lBb3BVRGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg2NzgwCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKM1hCNXFJUm4xbTlmbTdlc0gyRFkxaGkxaktEQklxVjI3Kzd3VXJjSi9FWEJ6QXQ1Rzllb3B4WDlFcEY5NkN5OW91QUptTWhaRmNpOFkycWhNckplQkE9PQo="
                  }
 }
