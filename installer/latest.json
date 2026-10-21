@@ -1,11 +1,15 @@
 {
   "version": "0.1.9",
   "notes": "Fix: in New device (and other settings lists), '+ Add' for rows like DALI scene Master and Bus Ids closed the New device window and the row was lost. Popups opened from a popup now return to it.",
-  "pub_date": "2026-10-21T13:07:37Z",
+  "pub_date": "2026-10-21T13:18:43Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkxIK0RwMGd0UzUvMllidUtLamQydzlFSndEa0pnT212OVZlUzdnWU5pbG4vbFNyOWNOZDVLWHpkYkQ0UC92cjVpT2NhZ2NZVGpBVXhXUHhnR1U4ZVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTg3OTk4CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuOV9hbWQ2NC5BcHBJbWFnZQoxY1hqUFdxdjF0ZXZZMGRPTHNmUDFqbzJyTG45a2gxcWVUN2VLSHErR2FtZ05kNHZpLzFCb1NKeGQzUmJSZkxNemozekUrcEVhWUFDUXpsMnNpdDNDQT09Cg==",
       "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.9/installer_0.1.9_linux.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk95TUpaQnZJcHVnK0RGRWt5bUY3aDZRTjAxUnNXam5lL2gvMjgwVzY1Q0p1S2J3cUpxOVZDb2lvcTE2TWxJdVUzN1V2cmlmTUtwT2tQRlJhRkoydlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTg4NzE4CWZpbGU6SFNJIEluc3RhbGxlcl8wLjEuOV94NjQtc2V0dXAuZXhlCmdQUDhGbFhCQk5IaXdvUnZVQUxCTUM0UHZYcUo5cWwxbWY2Y09RVFp0ZlN1YTgrcUd4ZzV0c1E5aXZaMERNa1I2UjVNMHlmaWE1R281TDZsY0czbUJ3PT0K",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-v0.1.9/installer_0.1.9_windows.exe"
     }
   }
 }
