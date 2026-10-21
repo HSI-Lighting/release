@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.10.21.1141",
-                     "notes":  "X0103 REBUILD2 V1.3.4 (7f0033f): NET, UI, DALI - refresh retry, time zone setting, factory defaults 8/1 broker .170",
-                     "pub_date":  "2026-10-21T11:41:59Z",
+                     "version":  "2026.10.21.1319",
+                     "notes":  "Morteza (90111) REBUILD2 2.3.2 (7cdbe71): 90111 NET V2.3.2 (COM 2.3.2: spec 16 light level tracking with one retry, a line that is not ready or has no database reports null, factory project 8), 90111 UI V2.3.2 (panel 2.3), 90111 DALI V2.3.2 (micro 2.3: multi-master line sharing; BODCFG 0xE5). Replaces 90111 V2.2.",
+                     "pub_date":  "2026-10-21T13:46:05Z",
                      "entries":  49,
-                     "size":  33321049,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.21.1141/firmware-flasher-firmware_2026.10.21.1141.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODRsdGFVcHZqVG9naStxNzNVUTVuQ1gxV1NheEZyMW9IS3pqb21kc2x1VjdTRXpGR0JDQXBKSzlZWnMvSU9lbW5Rb0kvcHM1NnU1Mkdqd0U0VDNtL3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTgyODk5CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKcUl3SGhmMnp3YkpCWDg2dFNRaTFHb3JBMTFEQlBjVHNxYXp2QVJvbnY5dlpLUnBWUGh3cmJWeTJ0R1BvR2t1YXdRbmRqcEdOVXBRNGM2QXUwbU16QkE9PQo="
+                     "size":  33325745,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.21.1319/firmware-flasher-firmware_2026.10.21.1319.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOC9ZcFdFNGh1RzNHNWNsY1MxT1VQUUNWeVNEK0RrbkRMVWt2KytuMG9Rd3lvQUYxS1RNZ0NSRDdYT1NPNjdqZDJ4cngrM0J0b09BcnV5ZUpPVFVMblF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkwMzQyCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKdGNuZVBBOHpJRnVHbjdzSVAvdmpJR3FmNVl3aWF4RVoyRDhSNDBscXkzYmFaNkNyY0RsaElQc29QeEZtZnVJWDVyOFBSdnhsZlpHMnNPTzF0a3FqQ1E9PQo="
                  }
 }
