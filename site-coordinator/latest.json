@@ -1,15 +1,11 @@
 {
-  "version": "0.1.11",
-  "notes": "Server configuration: compares the server's images with this PC's copies (banner + badge when older), Logger in the top bar and Status, MQTT logger page with connection state, Update, Check GitHub and Delete logs on the server. Windows: no console window flashing when searching an IP.",
-  "pub_date": "2026-10-15T11:10:43Z",
+  "version": "0.1.12",
+  "notes": "Site kit: S3 backup job, deployment defaults, logger image skip when unchanged, postgres diagnostics",
+  "pub_date": "2026-10-23T06:50:55Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWk0rRFZwc3Rnc0RSR0szNS8wWFF5QmNJRjlMcEFnczgwRVZsRUYxMUJRM3FOQmx5alJTTmkwd1JHRnNOemUzK2ZMblpZWVo0Y1ViUmtOaDFXL2kySUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDYyMDc4CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjExX2FtZDY0LkFwcEltYWdlCkE5V1h2eGhLbFJiSERQTWtOY0ZCekRyRUh2KzlYTC90S1lEalJtTnVGVk1QUHdxTVZWVXlEVFRwVEp4Z2wxRnljNSt0ZEx5aEJITi9WdEVSOStTOEJBPT0K",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.11/site-coordinator_0.1.11_linux.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkVrSWp4Ym5wb2xjZjBWT0NrREVERmNSM0J3bTByZWhYTDVpYmdLU20yazBUeWhURm9SejBKVXFheXlyREk4MExCYTM0aDBYNkw3S1NKclk3ZVoxTmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDYyNDkyCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjExX3g2NC1zZXR1cC5leGUKSkNzelBxN0Vrb3JEMHdsK0ZmenltUCtiSFgvQW5PdTR1cjJEcUwzWm5GdTlRaUJxclQwYkxFUmxZb1BxTUVISzRlbStpL1VFTDlCcEFqTTJoK2JaQ3c9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.11/site-coordinator_0.1.11_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWktyc0tlb29kZ2ErQlM3Qm5YcTlVR0t3ZHlZKytmeFp4b3RSZ3U5K1dOUWFNbmE3TTgvOStKM3RDc2xZL3V0L0lUOWRnYUswSjEwdjF4NllBYnRIZWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM4MjAwCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjEyX2FtZDY0LkFwcEltYWdlCnZ4VnZjMDlod1p5WjY3ZFJQeFo5T3lERmpxZGRxb2JKS2htcnY5bEE1QjdOOEduQ24rMlY4a1JRUlJBejBManZwMFNVUTIzeXZQYk1Xd0FRcTcyUUF3PT0K",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.12/site-coordinator_0.1.12_linux.AppImage"
     }
   }
 }
