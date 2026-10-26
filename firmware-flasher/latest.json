@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.2",
-    "notes":  "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
-    "pub_date":  "2026-10-20T09:44:35Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
-                                         }
-                  },
-    "firmware":  {
-                     "version":  "2026.10.26.1240",
-                     "notes":  "Firmware library: adds WallkeyCore V4.8 26-OCT2026DEBUG - a debug build of the 4.8 branch (panel model over Bluetooth, B1 blue in setup, sensors/Modbus/AP always on, identify/DALI test/factory reset over Bluetooth) beside V4.7",
-                     "pub_date":  "2026-10-26T13:00:01Z",
-                     "entries":  51,
-                     "size":  35012869,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.26.1240/firmware-flasher-firmware_2026.10.26.1240.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODQrZmpUdEtIV2FaMzBHK2xmRS96ZEVjdVNyb2dTdHpCTUFxOHB1WDR4d2VjNGdmR2JJOFowUkxYN2Q2U1VPQUJvbkRYNHEzZ0hENDd2a0pLRFVmYWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5NTcxCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKUEpFR2lNR0dHVWZ2N01UVEVyQmJBeFZReExWOU9NQ3hZVHhSQjBic05HM3c4RVlOcnR6NGhlQVBPMFJibzZWSkFKT3hGMFd6bGpaZUlUU0NxWm40RGc9PQo="
-                 }
+  "version": "1.0.2",
+  "notes": "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
+  "pub_date": "2026-10-20T09:44:35Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
+    }
+  },
+  "firmware": {
+    "version": "2026.10.26.1308",
+    "notes": "Firmware library: E740K Modbus WiFi V2.0.0 rebuilt (Modbus defaults gap 100 ms, poll 30 s)",
+    "pub_date": "2026-10-26T13:09:32Z",
+    "entries": 51,
+    "size": 35012749,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.26.1308/firmware-flasher-firmware_2026.10.26.1308.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdqcGUzNUsrdGVMK0I1cFJLWXFYaWhpZWdxZDJYWXliRzhrT1R1cHpUeFk1MGt0TWtoMmxhNlVyU0lBSVdCODByRWx1b0NOaE0rbHlsVGpKM3RNaVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDIwMTUyCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApqem5mbi9yZ2IwM2Z4YXZobkUzZmJGRXZkWHo4RGlHM2hTZVJDTXFPT1IrYUwrVVBYUFZTUU5pVXJLR3RLbWhab2gwcUhEeHBKZHo2cUJhRnczU2FEUT09Cg=="
+  }
 }
