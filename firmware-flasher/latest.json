@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.10.21.1319",
-                     "notes":  "Morteza (90111) REBUILD2 2.3.2 (7cdbe71): 90111 NET V2.3.2 (COM 2.3.2: spec 16 light level tracking with one retry, a line that is not ready or has no database reports null, factory project 8), 90111 UI V2.3.2 (panel 2.3), 90111 DALI V2.3.2 (micro 2.3: multi-master line sharing; BODCFG 0xE5). Replaces 90111 V2.2.",
-                     "pub_date":  "2026-10-21T13:46:05Z",
+                     "version":  "2026.10.26.1127",
+                     "notes":  "Firmware library 2026.10.26.1127 (49 firmware)",
+                     "pub_date":  "2026-10-26T11:28:17Z",
                      "entries":  49,
-                     "size":  33325745,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.21.1319/firmware-flasher-firmware_2026.10.21.1319.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOC9ZcFdFNGh1RzNHNWNsY1MxT1VQUUNWeVNEK0RrbkRMVWt2KytuMG9Rd3lvQUYxS1RNZ0NSRDdYT1NPNjdqZDJ4cngrM0J0b09BcnV5ZUpPVFVMblF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkwMzQyCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKdGNuZVBBOHpJRnVHbjdzSVAvdmpJR3FmNVl3aWF4RVoyRDhSNDBscXkzYmFaNkNyY0RsaElQc29QeEZtZnVJWDVyOFBSdnhsZlpHMnNPTzF0a3FqQ1E9PQo="
+                     "size":  33326324,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.26.1127/firmware-flasher-firmware_2026.10.26.1127.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHkvaWxJR3hBZENjT0YzVW16anpvQkVMWlg3MHlNQmQ2TjE0UDJtcDY5eVZpZHNYaHBQb3Ewbm81aU9wUnFCSjlnazVlNmRwRXhGckNXVXhtNDhLcHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE0MDc2CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKWHpTQzNuQkxIYXdlNzh4YjBwd0tITUkvU2cxSU5CV3htSmMvKyttOHFYaGhmcEdCc0h6SlVvRUIyeW5QdE1abUphMmlaNFN2bTY4Q1htdFlNbndBQmc9PQo="
                  }
 }
