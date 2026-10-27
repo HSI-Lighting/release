@@ -1,7 +1,7 @@
 # HSI releases
 
 Signed builds of **HSI Site Coordinator** and **HSI Installer** (Linux AppImage), of
-**HSI Installer Assist** (Windows, Android) and **HSI BLE Devices** (Android only), and of the
+**HSI Installer Assist** (Windows, Android) and **HSI BLE Devices** (Android only), of **DALI Admin BLE** (Android), and of the
 **HSI Firmware Flasher** (Windows) with its firmware library, and of **MQTT Pro** (Windows, Linux, Android). Each app reads its `<app>/latest.json`
 from this repo (`site-coordinator`, `installer`, `installer-assist`, `ble-devices`, `firmware-flasher`, `mqtt-pro`)
 and offers an update when the version there is newer; every download is checked against the signing
