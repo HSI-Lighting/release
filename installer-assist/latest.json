@@ -1,11 +1,15 @@
 {
     "version":  "1.2.3",
     "notes":  "HSI Device Configurator 1.2.3: WallkeyCore panel model, sensors, Modbus, AP-always-on and actions in the network screen; every Firmware tab shows the latest online build next to the running one (red when newer, \u0027No firmwares found over internet\u0027 when the library has none)",
-    "pub_date":  "2026-10-27T05:48:46Z",
+    "pub_date":  "2026-10-27T05:53:29Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHd2NzQzR01zWTk5YWdBdjZtSElwNWE2dzZUdS9ZZU5RbmtKVE95M05xWUhBUnVRWE03UTVPRzdiNkt0ekZidERjVUk3QitCUEhaSnFDU0NEK2hZQ1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDgwMTE0CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjNfeDY0LXNldHVwLmV4ZQpmOHNJY3l1cmd3Q3V0aGx4bXppSEorTnRPMGlhM3AzZUREcklsSk1vMWZ5TTI3WUluK0hwSHVreUUraWlGRXpkL3ZrcUZOWERmY0l1ZWFIb3VpaEdEQT09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.3/HSI-Device-Configurator_1.2.3_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHpwaE50ZWlqRjF2UTZ4MVBzNzIwUjNOYmVoeFRFd2JDc2c1UG1UN3VOODNBRUo0Nk55YXpFZWNTdExHNGg3dXRkOTcvRmQ2anRjeFdMdk0wczdWbFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDgwMzk2CWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjMtYXJtNjQtcmVsZWFzZS5hcGsKSlB5bkt1aXVVY2JEM0pvM2RqN1ZuNlRqWGw1aDM4aSt6RWFodU1mMTg2UWJjQUJOb3k0cnhwQkpiUXAweU1CWWZDeW5vZTlvMHR0djlycWFxWkM4Q3c9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.3/HSI-Device-Configurator_1.2.3_android.apk"
+                                          }
                   }
 }
