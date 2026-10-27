@@ -1,0 +1,11 @@
+{
+    "version":  "5.3.0",
+    "notes":  "Gateway firmware update over Bluetooth (About menu), app version and gateway firmware status in the header, Check for updates.",
+    "pub_date":  "2026-10-27T13:19:41Z",
+    "platforms":  {
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODVnYlFsUXV1OHQ2eW51dUhuZ1RwaEhRdmo0WVVldlJlbjMrVWVaL3JGd2NZUVVzNTk4QzhFei9xSzJQQm9OQkJaU2F5OWt3dUIrbXhFcUgxMnJwVkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTA3MTczCWZpbGU6REFMSS1BZG1pbi1CTEUtNS4zLWJ1aWxkMTYuYXBrCmhhUGV1Z1o4cWQ3ME5XU1hQbVBqa2J5YXdrWllGUGFoWUxlM1E3d2VkRDd0K0JOTGJmWkhzbXhuUUN1NXBuZzlYOUNsQ1hjNGw0a082dGdBU2lKZ0R3PT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/dali-admin-v5.3.0/DALI-Admin-BLE_5.3.0_android.apk"
+                                          }
+                  }
+}
