@@ -30,7 +30,7 @@ param(
     [Parameter(Mandatory = $true)][ValidateSet("installer-assist", "ble-devices", "firmware-flasher", "dali-admin")][string]$App,
     [Parameter(Mandatory = $true)][ValidateSet("windows", "android", "firmware")][string]$Platform,
     [string]$Notes = "",
-    [string]$Apk = ""
+    [Alias("Apk")][string]$ApkFile = ""
 )
 $ErrorActionPreference = "Stop"
 
@@ -64,13 +64,13 @@ if ($App -eq "firmware-flasher") {
         $ver = $fw.version; $ext = "zip"
     }
 } elseif ($App -eq "dali-admin") {
-    if (-not $Apk) { throw "pass the signed APK: publish.ps1 dali-admin android `"notes`" -Apk <path>" }
+    if (-not $ApkFile) { throw "pass the signed APK: publish.ps1 dali-admin android `"notes`" -Apk <path>" }
     $m = [regex]::Match((Get-Content (Join-Path $dir "app\build.gradle.kts") -Raw), 'versionName\s*=\s*"([0-9]+(?:\.[0-9]+){0,2})"')
     if (-not $m.Success) { throw "no versionName in app\build.gradle.kts" }
     $parts = @($m.Groups[1].Value.Split("."))
     while ($parts.Count -lt 3) { $parts += "0" }
     $ver = $parts -join "."
-    $src = (Resolve-Path -LiteralPath $Apk -ErrorAction Stop).Path; $key = "android-aarch64"; $ext = "apk"
+    $src = (Resolve-Path -LiteralPath $ApkFile -ErrorAction Stop).Path; $key = "android-aarch64"; $ext = "apk"
 } else {
     if ($Platform -eq "firmware") { throw "$App has no firmware bundle: windows or android" }
     $ver = (Get-Content (Join-Path $dir "src-tauri\tauri.conf.json") -Raw | ConvertFrom-Json).version
