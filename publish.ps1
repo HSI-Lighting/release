@@ -4,6 +4,7 @@
 #   powershell -ExecutionPolicy Bypass -File publish.ps1 installer-assist windows|android ["notes"]
 #   powershell -ExecutionPolicy Bypass -File publish.ps1 ble-devices android ["notes"]     (Android only)
 #   powershell -ExecutionPolicy Bypass -File publish.ps1 firmware-flasher windows|firmware ["notes"]
+#   powershell -ExecutionPolicy Bypass -File publish.ps1 dali-admin android ["notes"] -Apk <signed.apk>
 #
 # installer-assist / ble-devices: Windows = the NSIS setup .exe (npm run dist:win), Android = the
 #   release APK (npm run android:apk:release). Every platform of one version goes into the same
@@ -13,6 +14,12 @@
 #   tools\make_firmware_bundle.py (version = its last commit). The two are separate entries of one
 #   feed: publishing one keeps the other.
 #
+# dali-admin (DALI Admin BLE, Android only): the repo is $env:HSI_DALI_ADMIN (default
+#   E:\Dali Admin BLE\Dali_Admin_BLE_Android_V3_16_03_2026); the version is versionName in
+#   app\build.gradle.kts (5.2 -> 5.2.0). The APK is the file passed with -Apk, already signed with the
+#   Play upload key elsewhere; this script only adds the update signature. It refuses a version
+#   whose release tag already exists.
+#
 # Everything is signed here with hsi-updater.key from HSI_KEYS_DIR (a folder under E:\KEYS), $env:HSI_UPDATER_KEY,
 # or the app's keys\; the key never leaves this PC. Run it on main (it pushes the feed there).
 # Needs the GitHub CLI, signed in: gh auth login.
@@ -20,23 +27,27 @@
 # Keep this file pure ASCII (Windows PowerShell 5.1 reads .ps1 as ANSI without a BOM).
 
 param(
-    [Parameter(Mandatory = $true)][ValidateSet("installer-assist", "ble-devices", "firmware-flasher")][string]$App,
+    [Parameter(Mandatory = $true)][ValidateSet("installer-assist", "ble-devices", "firmware-flasher", "dali-admin")][string]$App,
     [Parameter(Mandatory = $true)][ValidateSet("windows", "android", "firmware")][string]$Platform,
-    [string]$Notes = ""
+    [string]$Notes = "",
+    [string]$Apk = ""
 )
 $ErrorActionPreference = "Stop"
 
 $ia = if ($env:HSI_INSTALLER_ASSIST) { $env:HSI_INSTALLER_ASSIST } else { "E:\Installer-assist" }
 $flasher = if ($env:HSI_FIRMWARE_FLASHER) { $env:HSI_FIRMWARE_FLASHER } else { "E:\HSI-Firmware-Flasher" }
 $keysDir = if ($env:HSI_KEYS_DIR) { $env:HSI_KEYS_DIR } else { [Environment]::GetEnvironmentVariable("HSI_KEYS_DIR", "User") }
+$daliAdmin = if ($env:HSI_DALI_ADMIN) { $env:HSI_DALI_ADMIN } else { "E:\Dali Admin BLE\Dali_Admin_BLE_Android_V3_16_03_2026" }
 $signDir = Join-Path $ia "HSI Installer assist"     # any folder with the Tauri CLI installed (npm ci)
 $fw = $null
 switch ($App) {
     "installer-assist" { $dir = Join-Path $ia "HSI Installer assist"; $target = Join-Path $dir "target";           $name = "HSI Device Configurator"; $apk = "HSI-Device-Configurator"; $signDir = $dir }
     "ble-devices"      { $dir = Join-Path $ia "BLE devices assist";  $target = Join-Path $dir "src-tauri\target"; $name = "HSI BLE Device Config";      $apk = "HSI-BLE-Device-Config"; $signDir = $dir }
     "firmware-flasher" { $dir = $flasher; $name = "HSI Firmware Flasher" }
+    "dali-admin"       { $dir = $daliAdmin; $name = "DALI Admin BLE"; $apk = "DALI-Admin-BLE" }   # signDir stays the IA folder (Tauri CLI)
 }
 if ($App -eq "ble-devices" -and $Platform -ne "android") { throw "HSI BLE Device Config is Android only" }
+if ($App -eq "dali-admin" -and $Platform -ne "android") { throw "DALI Admin BLE is Android only" }
 if ($App -eq "firmware-flasher") {
     if ($Platform -eq "android") { throw "the flasher is a Windows app: windows or firmware" }
     if ($Platform -eq "windows") {
@@ -52,6 +63,14 @@ if ($App -eq "firmware-flasher") {
         if ($LASTEXITCODE -ne 0 -or -not $fw.version) { throw "the firmware bundle was not made (see above)" }
         $ver = $fw.version; $ext = "zip"
     }
+} elseif ($App -eq "dali-admin") {
+    if (-not $Apk) { throw "pass the signed APK: publish.ps1 dali-admin android `"notes`" -Apk <path>" }
+    $m = [regex]::Match((Get-Content (Join-Path $dir "app\build.gradle.kts") -Raw), 'versionName\s*=\s*"([0-9]+(?:\.[0-9]+){0,2})"')
+    if (-not $m.Success) { throw "no versionName in app\build.gradle.kts" }
+    $parts = @($m.Groups[1].Value.Split("."))
+    while ($parts.Count -lt 3) { $parts += "0" }
+    $ver = $parts -join "."
+    $src = (Resolve-Path -LiteralPath $Apk -ErrorAction Stop).Path; $key = "android-aarch64"; $ext = "apk"
 } else {
     if ($Platform -eq "firmware") { throw "$App has no firmware bundle: windows or android" }
     $ver = (Get-Content (Join-Path $dir "src-tauri\tauri.conf.json") -Raw | ConvertFrom-Json).version
@@ -65,6 +84,15 @@ if (-not (Test-Path $src)) { throw "missing $src - build version $ver first" }
 if (-not (Get-Command gh -ErrorAction SilentlyContinue)) { throw "the GitHub CLI is not installed: winget install GitHub.cli, then gh auth login" }
 $branch = (& git -C $PSScriptRoot rev-parse --abbrev-ref HEAD)
 if ($branch -ne "main") { throw "run this on main (here: $branch) - the apps read the feed from main" }
+
+# DALI Admin: a hand-made release of this version must never be overwritten (checked before signing).
+if ($App -eq "dali-admin") {
+    $ErrorActionPreference = "Continue"      # gh reports "release not found" on stderr, the normal answer
+    & gh release view "dali-admin-v$ver" --repo HSI-Lighting/release *> $null
+    $exists = ($LASTEXITCODE -eq 0)
+    $ErrorActionPreference = "Stop"
+    if ($exists) { throw "release dali-admin-v$ver already exists - raise versionName, not overwrite" }
+}
 
 # Sign the package itself (Tauri 2 updates from the installer / APK as built; the flasher checks
 # the same signature). Always re-sign, so a rebuilt file never goes out with an older signature.

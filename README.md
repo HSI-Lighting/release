@@ -3,10 +3,10 @@
 Signed builds of **HSI Site Coordinator** and **HSI Installer** (Linux AppImage), of
 **HSI Installer Assist** (Windows, Android) and **HSI BLE Devices** (Android only), of **DALI Admin BLE** (Android), and of the
 **HSI Firmware Flasher** (Windows) with its firmware library, and of **MQTT Pro** (Windows, Linux, Android). Each app reads its `<app>/latest.json`
-from this repo (`site-coordinator`, `installer`, `installer-assist`, `ble-devices`, `firmware-flasher`, `mqtt-pro`)
+from this repo (`site-coordinator`, `installer`, `installer-assist`, `ble-devices`, `dali-admin`, `firmware-flasher`, `mqtt-pro`)
 and offers an update when the version there is newer; every download is checked against the signing
 key built into the app. HSI Installer Assist, HSI BLE Devices and the HSI Firmware Flasher share one
-update key of their own (`hsi-updater.key`, kept on the build PC in `HSI_KEYS_DIR`, E:\KEYS\_master).
+update key of their own (`hsi-updater.key`, kept on the build PC in `HSI_KEYS_DIR`, E:\KEYS\_master). DALI Admin BLE uses the same key.
 
 Download: see [Releases](../../releases). Run an AppImage with `chmod +x file.AppImage && ./file.AppImage`
 (Ubuntu 22.04/24.04 also needs `sudo apt install libfuse2`). The app lists itself in the app menu on first run.
@@ -43,7 +43,15 @@ HSI Firmware Flasher: `publish.ps1 firmware-flasher windows` (after `build.bat`;
 script packs it with `tools/make_firmware_bundle.py` and refuses uncommitted firmware); `publish.sh` takes the
 same, the repo at `$HSI_FIRMWARE_FLASHER` (default `E:\HSI-Firmware-Flasher` / `~/workspace/Rust/HSI-Firmware-Flasher`).
 
-All three of those apps are signed by the scripts with `hsi-updater.key` from `$HSI_UPDATER_KEY`, else
+DALI Admin BLE (Android only): the repo is `$env:HSI_DALI_ADMIN` (default
+`E:\Dali Admin BLE\Dali_Admin_BLE_Android_V3_16_03_2026`); the version is `versionName` in `app/build.gradle.kts`
+(`5.2` becomes `5.2.0`). Build and sign the release APK with the Play upload key there, then
+`powershell -ExecutionPolicy Bypass -File publish.ps1 dali-admin android "notes" -Apk <signed.apk>` (or
+`./publish.sh dali-admin android "notes" <signed.apk>`). The script only adds the update signature, writes
+`dali-admin/latest.json`, creates release `dali-admin-v<ver>` with `DALI-Admin-BLE_<ver>_android.apk`, and
+refuses a version whose release already exists.
+
+All the apps above except MQTT Pro are signed by the scripts with `hsi-updater.key` from `$HSI_UPDATER_KEY`, else
 `$HSI_KEYS_DIR/hsi-updater.key`, else the app's `keys/`. Run the scripts on `main`: that is where the apps
 read the feed.
 
@@ -54,7 +62,7 @@ and download the new build from a GitHub release.
 
 1. **The feed.** Each app has `<app>/latest.json` in this repo, read from
    `https://raw.githubusercontent.com/HSI-Lighting/release/main/<app>/latest.json`
-   (`site-coordinator`, `installer`, `mqtt-pro`). It holds the newest version, its notes, and one entry per platform:
+   (`site-coordinator`, `installer`, `dali-admin`, `mqtt-pro`). It holds the newest version, its notes, and one entry per platform:
 
    ```json
    { "version": "1.0.1", "notes": "What changed", "pub_date": "2026-10-10T12:00:00Z",

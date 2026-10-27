@@ -15,9 +15,14 @@
 # HSI Firmware Flasher ($HSI_FIRMWARE_FLASHER): windows = dist/HSI_90111_Programmer.exe (built on
 # Windows by build.bat; version in flasher/__init__.py), firmware = its COMMITTED firmware library,
 # packed here by tools/make_firmware_bundle.py. Two entries of one feed: publishing one keeps the other.
+#   ./publish.sh dali-admin android ["notes"] SIGNED.apk
+# DALI Admin BLE (Android only, repo $HSI_DALI_ADMIN): version = versionName in app/build.gradle.kts
+# (5.2 -> 5.2.0); SIGNED.apk is already signed with the Play upload key elsewhere, only the update
+# signature is made here. Refuses a version whose release tag already exists.
 # On Windows, publish.ps1 does the same.
 set -euo pipefail
 app=${1:?site-coordinator|installer|installer-assist|ble-devices|firmware-flasher|mqtt-pro}; plat=${2:?linux|windows|macos|android|firmware}; notes=${3:-}
+if [ "$app" = dali-admin ]; then apkfile=${4:?signed APK: ./publish.sh dali-admin android "notes" FILE.apk}; fi
 if [ "$app" = mqtt-pro ]; then ver=${3:?version}; src=${4:?signed file}; notes=${5:-}; fi
 W=~/workspace/Rust
 IA=${HSI_INSTALLER_ASSIST:-$W/Installer-assist}
@@ -28,6 +33,7 @@ case $app in
   installer)        conf=$W/HSI_Admin_Panel_NodeFlow/tauri-app/tauri.conf.json;          root=$W/HSI_Admin_Panel_NodeFlow/tauri-app/target; name="HSI Installer" ;;
   installer-assist) dir="$IA/HSI Installer assist"; conf="$dir/src-tauri/tauri.conf.json"; root="$dir/target";           name="HSI Device Configurator"; apk=HSI-Device-Configurator ;;
   ble-devices)      dir="$IA/BLE devices assist";  conf="$dir/src-tauri/tauri.conf.json"; root="$dir/src-tauri/target"; name="HSI BLE Device Config";      apk=HSI-BLE-Device-Config ;;
+  dali-admin)       dir=${HSI_DALI_ADMIN:-"$W/Dali_Admin_BLE_Android_V3_16_03_2026"}; name="DALI Admin BLE"; apk=DALI-Admin-BLE; signdir="$IA/HSI Installer assist" ;;
   mqtt-pro)         name="MQTT Pro" ;;
   firmware-flasher) dir="$FL"; name="HSI Firmware Flasher"; signdir="$IA/HSI Installer assist" ;;   # signdir: has the Tauri CLI
   *) echo "unknown app $app" >&2; exit 1 ;;
@@ -35,8 +41,8 @@ esac
 signdir=${signdir:-$dir}
 # HSI Device Configurator (was HSI Installer Assist) is built for Windows + Android, HSI BLE Device Config (was HSI BLE Devices) for Android only.
 case "$app/$plat" in
-  installer-assist/windows|installer-assist/android|ble-devices/android) ;;
-  installer-assist/*|ble-devices/*) echo "$app is not published for $plat (installer-assist: windows|android, ble-devices: android)" >&2; exit 1 ;;
+  installer-assist/windows|installer-assist/android|ble-devices/android|dali-admin/android) ;;
+  installer-assist/*|ble-devices/*|dali-admin/*) echo "$app is not published for $plat (installer-assist: windows|android, ble-devices and dali-admin: android)" >&2; exit 1 ;;
 esac
 if [ "$app" = firmware-flasher ]; then
   case $plat in
@@ -47,6 +53,11 @@ if [ "$app" = firmware-flasher ]; then
               ver=$(python3 -c 'import json,sys;print(json.loads(sys.argv[1])["version"])' "$fwjson"); key=; ext=zip ;;
     *) echo "the flasher publishes windows or firmware" >&2; exit 1 ;;
   esac
+elif [ "$app" = dali-admin ]; then
+  ver=$(python3 -c 'import re,sys;v=re.search(r"versionName\s*=\s*\"([0-9]+(?:\.[0-9]+){0,2})\"",open(sys.argv[1]).read()).group(1).split(".");print(".".join(v+["0"]*(3-len(v))))' "$dir/app/build.gradle.kts")
+  src=$apkfile; key=android-aarch64; ext=apk
+  [ -f "$src" ] || { echo "missing $src" >&2; exit 1; }
+  ! gh release view "dali-admin-v$ver" --repo HSI-Lighting/release >/dev/null 2>&1 || { echo "release dali-admin-v$ver already exists - raise versionName, not overwrite" >&2; exit 1; }
 elif [ "$app" = mqtt-pro ]; then
   case $plat in
     windows) key=windows-x86_64; ext=exe ;;
