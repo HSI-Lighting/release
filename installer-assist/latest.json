@@ -1,11 +1,11 @@
 {
-    "version":  "1.2.4",
-    "notes":  "HSI Device Configurator 1.2.4: the Modbus Wifi E740K and the Wireless Knob K518 / K718 now find their firmware in the online library; Refresh in the Firmware tab (and \u0027Check for updates online\u0027 on the panel screen) asks the library again at once",
-    "pub_date":  "2026-10-27T06:29:47Z",
+    "version":  "1.2.5",
+    "notes":  "HSI Device Configurator 1.2.5: firmware updates work from Android (the image was not reaching the app there - \u0027no image\u0027); E740K and Wireless Knob find their online firmware; Refresh in the Firmware tab",
+    "pub_date":  "2026-10-27T10:09:27Z",
     "platforms":  {
-                      "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODRvbkNreHdoRFlMRkZ4bjZFdmlmdXdJNyt5YkJ0dG05blhkNHJDUUpHSkdraDFEYTBjVmNER214alBkRHJsRlFWOTJEUEJFRE9tbDdXeENiWVpHU2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDgyNTcxCWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjQtYXJtNjQtcmVsZWFzZS5hcGsKYWgxTEpTMzRBZFFwN0lYeHFvSTZFWUZCa0RXb2FIMitnZ1lqSWZCOGZvMjdqVy9TNzFmQjByZjBCMENPWVl4bXdIOUkrVTRjQUFGSU5WTTlWOGFhQmc9PQo=",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.4/HSI-Device-Configurator_1.2.4_android.apk"
-                                          }
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHkwd3VuME4xbEdRQ2tiV0ZzdGNjd2VNbDlyMkR1Vkw2RFJNeVBEbmlNNmNaNUJuZlZNZ0JuVm1ZS0NaOTQvMUZjWWFCblpYZHhtWm9oREpZdEZiNkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk1NzU5CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjVfeDY0LXNldHVwLmV4ZQptclF3b1MyOXhtb3lBOUZFdjMxVE45d1Nad08wTTU2MHFudGhrQUNSdCt4Vkd4ZXJvcktZWFBCV3FudG1QS216UUxPQ2JHM3ZPUDkrOU1obmxzVUVDdz09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.5/HSI-Device-Configurator_1.2.5_windows.exe"
+                                         }
                   }
 }
