@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.10.26.1308",
-    "notes": "Firmware library: E740K Modbus WiFi V2.0.0 rebuilt (Modbus defaults gap 100 ms, poll 30 s)",
-    "pub_date": "2026-10-26T13:09:32Z",
+    "version": "2026.10.27.603",
+    "notes": "Firmware library: E740K Modbus WiFi V2.0.1",
+    "pub_date": "2026-10-27T06:03:43Z",
     "entries": 51,
-    "size": 35012749,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.26.1308/firmware-flasher-firmware_2026.10.26.1308.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdqcGUzNUsrdGVMK0I1cFJLWXFYaWhpZWdxZDJYWXliRzhrT1R1cHpUeFk1MGt0TWtoMmxhNlVyU0lBSVdCODByRWx1b0NOaE0rbHlsVGpKM3RNaVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDIwMTUyCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApqem5mbi9yZ2IwM2Z4YXZobkUzZmJGRXZkWHo4RGlHM2hTZVJDTXFPT1IrYUwrVVBYUFZTUU5pVXJLR3RLbWhab2gwcUhEeHBKZHo2cUJhRnczU2FEUT09Cg=="
+    "size": 35101094,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.27.603/firmware-flasher-firmware_2026.10.27.603.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODNnV2xHVWl2K3FiUk5GY01pVlZKVXUybUEwdVA2cytPMUZFcTdhcE8zaS9rckpsazJObWNhaDgwV3BwbEJFbDBaam5JbXUzbDRjVnl2RVQ1T2F3ZVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDgxMDA1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApaU1RUeUdEbGxvT0cxeDNTM2xOK2xYS1FIMlhQb3N0aFNLR1A1WjZLYW0vZ3VqT1ZOY01rSG9tYlI1c3dONEZuc0psNi9QUzNONmxIb2p3UG5RVmFEdz09Cg=="
   }
 }
