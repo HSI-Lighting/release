@@ -1,11 +1,15 @@
 {
     "version":  "1.2.6",
     "notes":  "HSI Device Configurator 1.2.6: the 90122 Modbus WiFi gateway (ESP32-WROOM) finds its online firmware (MBWIFI V2.0.2) for over-the-air update",
-    "pub_date":  "2026-10-27T13:11:45Z",
+    "pub_date":  "2026-10-27T13:12:09Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODdRVWd2YzBSWTNwYXpNWU1KZUVIQnFLSS80U2F4Z3ZtZTFJU0hCUHNSS3dadGxGQnM3ZzJRSUhlclJPRHNmWnJPZjU3a3ZIWWQ5Wi9XSGZSUmJIYVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTA2Njk2CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjZfeDY0LXNldHVwLmV4ZQo5cjJlMGh4VDA2RVJ1bGpUWmFJUHRjVzFoQ3NtV0FMNmV6MVUxWkVwNGRtazdSa0RwMjhxSktnRm1rRFhIaXhiRFpiVmdMY2NpVW54NG5VMytJdzdDUT09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.6/HSI-Device-Configurator_1.2.6_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHhQbnYxb3NtVjQrbGQxczZoMGtWSDVyUjZFeDI3TzhIWlJWN0hJTlVva0pNbU5td1FGMHBQOWpBMUhFbGs2dktBcVRuRFNYVWxtMUZtYjc4VnFsNVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTA2NzE4CWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjYtYXJtNjQtcmVsZWFzZS5hcGsKaGZ0aGtNVW5zbWt5ekN5a2xRSWF6bHBxc08vdUhDcFRKUDVJMXpjY292Qk1ZQjRMa2h6ejB5dmpybW5la0Y0Mml0UFJURmZidkpjMjU0d21KQ1p1REE9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.6/HSI-Device-Configurator_1.2.6_android.apk"
+                                          }
                   }
 }
