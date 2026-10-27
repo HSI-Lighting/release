@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.10.27.1210",
-    "notes": "Modbus WiFi V2.0.2 (new, product 0x0307) and E740K Modbus WiFi V2.0.2: setup only on request, EN double press, LEDs, no web pages",
-    "pub_date": "2026-10-27T12:11:49Z",
-    "entries": 54,
-    "size": 36739589,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.27.1210/firmware-flasher-firmware_2026.10.27.1210.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHpRbjRVNWNRRmhzMjhMNGhlQlIvZ0E3ZWQ0aFlnb1BYTG0zazFFVkNoV0Y2QjltSU5MWnEzeVBOaENsei9YT3BmWFM2ZTA1MVpOaXBXZWRFaGlQc1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTAzMDg5CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApVbFR2MUpIRFpOTFliUldkY3NVclFIZHlxcWFCZUk2a09ZMXNrWS9yTVU1Y3RxT25ndmV4TzJxMlFiYUxldEYzdUlvd1NwY1FEWTBiUnl6ZnR2YW5Bdz09Cg=="
+    "version": "2026.10.27.1220",
+    "notes": "90122 Modbus WiFi now the WIFI_MB_V1 2.0.2 build (no web UI, OTA, setup on request, LEDs); E740K Modbus WiFi V2.0.2",
+    "pub_date": "2026-10-27T12:20:48Z",
+    "entries": 53,
+    "size": 35802032,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.27.1220/firmware-flasher-firmware_2026.10.27.1220.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODR1aFROL3pGVElESXVPSWFUOU0xZnJHNktvSXFGS2F2bWQ2dC9Wb3RjNEprcEk0L2tlNXJXeHFnckdLUDVmSlUxMERUWE9ST1N0Z0xvNVNEOHlqNkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTAzNjMwCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApjTXFnS0xDaTY1SWhsaDEyT0R4aXlldVpINElpK3dIS0xFeEZRVDRZTjN5ZEVSNC94ZlE0Sy9xbjVkK3ludVB5RHZKN0VCdSs3bEJJb3hKQnQzMUpEdz09Cg=="
   }
 }
