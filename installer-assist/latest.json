@@ -1,15 +1,11 @@
 {
-    "version":  "1.2.5",
-    "notes":  "HSI Device Configurator 1.2.5: firmware updates work from Android (the image was not reaching the app there - \u0027no image\u0027); E740K and Wireless Knob find their online firmware; Refresh in the Firmware tab",
-    "pub_date":  "2026-10-27T10:09:41Z",
+    "version":  "1.2.6",
+    "notes":  "HSI Device Configurator 1.2.6: the 90122 Modbus WiFi gateway (ESP32-WROOM) finds its online firmware (MBWIFI V2.0.2) for over-the-air update",
+    "pub_date":  "2026-10-27T13:11:45Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHkwd3VuME4xbEdRQ2tiV0ZzdGNjd2VNbDlyMkR1Vkw2RFJNeVBEbmlNNmNaNUJuZlZNZ0JuVm1ZS0NaOTQvMUZjWWFCblpYZHhtWm9oREpZdEZiNkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk1NzU5CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjVfeDY0LXNldHVwLmV4ZQptclF3b1MyOXhtb3lBOUZFdjMxVE45d1Nad08wTTU2MHFudGhrQUNSdCt4Vkd4ZXJvcktZWFBCV3FudG1QS216UUxPQ2JHM3ZPUDkrOU1obmxzVUVDdz09Cg==",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.5/HSI-Device-Configurator_1.2.5_windows.exe"
-                                         },
-                      "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODJmWDRoVHJhWGFQR0RXUnduSUxiQXU0cFdQR2xkNktya3lDVXhtWjRQRC80S0czdWhWdjdJdEZBSjF2aDFzZnBja1ZZM21seC9Pb3k4aE9BQmtseXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk1NzcxCWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjUtYXJtNjQtcmVsZWFzZS5hcGsKYStBM2RIZ1Y3TEp4YmFqZStYbVlxenBESVJzbUI2SW1NaDZzUTRObjI0R2VkbndBOFBWcnArL0JrN2Y3Wi9zVEhvaEVGS0dPQmoyMnNNMVRPeWZlQ1E9PQo=",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.5/HSI-Device-Configurator_1.2.5_android.apk"
-                                          }
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODdRVWd2YzBSWTNwYXpNWU1KZUVIQnFLSS80U2F4Z3ZtZTFJU0hCUHNSS3dadGxGQnM3ZzJRSUhlclJPRHNmWnJPZjU3a3ZIWWQ5Wi9XSGZSUmJIYVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTA2Njk2CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjZfeDY0LXNldHVwLmV4ZQo5cjJlMGh4VDA2RVJ1bGpUWmFJUHRjVzFoQ3NtV0FMNmV6MVUxWkVwNGRtazdSa0RwMjhxSktnRm1rRFhIaXhiRFpiVmdMY2NpVW54NG5VMytJdzdDUT09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.6/HSI-Device-Configurator_1.2.6_windows.exe"
+                                         }
                   }
 }
