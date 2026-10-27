@@ -1,11 +1,11 @@
 {
-    "version":  "1.3.1",
-    "notes":  "Project sign-in prefilled with https://installer.hsisystems.de. Show/hide eye on every password field.",
-    "pub_date":  "2026-10-16T11:24:58Z",
+    "version":  "1.3.2",
+    "notes":  "HSI BLE Device Config 1.3.2: WallkeyCore panel model picker, sensors, Modbus, AP-always-on, identify / DALI test / factory reset over Bluetooth (needs WallkeyCore 4.8)",
+    "pub_date":  "2026-10-27T05:53:48Z",
     "platforms":  {
                       "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdQenM5ZFBnSjVEVDRQWjVBTnBMVWNhUFFGMTlkYzBqZlIxZm54MDRnVDluRkpGTzJTbE9tWXJobGRtbHRaTWtKRzhLbkFySHJPR2dUOXJmUVFzS1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQ5ODg3CWZpbGU6SFNJLUJMRS1EZXZpY2UtQ29uZmlnLTEuMy4xLWFybTY0LXJlbGVhc2UuYXBrCjcvTDk0QXJMTlNHM0kvRjBSKzRwMEVSWld0U2orMDlVNk0zSXpvcVFvSkpERDdFeDVPL0tmZThHSHhIN3ovWXZmbXhUdnE3aFZueUNubHdwNERxdENnPT0K",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v1.3.1/HSI-BLE-Device-Config_1.3.1_android.apk"
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODJtc2hhUTljRWZRZW54bkNsN01iRGlnSzNJem9MS1hDYXB1eUJTYmkrZmllVDhiUVRVSzJIZUZNMmVxWDJuWEszK3dseVRkNk83Wlh4K0lwL1hlV3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDgwNDEzCWZpbGU6SFNJLUJMRS1EZXZpY2UtQ29uZmlnLTEuMy4yLWFybTY0LXJlbGVhc2UuYXBrCjRhYlZlV0JVTmpqYm9qZ3MyNFo4RkhKWTYzc25Fd3hJMjQ4YzRyU2MxV1NQTWd5TFRMUGdqcnVIR3drVkJ3dTNQU2dGSUpzQ0xuUUNPMGpBa0F1eEJnPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v1.3.2/HSI-BLE-Device-Config_1.3.2_android.apk"
                                           }
                   }
 }
