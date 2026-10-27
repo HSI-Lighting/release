@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.10.27.1405",
-    "notes": "E740K Modbus WiFi V2.0.3 + 90122 Modbus WiFi 2.0.3: fixes 2.0.2, whose OTA image lost the settings on E740K units",
-    "pub_date": "2026-10-27T14:06:19Z",
+    "version": "2026.10.27.1407",
+    "notes": "E740K Modbus WiFi V2.0.3 + 90122 Modbus WiFi V2.0.3: fixes 2.0.2, whose OTA image lost the settings on E740K units",
+    "pub_date": "2026-10-27T14:07:34Z",
     "entries": 53,
-    "size": 35800267,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.27.1405/firmware-flasher-firmware_2026.10.27.1405.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdQMC91ZHM5OHBWalRTWi9TQ1YxcVIyOHZGSlV2ZzRDclN0WVV3MENqSVZNSUxSSjlTZCtxSzBWWC9Hdk12dzdsSTZXd3NmbzdKMm1XOENFS0dJS1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTA5OTU1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApSSU5DVlRMNkcrcjdoQ0VYZWNKNXNNZE9sRFAxaXJTZUk5S25JQXRZSTNVYm1tRDREMVZVdmhvdS9mS3hEQ2pFejNVM1EvM3pRTDRoT0pVc3hLRktCUT09Cg=="
+    "size": 35800279,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.10.27.1407/firmware-flasher-firmware_2026.10.27.1407.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHkwZGpmcTN1REIvMzloeHpBb21lVzRia2srVWtNTjdaVmZ0a3dhRGdid3dNTEl4ZjlHUW5RL3l0M29EazhYeXVsb3JSM0R6eGlNbTVldjNrZE1ZT1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTEwMDM1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApXc3RPaEJEVS9FNnUxbkxVTHRRR3RIdG5tOFlPNTRiYXdZcnJ0aUlMRHBuUWdOMWh5ZFlidUN4NDYrclllMUlqYmRWcmh4K0NydXNTRmRrRlRTWXNCQT09Cg=="
   }
 }
