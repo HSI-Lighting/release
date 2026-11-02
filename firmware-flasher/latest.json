@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.11.2.651",
-                     "notes":  "Firmware library 2026.11.2.651 (54 firmware)",
-                     "pub_date":  "2026-11-02T06:52:11Z",
+                     "version":  "2026.11.2.1315",
+                     "notes":  "Wall Display 6.5.29 / TD8B 0.2.29 / AMLKN5B 6.5.38: START DISCOVERY fixed (gateway), jobs edited on the panel reach the gateway, Automation in Settings, panel job actions for light/thermostat/curtain",
+                     "pub_date":  "2026-11-02T13:21:32Z",
                      "entries":  54,
-                     "size":  36297836,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.2.651/firmware-flasher-firmware_2026.11.2.651.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHcwZDBLbjYxQUJERjdOR2F3eTZHUmEyeGc4d0dQeHdKZEx4cDY1cTBQSnJxRE4xK3lmMC9MMTNlMW9WSEFOUkVZMnlRWHB4bDNWTzR0Vjh2ZitUa3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjAyMzEzCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKcGlvOU5ZTW5SMlNNQ0tyb1d3U0ZYR0hRRXZSR2ViM0RXdXBhRnVtOFNZWEJQcURwSFZ4cjllbkpoaU4rbW9BdTJrTlA2RGZ3bWZ6VkVOVVpSaFppQ2c9PQo="
+                     "size":  36300469,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.2.1315/firmware-flasher-firmware_2026.11.2.1315.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODJvNCtKbW56WDM2dS9jckZGZUZkbzI1ZnhtdFI3OHBwK3ZTTThKZmdzWnVEWkVsZWpndEtWR0tRRHFFNlk1ZjBOclV6VUllTmx3UThqREszbUtDd0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI1Njc2CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKSmlwcWJWc3JnZmV5dWFHQUpCYjVhN04yNFY5c2N2cFpkTkdwaFZGSnVKZHRRODVXUCtJaDhMZnhOQSticUtQRmpKN01oaGNMdHUrdFFXNk9LSDhTREE9PQo="
                  }
 }
