@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.2",
-    "notes":  "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
-    "pub_date":  "2026-10-20T09:44:35Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
-                                         }
-                  },
-    "firmware":  {
-                     "version":  "2026.11.2.1315",
-                     "notes":  "Wall Display 6.5.29 / TD8B 0.2.29 / AMLKN5B 6.5.38: START DISCOVERY fixed (gateway), jobs edited on the panel reach the gateway, Automation in Settings, panel job actions for light/thermostat/curtain",
-                     "pub_date":  "2026-11-02T13:21:32Z",
-                     "entries":  54,
-                     "size":  36300469,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.2.1315/firmware-flasher-firmware_2026.11.2.1315.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODJvNCtKbW56WDM2dS9jckZGZUZkbzI1ZnhtdFI3OHBwK3ZTTThKZmdzWnVEWkVsZWpndEtWR0tRRHFFNlk1ZjBOclV6VUllTmx3UThqREszbUtDd0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI1Njc2CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKSmlwcWJWc3JnZmV5dWFHQUpCYjVhN04yNFY5c2N2cFpkTkdwaFZGSnVKZHRRODVXUCtJaDhMZnhOQSticUtQRmpKN01oaGNMdHUrdFFXNk9LSDhTREE9PQo="
-                 }
+  "version": "1.0.2",
+  "notes": "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
+  "pub_date": "2026-10-20T09:44:35Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
+    }
+  },
+  "firmware": {
+    "version": "2026.11.4.1349",
+    "notes": "Modbus WiFi 2.0.6 (90122 + E740K): V02C/V04C fan register fixed, room temperature published on 0.5 \u00b0C changes, RS-485 timing fixes (no more collisions with fast thermostats, E740K/F2C no longer miss the first request)",
+    "pub_date": "2026-11-04T13:50:58Z",
+    "entries": 54,
+    "size": 36300483,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.4.1349/firmware-flasher-firmware_2026.11.4.1349.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOC9MSUdDNzhhS0d1V0l5aTZYcUh3emFoR1FHdUlZM0k1VHdpRTcxcWNtc204cFpvY1I4eGpOU29XQ0kvcGR3Vk9xQmYrYVpYek03RUtCbjdJNFpORHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODAwMjM5CWZpbGU6bGliLnppcApVeU5KUFdGaGV6d1l0S2RGb215YUU4NkFoTGhPTWt1YldPZVRDSEVDbGpTZWVCZGJHL0hnd0tuempnUGJsM1hyelM0N2hXSXI1T3hiTGZ1WTFDOVRDZz09Cg=="
+  }
 }
