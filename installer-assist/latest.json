@@ -1,15 +1,11 @@
 {
-  "version": "1.2.7",
-  "notes": "HSI Device Configurator 1.2.7: Modbus gateway thermostat list gets Toshiba (model 6, BMS-IFMB1280U AC gateway, needs gateway firmware 2.0.7): Slave ID = indoor unit number, line 8E1",
-  "pub_date": "2026-11-05T09:35:56Z",
-  "platforms": {
-    "android-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOCt6enA1OFVPMmJBa3dIUER6Sm9YclRXQmRya0E5MllFV0pTT1NoNWNEODNsYldWaFp6d3FUUllZa3BMbUt1Szh5d2NyU2lXMlBIbVZneW5hRTR4SHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODY5MTQ4CWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjctYXJtNjQtcmVsZWFzZS5hcGsKMlZjTmxuVEJ1cHAxRVpsR3JubVgwWnlVTFk4WHN6cmhHOFZTT1RxdWVWdWRWNWJkVEhPS3lQNG5mMWs4cDhDTFZpWWhvYldlTi8veUdWMUdrdlN6Q2c9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.7/HSI-Device-Configurator_1.2.7_android.apk"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODBQbWFEaXBENnA1bjJqRzNDbENqaHFvTVFrc0hMb2hWaUE2dG9jUStydTFJUk1VWnVEdE9pS1lKSUczenhyQWdPOUlaQWFQR284eTNnZXJPc0xnbmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODcxMzM0CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjdfeDY0LXNldHVwLmV4ZQplbG9Kak8wVndpNjBHQmFUK2xNWTduelNsR01lQXo1c2NPUHdIYThtUngwYlR6Y1ZKWDFUVFV0WlFvZGxxRDlmVS9kY3BNbi9UNGU4UUZIbTZWeitDUT09Cg==",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.7/HSI-Device-Configurator_1.2.7_windows.exe"
-    }
-  }
+    "version":  "1.2.8",
+    "notes":  "Wall Display + WallkeyCore screens match the firmware web UI (WD SQK6B 6.5.40, WallkeyCore 5.0): Toshiba climate model, Offline/MQTT per item (Hybrid), up to 3 extra MQTT masters, Modbus line + Jobs tabs, WallkeyCore Modbus functions 3/6.",
+    "pub_date":  "2026-11-06T05:39:47Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHgwVTVJd2pwdjRMYkZiRCtjNzduZXJWcXhDalo5TXozc2FpcHkwLzdVMGFSQTlNK0tHOVl6eTlnM2hKZFQ4ZFRvVkU5cUZsbXFrZTFPM2RodFdtRWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTQzNTc5CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjhfeDY0LXNldHVwLmV4ZQpyTnl0Q1lqb1U5a0VsdlY4d3VWNlhlR1daWXp1dExPZ2Q2NGdhR3Jpd0FTaExaM21NNUdTQzhVOHBxQ1dPN0xkV01tN0FYVGx3OGxOTlM1SzNXK0tDUT09Cg==",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.8/HSI-Device-Configurator_1.2.8_windows.exe"
+                                         }
+                  }
 }
