@@ -1,11 +1,15 @@
 {
     "version":  "1.2.9",
     "notes":  "Wall Display Project row shows only the project ID; X0103 (REBUILD2 1.3.5+) shows its release version and is offered firmware updates correctly.",
-    "pub_date":  "2026-11-07T09:16:35Z",
+    "pub_date":  "2026-11-07T09:16:51Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODRndEVBQlNmVzY4aUU5WXJNQ3FzaEQ1MUxSZkRya0tXTDQvaEg5Z29IQllGazBaY29ySGdKcWRmRnlsdW1OUXlTU0R0RSt6L1R5Z29zZGRJbGl5emdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQyOTg4CWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjlfeDY0LXNldHVwLmV4ZQpONUJsY014eWpnSUhTSUNKUUoxTGloUldaNlR1SUpRUVR3UTlxRHNNdEttOW1HMXFZemJoYjU1azV6eUgvdTZubkNPRDRmZ0s1bm9RQlNLYjZQT21BUT09Cg==",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.9/HSI-Device-Configurator_1.2.9_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHlsU2xicTNMZGUxbEdnWlBteFNaQzBwZW40L3Rzdm1BUFZEZjlFaUg3NldiK2JCckVjd3JhQzdhQ2ZVQ3NHVjE0ay9EZWUvMFl3aU5mZk0wYUN0N3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQyOTk5CWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjktYXJtNjQtcmVsZWFzZS5hcGsKeGE2SENDVmVOMXZSbjFJTzZidGpFVXFzL3VOUFc5eU5BOW9LR0k3RmRldlhIWldWQVdzMVE4WE1nYnJkSlV4NkR5L2tqcGFDTFRqZUFyUFBvVXhaQ0E9PQo=",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.9/HSI-Device-Configurator_1.2.9_android.apk"
+                                          }
                   }
 }
