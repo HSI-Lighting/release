@@ -1,7 +1,7 @@
 {
   "version": "1.0.3",
   "notes": "Settings opens as one window; font size and UI scale move in steps with a Reset button; the New connection window scrolls on small screens.",
-  "pub_date": "2026-11-09T06:10:09Z",
+  "pub_date": "2026-11-09T06:10:24Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLRERoWEo0WWVoNUZQN2dQYzlsT3ZaSTRmcVZUbC9ocERhZ20vcWVjS25GcytSaUo2cnJELzdOMzR4ZnpBUkl5bklKQlI0WWo5OWNYMzR3eFArUjZxckEwPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4zIHdpbmRvd3MteDg2XzY0ClA5WW1DRERhcitoTWhSci9aTXJvYlVocTFiMG1kbFRPMHpSYXpxU25JdGQ1WklHaGFBWitUQWRBbUJjRkxhdmY2Z2ZwWkxjM3JMSkNQSm9yQzNSUkFBPT0K",
@@ -10,6 +10,10 @@
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLRENoUHpqWUd2ZjlkY0ZtL0QrRWYvbjlVak16aCtsL1k5ZFFRWmdvYVIzNklIeWFXVGs5WFYxdW8xOUZLZGVOMmZSdlBzdXhpM0xDbkhBbll2L3ppZkFrPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4zIGxpbnV4LXg4Nl82NApqMDRsVldmVnZhb2hPQ1B1OEh0NnYzSWxNekM1S294bXo3Y0FHeFZXKzRKcVVKTXhyVXA1bmg1V3JSSlcwSGFaZmI5ZEVGNzk5M1FWcjc5ak02VFVCdz09Cg==",
       "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.3/mqtt-pro_1.0.3_linux"
+    },
+    "android-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJzaWduIHNlY3JldCBrZXkKUlVTVkh5S2NUVFBLREJYS2Vmbnp6Vlg4dmlzZkl3UURqcmF1R3BzN2VZdGwxQURwcS9CRnlLbVVRRkVMMnc0d3ZwZFhleHV3UlVwa2hFZFluK3hua09IWk1sM1BJeEJ4bXdnPQp0cnVzdGVkIGNvbW1lbnQ6IG1xdHQtcHJvIDEuMC4zIGFuZHJvaWQtYWFyY2g2NApjSituWjBTdktRaVJYY3R1TkdHdHcxSDhKcXdFVjljbmpwS0I4d3pURS9WWTdtZEdUTXk5NklNeFExOTZqdmM2eFJNbGhHVVYyZ2Y0YnNOamYxNmhEZz09Cg==",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/mqtt-pro-v1.0.3/mqtt-pro_1.0.3_android.apk"
     }
   }
 }
