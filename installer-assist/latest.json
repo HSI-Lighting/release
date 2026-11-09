@@ -1,11 +1,15 @@
 {
     "version":  "1.2.10",
     "notes":  "1.2.10: Modbus Gateway - firmware updates found online (product 0x0308), no Name/Device ID/cloud server fields; WallkeyCore fade rate/time removed; X0103 shows its real firmware version.",
-    "pub_date":  "2026-11-09T09:30:29Z",
+    "pub_date":  "2026-11-09T09:30:45Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODUrR0I4WEhQc0VvYU94MnJqTnAwQzNTc0R4U3NoMUovSzBhVXpReHV4ZzcvbllWYXZBNTNjVDZISmdKQ2hYdktzSndxei95dGZ0WmV3cVJQWTdtQkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjE2NjIwCWZpbGU6SFNJIERldmljZSBDb25maWd1cmF0b3JfMS4yLjEwX3g2NC1zZXR1cC5leGUKSGFqcXdDOWJkb3ZXcDQ0d0MzamtQUWgyVWV1Y1VKSy85eC9RSXArREFXUEU4V2NsWmxQcGxyK1FJbTJoWVhUb1BQbzNoa1lqeldoRUZMZEdKY0J2QUE9PQo=",
                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.10/HSI-Device-Configurator_1.2.10_windows.exe"
-                                         }
+                                         },
+                      "android-aarch64":  {
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHpUMGRkcVhkYllxN3YyY0ZrSnFuWWdqTXhwVzZ3NCsvRTdsekdDZ3lCN1M1OVprSG9SR0JEMGo1VEpSSktiZTJFV1lzTjNmTXVVWjNrTGRzRmZLc0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjE2NjMzCWZpbGU6SFNJLURldmljZS1Db25maWd1cmF0b3ItMS4yLjEwLWFybTY0LXJlbGVhc2UuYXBrCmVEazltZHFjSzdKbzJGS0NqSWs0MHJyMUhmSjV0dGZWK2pnWFhtZEkzOTJ5V2l4aGpnR2czSllKZ0Q0RlkxUWtBMGVkR09NeFJKU3hOOEkzUjRyTkFRPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/installer-assist-v1.2.10/HSI-Device-Configurator_1.2.10_android.apk"
+                                          }
                   }
 }
