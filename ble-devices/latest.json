@@ -1,11 +1,11 @@
 {
-    "version":  "1.3.4",
-    "notes":  "Wall Display + WallkeyCore screens match the firmware web UI (WD SQK6B 6.5.40, WallkeyCore 5.0): Toshiba climate model, Offline/MQTT per item (Hybrid), up to 3 extra MQTT masters, Modbus line + Jobs tabs, WallkeyCore Modbus functions 3/6.",
-    "pub_date":  "2026-11-06T05:41:08Z",
+    "version":  "1.3.5",
+    "notes":  "1.3.5: Modbus Gateway - no Name/Device ID/cloud server fields; WallkeyCore fade rate/time removed; X0103 firmware line shows the release.",
+    "pub_date":  "2026-11-09T09:31:01Z",
     "platforms":  {
                       "android-aarch64":  {
-                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODcxdlRWTEdLcHoyVmlYeHFqOTA5ZzIrNzdLWTVrYUtLRnNwZ3VEeEhSNVZNUVFxZGU3RXBPOFpVMlZTTklTWFc5TnYwM1ZabnNPTFZlQjVsVjNoNnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTQzNjU5CWZpbGU6SFNJLUJMRS1EZXZpY2UtQ29uZmlnLTEuMy40LWFybTY0LXJlbGVhc2UuYXBrCktFUENjZ2kreitxSXY3RGVNVUVkZTNtQ3NHS2tpQ04xWUxadGdCeHgxdUIyQUxFc3lHSHEwbDBxWFdIRVp5RUNSVmZybnQwKzVnQjBFZVhNNEMyUENnPT0K",
-                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v1.3.4/HSI-BLE-Device-Config_1.3.4_android.apk"
+                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODVyQUhtNWZ2WDdia3hpOVYyUXRlVTJld25DQ1NTdDNadjRwVEJoZUl5dW9aKzNWelowU3RYZEMwL0djYnRjandHL0ZrTHRMbWlMelRNT04xMkx2T0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjE2NjUwCWZpbGU6SFNJLUJMRS1EZXZpY2UtQ29uZmlnLTEuMy41LWFybTY0LXJlbGVhc2UuYXBrCnJuUlVvRjlDRnM2Wk1SLyt0WmFCZFE3ZzVJZXhEbmVvQTAyZlNYeGhHSEJkVkJZOGs1NUZYOVRXVDJTRFJwdndMZENZbHYxZEo0VElneVRpeVJiTkJBPT0K",
+                                              "url":  "https://github.com/HSI-Lighting/release/releases/download/ble-devices-v1.3.5/HSI-BLE-Device-Config_1.3.5_android.apk"
                                           }
                   }
 }
