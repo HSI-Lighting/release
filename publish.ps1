@@ -58,6 +58,9 @@ if ($App -eq "firmware-flasher") {
     } else {
         $py = Join-Path $dir ".venv\Scripts\python.exe"
         if (-not (Test-Path $py)) { $py = "python" }
+        # PRODUCTS.md is the registry: no library entry goes out that it does not list (tools\check_products.py).
+        & $py (Join-Path $PSScriptRoot "tools\check_products.py") $dir
+        if ($LASTEXITCODE -ne 0) { throw "refused: the firmware library does not match PRODUCTS.md (see above)" }
         $src = Join-Path ([IO.Path]::GetTempPath()) "hsi-firmware-bundle.zip"
         $fw = (& $py (Join-Path $dir "tools\make_firmware_bundle.py") $src | Select-Object -Last 1) | ConvertFrom-Json
         if ($LASTEXITCODE -ne 0 -or -not $fw.version) { throw "the firmware bundle was not made (see above)" }

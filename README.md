@@ -24,6 +24,9 @@ flasher's `firmware/` folder, versioned by its last commit). The flasher offers 
 update keeps the firmware entries a technician added by hand. HSI Installer Assist reads the same library
 for its Firmware tab's "Use latest build" (OTA) wherever the workshop PC's HSI BUILDS folder is not there.
 Publishing a library keeps the newest three library releases and deletes older ones (nothing else).
+**[PRODUCTS.md](PRODUCTS.md) is the product registry** (builds name, boards, product id, hardwareRev, repo for every
+product): publishing a library is refused (`tools/check_products.py`) while any entry is missing from it, labelled
+wrongly or stamped with another product's id. Add the product there first.
 
 Maintainers: build with the signing key in the environment
 (`TAURI_SIGNING_PRIVATE_KEY="$(cat ~/.tauri/hsi-updater.key)"`, `TAURI_SIGNING_PRIVATE_KEY_PASSWORD=…`), then

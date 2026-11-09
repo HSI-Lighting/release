@@ -48,7 +48,8 @@ if [ "$app" = firmware-flasher ]; then
   case $plat in
     windows)  ver=$(python3 -c 'import re,sys;print(re.search(r"__version__\s*=\s*\"([^\"]+)\"",open(sys.argv[1]).read()).group(1))' "$FL/flasher/__init__.py")
               src="$FL/dist/HSI_90111_Programmer.exe"; key=windows-x86_64; ext=exe ;;
-    firmware) src=$(mktemp -d)/firmware-bundle.zip
+    firmware) python3 "$(dirname "$0")/tools/check_products.py" "$FL" || { echo "refused: the library does not match PRODUCTS.md" >&2; exit 1; }
+              src=$(mktemp -d)/firmware-bundle.zip
               fwjson=$(python3 "$FL/tools/make_firmware_bundle.py" "$src" | tail -1)
               ver=$(python3 -c 'import json,sys;print(json.loads(sys.argv[1])["version"])' "$fwjson"); key=; ext=zip ;;
     *) echo "the flasher publishes windows or firmware" >&2; exit 1 ;;
