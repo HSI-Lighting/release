@@ -1,10 +1,10 @@
 {
-    "version":  "0.1.3",
-    "notes":  "Modbus Manager 0.1.3: update check reads this feed",
-    "pub_date":  "2026-11-03T08:31:27Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/modbus-manager-v0.1.3/modbus-manager_0.1.3_windows.exe"
-                                         }
-                  }
+  "version": "0.1.4",
+  "notes": "Modbus Manager 0.1.4: fixes startup crash on old Intel graphics drivers (no Vulkan on Windows)",
+  "pub_date": "2026-11-11T07:24:02Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/HSI-Lighting/release/releases/download/modbus-manager-v0.1.4/modbus-manager_0.1.4_windows.exe"
+    }
+  }
 }
