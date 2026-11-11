@@ -1,15 +1,11 @@
 {
-  "version": "0.1.13",
-  "notes": "Default cloud address is now https://installer.hsisystems.de (63.177.196.140:8888 is closed, which made Pull from Cloud fail on newly set-up servers).",
-  "pub_date": "2026-11-03T08:32:14Z",
+  "version": "0.1.14",
+  "notes": "Local servers are found from another network: when the MAC cannot be read (different subnet), the app recognises the server by its SSH host key, confirms its MAC with the saved login and updates its IP. Adding a server from another network: leave the MAC empty, the app reads it over SSH after the login and says if the server is already in the vault.",
+  "pub_date": "2026-11-11T07:12:44Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWlBGeFdBL1dxSVVsMHlJU25ibC9mbGQ5em0wU3dsRVRIVm9UbDcvckxyVTFJZTFrc0c4NHcrV2VmaFdVMUZzb2tDVWh6VWU2ckhVRmpqTHdFQWRFSWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjk0NTk0CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjEzX2FtZDY0LkFwcEltYWdlCk55aTlqdU9aR0FPSERoTjJsTlFob0xOZnBNOU1PeVc3SjIydXI3OVAwc3FjbmFSQjBMYVRFM3dUSUtKTFZaVGY5bFlKWFFBRllOSE51d2xWNWZIZ0NRPT0K",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.13/site-coordinator_0.1.13_linux.AppImage"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWktoWVAwNGd4VmlUbnNMQ0FnSmprd2dlVVlkTUQwVXY2UWx5VE1qVGZDWXZ6bi9YNHovZnRWRkJOemhZOHpCZmg0ZVRKakI3WjFhY0FIK1lRNEc1ZGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjk0NjcwCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjEzX3g2NC1zZXR1cC5leGUKVkVqam5VL2gwY0VOOFF5cHJsTUVuclE1UDdiclE5ckNhS0RvZU85VVBNSitJUW05VlYxakIrSmlKcnB5ZXdEd2NwRHErU2RkMFlXTDdzRXE0R3NwRHc9PQo=",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.13/site-coordinator_0.1.13_windows.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkQ4N1NaWXBHY1g4bDgySHFEWFF0Z3RQZm5rNXhjNlYwdFlkM1UzQjBMYXZWbDcyU2ZNRjZqbmpDUHVra3FmTTFENTFuYnIzYWFydDMxdE81SHFmZmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzgxMDc5CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjE0X2FtZDY0LkFwcEltYWdlCkJHcDM3VnBnc2JGZkkrYWJ6L3lhYXJjSUpEWTZFWmRPV2JPa254VnE2UFRlNHMrTnNMQ3kxSDdXRjNFZEROR3hadU1JTzBabk1mZkpCQXltYnFGZ0JnPT0K",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.14/site-coordinator_0.1.14_linux.AppImage"
     }
   }
 }
