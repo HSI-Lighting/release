@@ -1,20 +1,20 @@
 {
-  "version": "1.0.2",
-  "notes": "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
-  "pub_date": "2026-10-20T09:44:35Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
-      "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
-    }
-  },
-  "firmware": {
-    "version": "2026.11.11.1144",
-    "notes": "Modbus WiFi V2.0.9 (90122 + E740K) and W5500 Modbus Eth+WiFi V2.2.4: Modbus ID of each thermostat / curtain in Status/Availability; WiFi also fixes Status/Curtain cut off with 4+ curtains.",
-    "pub_date": "2026-11-11T11:45:48Z",
-    "entries": 58,
-    "size": 39282890,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.11.1144/firmware-flasher-firmware_2026.11.11.1144.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODJEMlFIYjlDTjNmSitzN3F2YjAvY1dERmdjME94T0luZWI5TUNpWnNOc3l5MkRYc25HN2YwQUxGUnl6Tm9Hb21aSkl6Y3VOeWlqbEdrR0ZwZG5hYXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzk3NTI3CWZpbGU6bGliLnppcApOMWt4bkw1RFVrR1BBZERXUWVBcWdtTTgrWFdNYVJ2aGo3RmpqNExQK1NzL3FReWxqOXRBeXhsanZZOFRQM2dId01SUnNhUTlmZnBJWmp3bk03amZCZz09Cg=="
-  }
+    "version":  "1.0.2",
+    "notes":  "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
+    "pub_date":  "2026-10-20T09:44:35Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
+                                         }
+                  },
+    "firmware":  {
+                     "version":  "2026.11.11.1213",
+                     "notes":  "X0103 REBUILD2 V1.4.1 (d04fb92): silent panel reported, never a master restart (D52); X0103 V1.4.0 and V1.3.5 kept as previous releases",
+                     "pub_date":  "2026-11-11T12:14:02Z",
+                     "entries":  61,
+                     "size":  40951870,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.11.1213/firmware-flasher-firmware_2026.11.11.1213.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHlvNHdRNk9wRlRuUGNWNjhlbkYvSUxrMGRJY1M5TURVRUZMNXV5SHRPMXNhV05xZ1JkUEp3dUZmVGdTa2lwdGRvS25LeEtxZ2sxUll3SXJoa0R5SHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzk5MjE3CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKUEFpOERmNlVjSEh4U1htb1hrT3NSQlFOdW5QSTlxb2ZldlVuS09aNXN2VmNGMGpudWFSS3ZYeVRnbUI4VnFjekhnT21sajl3UEJ0NEdIQW9WaGhmQ2c9PQo="
+                 }
 }
