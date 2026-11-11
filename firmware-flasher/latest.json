@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.11.9.1402",
-                     "notes":  "SQK6B / SQKFP / RNDK5B / AMLKN5B V6.5.44 and TD8B V0.2.44: curtains are command-only on the wired line (never read back).",
-                     "pub_date":  "2026-11-10T05:35:28Z",
-                     "entries":  55,
-                     "size":  37648722,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.9.1402/firmware-flasher-firmware_2026.11.9.1402.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODczZVRGWmNwWXVDN3daaEFZZXh1bnJWZGkwYVRwK0gyWkxJUi9naWNYczdmUC94WkxncVk1TkZacUVNMWFsQmN5SkczTXZ1aUJjWVpxeCtlYkV6OEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mjg4OTAxCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKMnZ1dkp6TklBRys0VWp0QnpzYkhIMjZxeU1XcWdkREtvMFhkRFpnVyswQlkzSzhxZDFFalk4UmxEbzBacWx2M0VjaWsxVkRmcU03dzI3NTExOW8yQ2c9PQo="
+                     "version":  "2026.11.11.1010",
+                     "notes":  "X0103 REBUILD2 V1.4.0 (e6c673a): supervision, MQTT status query, network.problem, no-DHCP-lease rule; X0103 V1.3.5 kept as previous release",
+                     "pub_date":  "2026-11-11T10:11:49Z",
+                     "entries":  58,
+                     "size":  39279705,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.11.1010/firmware-flasher-firmware_2026.11.11.1010.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODZrODNnNnVCdUFKYnhSU0oxaDJnZzVwMnR2TFJMWjN3MHYzWVFEZlAwZEl4NVhqaG1SckZtdFJscFAraGc4aWVPdW1BaXlWRk56ZFFweW0zOVFRb0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzkxODg2CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKRC9PMWZsNmt5NTJ1TkFqekJQNUdTVEhIeWhKbUhYZms5YjhQMEN0dS9qZ2NoTlF2UmE3MFpZaFZrWmdiTjVLY082SGdDZFRmVGRlWDI3aFVHeTdPRHc9PQo="
                  }
 }
