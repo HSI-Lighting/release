@@ -1,11 +1,11 @@
 {
-    "version":  "0.1.121",
-    "notes":  "Pagify 0.1.121",
-    "pub_date":  "2026-11-10T10:20:32Z",
+    "version":  "0.1.122",
+    "notes":  "Pagify 0.1.122",
+    "pub_date":  "2026-11-11T09:07:20Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYnpjNXJrY2dZczI1TUpBMUhuSENCUzVhRzZpZUc1MldKWGRYcGhUMnZUa0lySkZFeVAzWElzdU4xazRFK1MxNytYUElrT0F1SEVacmhsaCtZckRTWTdrWGJZRWc4SlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzA2MDEyCWZpbGU6cGFnaWZ5XzAuMS4xMjFfd2luZG93cy56aXAKbkFYYmhzaWszY0FSOVVxRnRIUmptMnBvSnZlYmZmbDFRZ1dsZmNuM25BL1dzT2RZeXNWeU5HRWFqQzI0YkpoSFoybzVvbURGQzhoMVlUZk9JTVd5Qnc9PQo=",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/pagify-v0.1.121/pagify_0.1.121_windows.zip"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSYnpjNXJrY2dZc3paYlpUY3F4VlNHd09EemNZM3U1eWNZZUs0ekx1Q0ZOLzk5VjJrT2ZldFphcHBiKzhoSEk4V1ZpTmNZenlkb0c4cTlJQUJTYVc1d3JSYTgxazVwUVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzg4MDE2CWZpbGU6cGFnaWZ5XzAuMS4xMjJfd2luZG93cy56aXAKYTloVGV4UThjRDhkYlFGQ1Q5MTBlMStsYU1zRUFwMVRXU1YveUhac1pVQzhoSXNhVjhvaFhGd1JHZ29USU1Zdjc0bjlnNTlBZ0Q3VjA0cjNQVVpmRGc9PQo=",
+                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/pagify-v0.1.122/pagify_0.1.122_windows.zip"
                                          }
                   }
 }
