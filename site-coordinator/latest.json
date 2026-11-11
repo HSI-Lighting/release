@@ -1,11 +1,15 @@
 {
   "version": "0.1.14",
   "notes": "Local servers are found from another network: when the MAC cannot be read (different subnet), the app recognises the server by its SSH host key, confirms its MAC with the saved login and updates its IP. Adding a server from another network: leave the MAC empty, the app reads it over SSH after the login and says if the server is already in the vault.",
-  "pub_date": "2026-11-11T07:12:44Z",
+  "pub_date": "2026-11-11T12:02:03Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkQ4N1NaWXBHY1g4bDgySHFEWFF0Z3RQZm5rNXhjNlYwdFlkM1UzQjBMYXZWbDcyU2ZNRjZqbmpDUHVra3FmTTFENTFuYnIzYWFydDMxdE81SHFmZmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzgxMDc5CWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjE0X2FtZDY0LkFwcEltYWdlCkJHcDM3VnBnc2JGZkkrYWJ6L3lhYXJjSUpEWTZFWmRPV2JPa254VnE2UFRlNHMrTnNMQ3kxSDdXRjNFZEROR3hadU1JTzBabk1mZkpCQXltYnFGZ0JnPT0K",
       "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.14/site-coordinator_0.1.14_linux.AppImage"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNUdQRWdWNmJvWkx2alR3Y09hcjIvS0FEUC9Hak1HMUhCOEhCSUxOV0JtdEJ4STNHNWtvaUFGN2RZbW5RSHp5cWtvUm9COWtxVWJRa2E5Y09pZnpBWnA1ZmlobHpMa2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzk4NTEwCWZpbGU6SFNJIFNpdGUgQ29vcmRpbmF0b3JfMC4xLjE0X3g2NC1zZXR1cC5leGUKclRjWDU2UmpkZmtxY2FUZVRjbEJMRVRjcU5PUTZiaU5xWHpZcUhWZUhmOEswVTYrQzY1WDNCSkVhY1ZYMTM2Vm1DR2ZLVGFrbms2WEhxQ3FSVE9MRGc9PQo=",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/site-coordinator-v0.1.14/site-coordinator_0.1.14_windows.exe"
     }
   }
 }
