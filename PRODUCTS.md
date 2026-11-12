@@ -9,6 +9,10 @@ and `./publish.sh firmware-flasher firmware` run `tools/check_products.py` first
 the library only after its row is here. Adding a product, a board, a new product id or a hand-made entry
 means editing this file in the same change.
 
+**This file is kept identical in two places:** this repository (`PRODUCTS.md`, read by the publish check) and the private HSI specs
+repository (`products/PRODUCTS.md`, with its revision history and rules). Change both in the same session. Publishing refuses a
+library while they differ.
+
 ## Rules
 
 - **Builds name** = the product word in the library entry's notes, `[HSI BUILDS] <builds name> <board>, built <YYYY-MM-DD HH:MM[:SS]> from <commit>. ...`.

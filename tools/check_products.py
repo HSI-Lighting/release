@@ -35,15 +35,33 @@ def registry():
     return products, hand
 
 
+def specs_copy():
+    """The registry is kept identical in the private specs repository (products/PRODUCTS.md). Returns (problem, warning)."""
+    root = os.environ.get('HSI_SPECS', r'E:\HSI-SPECS_AND_RULES')
+    p = os.path.join(root, 'products', 'PRODUCTS.md')
+    if not os.path.isfile(p):
+        return None, 'cannot compare PRODUCTS.md with %s (not found; set HSI_SPECS) - the two copies must always match' % p
+    a = open(os.path.join(HERE, 'PRODUCTS.md'), 'rb').read().replace(b'\r\n', b'\n')
+    b = open(p, 'rb').read().replace(b'\r\n', b'\n')
+    if a != b:
+        return 'PRODUCTS.md differs from %s - both copies must always match: change both in the same session' % p, None
+    return None, None
+
+
 def git_show(repo, path):
     return subprocess.run(['git', '-C', repo, 'show', os.environ.get('HSI_LIB_REF', 'HEAD') + ':' + path], capture_output=True, check=True).stdout
 
 
 def main(repo):
     products, hand = registry()
+    bad = []
+    problem, warn = specs_copy()
+    if problem:
+        bad.append(problem)
+    if warn:
+        print('WARNING: ' + warn)
     lib = json.loads(git_show(repo, 'firmware/library.json').decode('utf-8'))
     entries = lib['entries'] if isinstance(lib, dict) else lib
-    bad = []
     for e in entries:
         name, notes = e.get('name', ''), e.get('notes', '')
         m = re.match(r'\[HSI BUILDS\] (\S+) (\S+), built .+? from [0-9a-f]{7,}', notes)
