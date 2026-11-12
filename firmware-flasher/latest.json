@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.11.11.1217",
-                     "notes":  "X0103 V1.4.0 removed (owner); X0103 V1.4.1 is the current build, V1.3.5 kept",
-                     "pub_date":  "2026-11-11T12:17:59Z",
+                     "version":  "2026.11.11.1221",
+                     "notes":  "WallkeyCore V5.1: no DALI fade rate/time (no FR/FT on boot; removed from web UI and API)",
+                     "pub_date":  "2026-11-12T05:55:35Z",
                      "entries":  58,
-                     "size":  39283545,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.11.1217/firmware-flasher-firmware_2026.11.11.1217.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODlYNW1QWXE3dFRmcHAvRkVqUFZYaVp2QnBnTkpNWnEwVXNMS0J0RXdOS2FXUURaOUorb2cra1FvK0piMVFCMEVPajA1WGVJNjE4dGhpSml4V0VRQWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzk5NDU3CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKaFVwRmErTzlvdHVxSUNJVEw2elVwZ1VjSzdYcmxXakdUMDhUaE83WTRsUC90RVp1eis4ZHZqZ1FDNzA1N1drdm5tYngxUmZnTFQ3S2JxbWMrNmh6REE9PQo="
+                     "size":  39282876,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.11.1221/firmware-flasher-firmware_2026.11.11.1221.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODhwK0JEWUorTjkxY2hqZDlxaUMwQzhXQUY1THM4eFc1MW9XT3V6eUlPWkUvM0Fwcjgycm1TTDlyUmlyd0VjMHFHelRXaERSUHlSRnlLaXJObHdSdkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYyODk0CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKMEVtak51UTZ3M2FueUJUWi9yMSt2RmF2c0pZYUd3aGdEZEhaa0lqVWxZYVk1OWdwL3VJc3lURjlyS1NiTU43YXJycnE2SUthM05ab0dZK1lFM3FKQ1E9PQo="
                  }
 }
