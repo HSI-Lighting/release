@@ -21,7 +21,8 @@ library while they differ.
 - **Product id** = the 16-bit id in the image's 32-byte `HSI-OTA1` trailer (vendor `0x2269`). The device reports it as
   `productId` in `/api/status` `identity`, and refuses an image stamped for another product. A new product takes the next free id in
   its family: Wall Display `0x01xx`, Wireless Knob `0x02xx`, gateways `0x03xx`, WallkeyCore `0x04xx`. Never reuse an id. Never give two
-  products one id: the Modbus Gateway Eth+WiFi 2.2.0-2.2.1 used the X0103's `0x0303` and the apps took it for a DALI master.
+  products one id: the Modbus Gateway Eth+WiFi 2.2.0-2.2.1 used the X0103's `0x0303` and the apps took it for a DALI master; the
+  HSI DALI-LOGGER 0.1 did the same until it got `0x0309` (2026-11-12).
 - **hardwareRev** = what the device reports as `identity.hardwareRev` (`/api/status`; over BLE, the setup document). The apps pick the
   device's screen and its builds name from it. Changing it in firmware needs the apps changed first.
 - **Legacy code** = an older id still accepted while units in the field move to the new one.
@@ -39,13 +40,14 @@ library while they differ.
 | WirelessKnob | k518 | 0x0201 | 1 | JC3636K518 | Wireless Knob WKn518 | ESP32s3-wireless-knob |
 | WirelessKnob | k718 | 0x0202 | 6 | JC3636K718 | Wireless Knob WKn718 | ESP32s3-wireless-knob |
 | S3X3 | net, dali, ui | 0x0301 | - | S3X3-W5500 | S3x3 3-Line DALI Master | S3x3 |
-| HSI-GEARS | net, sim_a, sim_b, ui | 0x0302 | - | - | HSI-GEARS DALI gear simulator | HSI-GEARS |
+| HSI-GEARS | net, sim_a, sim_b, ui | 0x0302 | - | HSI-GEARS-V3 | HSI-GEARS DALI gear simulator | HSI-GEARS |
 | X0103 | net, dali, ui | 0x0303 | - | X0103 | X0103 REBUILD2 3-Line DALI Master | X0103 REBUILD2 |
 | 90111 | net, ui | 0x0304 | - | 90111 | 90111 REBUILD2 3-Line DALI Master (its DALI micros take no OTA) | 90111 REBUILD2 |
 | KNX | net, bus, ui | 0x0305 | - | KNX-V2 | KNX Gateway | KNX gateway |
 | E740K | main | 0x0306 | - | 90122-MINI | Modbus WiFi E740K V1 (90122 mini-n4 node) | Modbus_MQTT_Gateway-90122, branch E740K_MB_V1 |
 | MBWIFI | main | 0x0307 | - | 90122-wifi | Modbus WiFi V1 (90122 WROOM-32E/32UE gateway) | Modbus_MQTT_Gateway-90122, branch WIFI_MB_V1 |
 | MBW5500 | main | 0x0308 | - | Modbus Gateway | Modbus Gateway Eth+WiFi (MB-ADM-W5500) | Modbus_MQTT_Gateway-90122, branch MB-ADM-W5500 |
+| DALI-LOGGER | net, sniff_a, sniff_b, ui | 0x0309 | - | DALI-LOGGER-6L | HSI DALI-LOGGER: 6-line DALI monitor, receive-only, on the HSI-GEARS V3 board (firmware 0.1 used 0x0303 by mistake until 2026-11-12; never accept it as legacy, it is the X0103's) | HSI-DALI_MONITOR-LOGGER_LIVE_viaMQTT |
 | WallkeyCore | main | 0x0401 | 4 | WALLKEY (variant = panel model) | WallkeyCore keypads M9.8B, X9.6B, M15.D2.4B, M15.D1.4B | HSI-WallkeyCore |
 | X20 | main | - | - | X20-ESP12 | X20 8-button panel (ESP8266) | X20 |
 | BLEGW | dali | - | - | (BLE: version string ble_GATEWAY_v...) | BLE DALI 3-line Gateway (DALI Admin BLE gateway OTA) | DALI-BLE-Master |
