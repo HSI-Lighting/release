@@ -1,20 +1,20 @@
 {
-    "version":  "1.0.2",
-    "notes":  "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
-    "pub_date":  "2026-10-20T09:44:35Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
-                                             "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
-                                         }
-                  },
-    "firmware":  {
-                     "version":  "2026.11.11.1221",
-                     "notes":  "WallkeyCore V5.1: no DALI fade rate/time (no FR/FT on boot; removed from web UI and API)",
-                     "pub_date":  "2026-11-12T05:55:35Z",
-                     "entries":  58,
-                     "size":  39282876,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.11.1221/firmware-flasher-firmware_2026.11.11.1221.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODhwK0JEWUorTjkxY2hqZDlxaUMwQzhXQUY1THM4eFc1MW9XT3V6eUlPWkUvM0Fwcjgycm1TTDlyUmlyd0VjMHFHelRXaERSUHlSRnlLaXJObHdSdkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYyODk0CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKMEVtak51UTZ3M2FueUJUWi9yMSt2RmF2c0pZYUd3aGdEZEhaa0lqVWxZYVk1OWdwL3VJc3lURjlyS1NiTU43YXJycnE2SUthM05ab0dZK1lFM3FKQ1E9PQo="
-                 }
+  "version": "1.0.2",
+  "notes": "1.0.2: every Morteza (90111) DALI micro flash now also turns brown-out detection on (BODCFG 0xE5, 4.3 V) and checks it - a half-powered micro can no longer lock up after a power cut. Other chips are not touched.",
+  "pub_date": "2026-10-20T09:44:35Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODIvdWNqSGxDUCs3S01SOEUycFdKbStmQ3d4Y1c3M0NBVkJ5NUFFODJ0Q3IzWW1SNXdXYm1HOUgwTTRHbGd5bUtoc0NCVnRGWjhwcXNmSGljZnBETkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDg5NDYzCWZpbGU6SFNJXzkwMTExX1Byb2dyYW1tZXIuZXhlCk5ENGhQcStraFluNUdpOEFYQzJCNForSGlUN3RWbk5LSFVJRHIvZUExWWpsWWl4MGQveHRUSWFqM0dhZGRVNHV3bGMweU9OM2NoYU1jNDJKYUNzWUFnPT0K",
+      "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-v1.0.2/firmware-flasher_1.0.2_windows.exe"
+    }
+  },
+  "firmware": {
+    "version": "2026.11.17.528",
+    "notes": "KNX Gateway V2.2.0 (NET N16R8 / BUS / UI, 1b0bc3d) replaces V2.0.0: new display + LEDs, CAN protocol 0x04 (update all three chips: BUS, UI, NET last), LittleFS storage (from 2.0.x the pairs are erased once: export first, import after), hidden passwords, time zone + clock server settings.",
+    "pub_date": "2026-11-17T05:29:15Z",
+    "entries": 58,
+    "size": 39307813,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.17.528/firmware-flasher-firmware_2026.11.17.528.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODFVQnh4QkczZmZaMjIwYUNKUXNNckdjNFg2UDR2Yiswd2FzczNENzltM00vc1ozY2dPY0hhK1FWeHhoUnRnN3JZbm9JSkt2OEZnRDBMMUlDWmI2bUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODkzMzM2CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcAp5dkNLNTFDQ3ZvK3JJZ1p6RnIrZzNWcW1PZlhwSWIyVXB0Y2hCbzdCRmRjbHZhTWdxN2h5enlpcUpZUWgzK1gvQXlxUkRjalJKa2xaaEp1UGFxRmtCQT09Cg=="
+  }
 }
