@@ -78,6 +78,3 @@ here by its exact entry name. Prefer a `[HSI BUILDS]` entry for anything new.
 | X0103 DALI V1.3.5 | X0103 REBUILD2 V1.3.5, DALI chip: previous release kept for the Flasher (owner 2026-11-11); V1.4.2 is the OTA build |
 | X0103 NET V1.3.5 | X0103 REBUILD2 V1.3.5, COM: previous release kept for the Flasher (owner 2026-11-11) |
 | X0103 UI V1.3.5 | X0103 REBUILD2 V1.3.5, panel: previous release kept for the Flasher (owner 2026-11-11) |
-| X0103 DALI V1.4.1 | X0103 REBUILD2 V1.4.1, DALI chip: previous release kept for the Flasher (owner 2026-11-17); V1.4.2 is the OTA build |
-| X0103 NET V1.4.1 | X0103 REBUILD2 V1.4.1, COM: previous release kept for the Flasher (owner 2026-11-17) |
-| X0103 UI V1.4.1 | X0103 REBUILD2 V1.4.1, panel: previous release kept for the Flasher (owner 2026-11-17) |
