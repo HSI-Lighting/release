@@ -68,6 +68,9 @@ here by its exact entry name. Prefer a `[HSI BUILDS]` entry for anything new.
 | 90111-Morteza LCD 2026-08-03 | 90111 original firmware, LCD |
 | 90111-Morteza DALI 2026-08-03 | 90111 original firmware, DALI micro |
 | 90111 DALI V2.3.2 | 90111 DALI micro |
+| 90111 DALI V2.4.0 | 90111 DALI micro (REBUILD2 2.4.0; the micros take no OTA) |
+| 90111 NET V2.3.2 | 90111 REBUILD2 V2.3.2, COM: previous release kept for the Flasher (owner 2026-11-17); V2.4.0 is the OTA build |
+| 90111 UI V2.3.2 | 90111 REBUILD2 V2.3.2, panel: previous release kept for the Flasher (owner 2026-11-17); V2.4.0 is the OTA build |
 | alireza_X0103 build_01 12-Aug-2026 COM | X0103 original firmware, COM |
 | alireza_X0103 build_01 12-Aug-2026 LCD | X0103 original firmware, LCD |
 | alireza_X0103 build_01 12-Aug-2026 DALI | X0103 original firmware, DALI |
