@@ -9,12 +9,12 @@
                                          }
                   },
     "firmware":  {
-                     "version":  "2026.11.17.1035",
-                     "notes":  "Firmware library 2026.11.17.1035 (58 firmware)",
-                     "pub_date":  "2026-11-17T10:36:41Z",
-                     "entries":  58,
-                     "size":  39308372,
-                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.17.1035/firmware-flasher-firmware_2026.11.17.1035.zip",
-                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHg0V0FoWTdoSnVOVndONVVCMW5uUUpGczhLQU84SmpaRHNqaVlob2g4Qko3bUg4VW01dEdodS9NVWVtQytpRmZQR044Rm4zaXVTOHl6MU1HYjFRRUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTExNzY1CWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKeWtLbzhka1hSYWR4UCtxY2pEN3pndW0wdnZrM2hwQlo5UlQrdFUrdnNxMDRUR1VGdUcrK3dYLzliWFgvUEtOaGhqRjBMNXpwTUVHNnRwdXV5eHBEQ0E9PQo="
+                     "version":  "2026.11.17.1232",
+                     "notes":  "Morteza (90111) REBUILD2 2.4.0 (4d58c7d): supervision, bus 2 UART0 / bus 3 RMT, network log, panel duplicate cross, crash and memory fixes; V2.3.2 kept",
+                     "pub_date":  "2026-11-17T12:35:51Z",
+                     "entries":  61,
+                     "size":  40735641,
+                     "url":  "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.17.1232/firmware-flasher-firmware_2026.11.17.1232.zip",
+                     "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODRaWFRCdVg1UW4xU2pwczdhVkZVSXpJdkM5ZXJ5RXdrWkxEM2lWNjh6N1AzaEZYYnBNZTlWT3hRbDlSYWFEV3BaenBrRDRwNzdOR2NkUGZvUzNmU3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE4OTIzCWZpbGU6aHNpLWZpcm13YXJlLWJ1bmRsZS56aXAKb0xoVzFWck5jcGxCcWRMZ2tDRzJDcmY0Mi9oUmtRRmRiMDZIcW1sL0NKNUxhTVBiV08vU21FR1BrSGZzQm9CeW90eUJOclpnTitsaHJOQklZUHdpQVE9PQo="
                  }
 }
