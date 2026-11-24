@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.24.805",
-    "notes": "DALI Slave 90113 DT6 firmware (IEC 62386-102/207, c7ba80a/08835ab) and new entry 'DALI Slave 90113 Artlume DT6 18V 300mA' (24 V only; board needs R10 2R + R9/R10 jumpers and D4 10 V before flashing).",
-    "pub_date": "2026-11-24T08:06:14Z",
-    "entries": 63,
-    "size": 40793040,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.24.805/firmware-flasher-firmware_2026.11.24.805.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHl0bkxLOHBoTmcwaXYyaTl2ZndGRFdCRCtSSnhMVUVuNk1KcWRiS3Bhb0t4SGZuSzh3NzdjU0phT3VTR2M0QVdDSjd6YU1PSUVUeDdrM3lqTFpGV0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTA3NTUzCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcAp0TXk5SUQyMDdnUkkvWEhXMm5QbjQ2RDBSNERtbC94TituOXpFR2tQbnFDMGJ5ZG1KamN5ZTJ5WlNEYUQ2OTg1dStBTHc2Yk1BSEJWcXpET2xtdXNBQT09Cg=="
+    "version": "2026.11.24.817",
+    "notes": "DALI Slave 90113: only the 'Artlume DT6 18V 300mA' entry is offered now (24 V only; board needs R10 2R + R9/R10 jumpers and D4 10 V before flashing). The separate 'DT6 2026-11-20 08835ab' entry is removed (same image).",
+    "pub_date": "2026-11-24T08:18:14Z",
+    "entries": 62,
+    "size": 40764354,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.24.817/firmware-flasher-firmware_2026.11.24.817.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHlCV1RQelA3K1FORXlVVEM4dWJSMzZlSk1US0pXSzEwbkptSUw3em1nOVV4REUwTENZbjNaQVJpQU1EaUtGcXNPakR2WFd5bjl0cTRZSnNEdVlFM0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTA4Mjc1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApiN1FQVmZ0R3djM1lTc2l0b2J5dzNnZWhQeU00aUVFK3FTN2dTVnFPSFAxUmRKZy8wandtdkFtYXprQUtHdWY4TDVZRkNEQzhOdld4eWVhYzJKR2pBUT09Cg=="
   }
 }
