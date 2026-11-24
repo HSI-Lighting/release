@@ -77,8 +77,7 @@ here by its exact entry name. Prefer a `[HSI BUILDS]` entry for anything new.
 | BLE DALI Gateway (USB-C flash) g191ef28 | BLE DALI Gateway, Aug 12 known-good image |
 | BLE DALI Gateway (USB-C flash) 2026-10-26 0c144ad | BLE DALI Gateway |
 | DALI Slave 90113 | DALI Slave 90113 |
-| DALI Slave 90113 DT6 2026-11-20 08835ab | DALI Slave 90113, DT6 gear (HSI--DALI-Library; ATmega, no OTA) |
-| DALI Slave 90113 Artlume DT6 18V 300mA | DALI Slave 90113 for the Artlume 18 V 300 mA light, 24 V only, reworked board (R10 2R, D4 10 V); same image as the DT6 08835ab entry |
+| DALI Slave 90113 Artlume DT6 18V 300mA | DALI Slave 90113 for the Artlume 18 V 300 mA light, 24 V only, reworked board (R10 2R, D4 10 V); DT6 build 08835ab |
 | WallkeyCore V4.8 26-OCT2026DEBUG | WallkeyCore debug build |
 | X0103 DALI V1.3.5 | X0103 REBUILD2 V1.3.5, DALI chip: previous release kept for the Flasher (owner 2026-11-11); V1.4.2 is the OTA build |
 | X0103 NET V1.3.5 | X0103 REBUILD2 V1.3.5, COM: previous release kept for the Flasher (owner 2026-11-11) |
