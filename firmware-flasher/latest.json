@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.24.817",
-    "notes": "DALI Slave 90113: only the 'Artlume DT6 18V 300mA' entry is offered now (24 V only; board needs R10 2R + R9/R10 jumpers and D4 10 V before flashing). The separate 'DT6 2026-11-20 08835ab' entry is removed (same image).",
-    "pub_date": "2026-11-24T08:18:14Z",
+    "version": "2026.11.25.528",
+    "notes": "DMX Master 90108 U10 COM + U5 DMX updated to 2.2.0 (the images of the 12 h soak 2026-11-24/25)",
+    "pub_date": "2026-11-25T05:28:38Z",
     "entries": 62,
-    "size": 40764354,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.24.817/firmware-flasher-firmware_2026.11.24.817.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHlCV1RQelA3K1FORXlVVEM4dWJSMzZlSk1US0pXSzEwbkptSUw3em1nOVV4REUwTENZbjNaQVJpQU1EaUtGcXNPakR2WFd5bjl0cTRZSnNEdVlFM0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTA4Mjc1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApiN1FQVmZ0R3djM1lTc2l0b2J5dzNnZWhQeU00aUVFK3FTN2dTVnFPSFAxUmRKZy8wandtdkFtYXprQUtHdWY4TDVZRkNEQzhOdld4eWVhYzJKR2pBUT09Cg=="
+    "size": 39969563,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.25.528/firmware-flasher-firmware_2026.11.25.528.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdJTnc1UG1DWjRncVdYdkdyeVpRemFVUHV1bkg5TjdiRTdtNFkwQy9nK1ZRVmVuM0VsTUJOVWNwbzZ5OVYrRG9icDJqZjZBUS9lYkJWa0wxd0VCR2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg0NTAwCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApIREtaaEt4ajNMTU5ibDRaT2ZMendYMnNLUmM2MDJaYVpSemxYd2toei9RY1FYSDlpUGRnVElaY1NqQnBNOERTRWhnQnR0VGpSMEEwZi93cUxoQnlEZz09Cg=="
   }
 }
