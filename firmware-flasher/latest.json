@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.25.528",
-    "notes": "DMX Master 90108 U10 COM + U5 DMX updated to 2.2.0 (the images of the 12 h soak 2026-11-24/25)",
-    "pub_date": "2026-11-25T05:28:38Z",
+    "version": "2026.11.26.514",
+    "notes": "DMX Master 90108 U5 DMX 2.2.0 epoch 1795618986: SD card task (FW30/FW31/FW33), the image of the 8 h soak 2026-11-25/26",
+    "pub_date": "2026-11-26T05:16:27Z",
     "entries": 62,
-    "size": 39969563,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.25.528/firmware-flasher-firmware_2026.11.25.528.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHdJTnc1UG1DWjRncVdYdkdyeVpRemFVUHV1bkg5TjdiRTdtNFkwQy9nK1ZRVmVuM0VsTUJOVWNwbzZ5OVYrRG9icDJqZjZBUS9lYkJWa0wxd0VCR2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTg0NTAwCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApIREtaaEt4ajNMTU5ibDRaT2ZMendYMnNLUmM2MDJaYVpSemxYd2toei9RY1FYSDlpUGRnVElaY1NqQnBNOERTRWhnQnR0VGpSMEEwZi93cUxoQnlEZz09Cg=="
+    "size": 39971829,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.26.514/firmware-flasher-firmware_2026.11.26.514.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODdvRGlhMFhRS2VOdjAyTStyTUxtQkJNdUVTVEEyNk5KamYxTGRaaE41RDh0b1hpR3FWekNkeFllSDRXQUI4bUlxVFlOWjh4L29XNnNWRXhqWmU3VHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjcwMTY4CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcAo4cHJQUEpUTEx2TnVIM04yOHU0cnBGajEzekh2YVFTeVpJMkNwTlZwUDMxTlVjc2lFN0c4UzlaYktzR0IvdG03aFFKQStGK05hUGFjQUZQcm00UHdCUT09Cg=="
   }
 }
