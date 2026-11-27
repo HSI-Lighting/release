@@ -49,6 +49,7 @@ library while they differ.
 | MBW5500 | main | 0x0308 | - | Modbus Gateway | Modbus Gateway Eth+WiFi (MB-ADM-W5500) | Modbus_MQTT_Gateway-90122, branch MB-ADM-W5500 |
 | DALI-LOGGER | net, sniff_a, sniff_b, ui | 0x0309 | - | DALI-LOGGER-6L | HSI DALI-LOGGER: 6-line DALI monitor, receive-only, on the HSI-GEARS V3 board (firmware 0.1 used 0x0303 by mistake until 2026-11-12; never accept it as legacy, it is the X0103's) | HSI-DALI_MONITOR-LOGGER_LIVE_viaMQTT |
 | DMX90108 | net, dmx | 0x030A | - | 90108-u10 | DMX Master 90108: U10 network chip (ESP32-S3) + U5 DMX engine (ESP32), one-way DMX output | DMX-Master-90108, branch HSI-DMX-Effects-Format |
+| RELAY90112 | net | 0x030B | - | 90112-V2000 | HSI Relay 90112 (Relaybox V2000): 4 relays, Ethernet (ENC28J60) or Wi-Fi, ESP32-S3, one chip (OTA role net) | Relay-MQTT---90112, branch feature/Rust-MQTT-Client (Rust MQTT client; feature/ble-setup = same code on AsyncMqttClient) |
 | WallkeyCore | main | 0x0401 | 4 | WALLKEY (variant = panel model) | WallkeyCore keypads M9.8B, X9.6B, M15.D2.4B, M15.D1.4B | HSI-WallkeyCore |
 | X20 | main | - | - | X20-ESP12 | X20 8-button panel (ESP8266) | X20 |
 | BLEGW | dali | - | - | (BLE: version string ble_GATEWAY_v...) | BLE DALI 3-line Gateway (DALI Admin BLE gateway OTA) | DALI-BLE-Master |
@@ -60,7 +61,7 @@ here by its exact entry name. Prefer a `[HSI BUILDS]` entry for anything new.
 
 | Entry name | Product |
 |---|---|
-| 90112 Relay | HSI Relay 90112 |
+| 90112 Relay | HSI Relay 90112, firmware 2.0 (before 2.1.x: no OTA, no product id); 2.1.x is `RELAY90112 NET` |
 | 90122 Modbus Eth+WiFi | Modbus Eth+WiFi gateway, original firmware (before MB-ADM-W5500) |
 | U5-DMX Master DMX | DMX Master 90108 U5 |
 | U10-DMX Master COM | DMX Master 90108 U10 |
