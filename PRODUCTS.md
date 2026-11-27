@@ -61,7 +61,7 @@ here by its exact entry name. Prefer a `[HSI BUILDS]` entry for anything new.
 
 | Entry name | Product |
 |---|---|
-| 90112 Relay V2.1.1 | HSI Relay 90112, firmware 2.1.1 (Rust MQTT client, product 0x030B; replaced the 2.0 entry `90112 Relay`) |
+| 90112 Relay V2.1.2 | HSI Relay 90112, firmware 2.1.2 (Rust MQTT client, product 0x030B; replaced `90112 Relay V2.1.1`, which replaced the 2.0 entry `90112 Relay`) |
 | 90122 Modbus Eth+WiFi | Modbus Eth+WiFi gateway, original firmware (before MB-ADM-W5500) |
 | U5-DMX Master DMX | DMX Master 90108 U5 |
 | U10-DMX Master COM | DMX Master 90108 U10 |
