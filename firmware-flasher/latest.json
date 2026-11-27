@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.26.1429",
-    "notes": "DMX Master 90108 U10 COM 2.2.0 epoch 1795717636: FW34 supervisor crash fix (clock read outside the critical section)",
-    "pub_date": "2026-11-26T14:30:23Z",
-    "entries": 62,
-    "size": 39971909,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.26.1429/firmware-flasher-firmware_2026.11.26.1429.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODQ0YVJzeVk4TVoxOG8wdHFrQjQ3azJSQnlsZGZNVU5oYkR2NkdHR0FRc2lFamx3TlV4dFljZXhveUdMVHNpQ2pLdm5DK0pXTDZWREJWWVQ3QXhzekFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzAzNDAyCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApOclFQVzFaVzdQU3VXRzFReU9od293cm5QcnFBVS9sZ0gyU3dhY2RkQlZ3c2xiK1k1QXBWWnBjb1lrSFFISFBLekI0QWdxcnNPS1RGMzVXdTNSK0xCUT09Cg=="
+    "version": "2026.11.27.644",
+    "notes": "HSI Relay 90112 RELAY90112 NET V2.1.1 (product 0x030B, first relay OTA image)",
+    "pub_date": "2026-11-27T06:45:22Z",
+    "entries": 63,
+    "size": 40984203,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.644/firmware-flasher-firmware_2026.11.27.644.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHl5VGNrZC80QzdVeGw2eUxCbk1DRE1ackwxWnFBaWxwOUNDMjRNQldEOHFCZFZBSmpsakQ3UjcrWHZnblpPOHVkZ0t0ZXVZRjRvTVJOUzBSU2M2NndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzYxOTAyCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcAp3Wlh4VUhGT09zMzVVVWFPMk92WCtFNzByV1QwR0NJa0VnVzU4d3MrdlAydngrdGhDT3M4eHRON1NqUUlSdFdlRFF3MUJjejdZT29GczZ6MXhJT3hEUT09Cg=="
   }
 }
