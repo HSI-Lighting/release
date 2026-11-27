@@ -61,7 +61,6 @@ here by its exact entry name. Prefer a `[HSI BUILDS]` entry for anything new.
 
 | Entry name | Product |
 |---|---|
-| 90112 Relay V2.1.2 | HSI Relay 90112, firmware 2.1.2 (Rust MQTT client, product 0x030B; replaced `90112 Relay V2.1.1`, which replaced the 2.0 entry `90112 Relay`) |
 | 90122 Modbus Eth+WiFi | Modbus Eth+WiFi gateway, original firmware (before MB-ADM-W5500) |
 | 90111-Morteza COM 2026-08-03 | 90111 original firmware, COM |
 | 90111-Morteza LCD 2026-08-03 | 90111 original firmware, LCD |
