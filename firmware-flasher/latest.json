@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.27.649",
-    "notes": "90112 Relay V2.1.1 replaces the 2.0 relay entry (Rust MQTT client, product 0x030B)",
-    "pub_date": "2026-11-27T06:50:09Z",
+    "version": "2026.11.27.1034",
+    "notes": "90112 Relay V2.1.2 replaces V2.1.1 (dead-link, stress-crash, Ethernet link-state and router-check fixes)",
+    "pub_date": "2026-11-27T10:35:23Z",
     "entries": 62,
-    "size": 40135498,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.649/firmware-flasher-firmware_2026.11.27.649.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODZyQzI1RXAweXp2TXp1YUl4WDBYR0pJbThvanhjN1ByTFk1b0owdFA3Q0lobFNIZ0J1K2NZSmhCdGlRT281dlBtSmNYZExVNm5jWGJuMlRZRDFyeUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzYyMTc1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApsTFZzYy9ZSHNxVzVxdW9jTE5rODFxM3Z0OEphU1hkUy96ZmdrRVhrZyt3UHNiZjlLUUVoV0U2eVR2dExPMUVjMW5teENicG1udHcwZElYNVIzdHlBUT09Cg=="
+    "size": 40135989,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1034/firmware-flasher-firmware_2026.11.27.1034.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHorMDRmVUJCcmo4aUM2ODhEZlg2RDZSNUdROXNWV0MyRWI3NVFqYTJ2M3plSm9BMytCYXMrTkhKOUU4WFFNak53enhYM05STktmTmNQWTRJV1BHdlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzc1NzA0CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApOaGovNUFRYkhBZW9aQVBEVkZpVHZ0UE5QSVZuYTdtQjhiSjNidVdUcTRaWGVBTFNTVFptN1B3dkNNejNlNmUwVjdvc08vaGtlVUNKbjZWM3B1dlFBZz09Cg=="
   }
 }
