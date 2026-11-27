@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.27.1102",
-    "notes": "DMX Master 90108: entries now [HSI BUILDS] DMX90108 NET V2.2.0 / DMX V2.2.0 (stamped), visible to Device Configurator OTA",
-    "pub_date": "2026-11-27T11:03:04Z",
+    "version": "2026.11.27.1146",
+    "notes": "RELAY90112 NET V2.1.2 is now an [HSI BUILDS] entry (OTA visible); same files as 90112 Relay V2.1.2",
+    "pub_date": "2026-11-27T11:47:30Z",
     "entries": 62,
-    "size": 40136105,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1102/firmware-flasher-firmware_2026.11.27.1102.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHcxWm45RWhzM1ZETm82ZWwyOGtUcDRhK1NuVlZNZmNCZUx4aE04bWdBY2o5OG1maXptbFM3V0hyd1dQMU1RL3VPZWpUU1dFUWhyUy9vTTM4UDVCWkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzc3MzY1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApjQnIvVm1aNVJyM1phdUZQNTNKRVpvcUN3YTlxVFF3Z3RHMGMvUFNma29hTitGVXdBcHB0bW13T2FvcTN6eE5uMzd1OG92aVBQNURZbzRzUnhmSlZEQT09Cg=="
+    "size": 40136128,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1146/firmware-flasher-firmware_2026.11.27.1146.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHkvL09MakVJSENURGV4SllmdjArQjk5eWFiK2dUMkdKT29XOWs3V1BNbHpsTjBTZEJLSGZSYUg2SDdNSE1zSFVUbEZYbFRBVjVlR3JsQjZvNVByQUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzgwMDMwCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApjU3ZPKy9NYlUraEJ6djdVTHpkUnNXVG82SGZDN3VVa2c3TDFqcjBlMGZBVzVKSld0eWMvVjY5aVFyRzg0LzdLRWZ4cTNEYTlDYnZTdkZNakhGOUFCUT09Cg=="
   }
 }
