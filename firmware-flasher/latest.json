@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.27.1304",
-    "notes": "RELAY90112 NET V2.1.4 replaces V2.1.3 (no web pages, passwords masked; 4 parts)",
-    "pub_date": "2026-11-27T13:05:33Z",
+    "version": "2026.11.27.1521",
+    "notes": "DMX Master 90108 NET + DMX 2.2.1 (FW35 group static colour no longer loses fixtures, FW36 MQTT reply stall fixed)",
+    "pub_date": "2026-11-27T15:22:21Z",
     "entries": 62,
-    "size": 40012841,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1304/firmware-flasher-firmware_2026.11.27.1304.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODhsM1BrM3Z3TWVQOHYyUzgySUFvMDhDbVpsNDZ2elJpQVZBTEtoZEpwUzJPZVRmQkllWEZUcThDdGtWMGk1ckg5aWVWcDZiNWJsVDJWY2FDTkNkTncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg0NzE0CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApmcG5kTzB2eDFDTEdxcytGdjI1UkxxcXBtT3RnT05hTFc0Q2hsaU9Vd0c3dXd2d3hRQUZOb0N5N1BEd0hoV0RHV1RYL01aNkRqaDVsWlEzNFE4QnZBdz09Cg=="
+    "size": 40013043,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1521/firmware-flasher-firmware_2026.11.27.1521.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DODdYWEtzR2FxblNVZHhnNDlwNVZhZkJ2WUZmOGNsc0hWcVhzeTlrSDB2OW9jMnJNbFk5dUtkakE2cWJFeUlrNGx2M2N5Mno1UHN1ZSt2akZ2Zk1Ra3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzkyOTIyCWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApDeUp3REhGOWdhWW0xcmpMVDB1RUYwY2pZOWV4blFCQWdPeGVaU1pkVE1yR0pjVDIrK2RwR05yQkNYazYrT2ZlUnBnWDVzQXl6UHU3MUFNcDdubXRCUT09Cg=="
   }
 }
