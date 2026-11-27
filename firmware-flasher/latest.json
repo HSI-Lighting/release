@@ -9,12 +9,12 @@
     }
   },
   "firmware": {
-    "version": "2026.11.27.1034",
-    "notes": "90112 Relay V2.1.2 replaces V2.1.1 (dead-link, stress-crash, Ethernet link-state and router-check fixes)",
-    "pub_date": "2026-11-27T10:35:23Z",
+    "version": "2026.11.27.1102",
+    "notes": "DMX Master 90108: entries now [HSI BUILDS] DMX90108 NET V2.2.0 / DMX V2.2.0 (stamped), visible to Device Configurator OTA",
+    "pub_date": "2026-11-27T11:03:04Z",
     "entries": 62,
-    "size": 40135989,
-    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1034/firmware-flasher-firmware_2026.11.27.1034.zip",
-    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHorMDRmVUJCcmo4aUM2ODhEZlg2RDZSNUdROXNWV0MyRWI3NVFqYTJ2M3plSm9BMytCYXMrTkhKOUU4WFFNak53enhYM05STktmTmNQWTRJV1BHdlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzc1NzA0CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApOaGovNUFRYkhBZW9aQVBEVkZpVHZ0UE5QSVZuYTdtQjhiSjNidVdUcTRaWGVBTFNTVFptN1B3dkNNejNlNmUwVjdvc08vaGtlVUNKbjZWM3B1dlFBZz09Cg=="
+    "size": 40136105,
+    "url": "https://github.com/HSI-Lighting/release/releases/download/firmware-flasher-firmware-2026.11.27.1102/firmware-flasher-firmware_2026.11.27.1102.zip",
+    "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRZXA3b2ozUU5DOHcxWm45RWhzM1ZETm82ZWwyOGtUcDRhK1NuVlZNZmNCZUx4aE04bWdBY2o5OG1maXptbFM3V0hyd1dQMU1RL3VPZWpUU1dFUWhyUy9vTTM4UDVCWkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzc3MzY1CWZpbGU6ZmlybXdhcmUtYnVuZGxlLnppcApjQnIvVm1aNVJyM1phdUZQNTNKRVpvcUN3YTlxVFF3Z3RHMGMvUFNma29hTitGVXdBcHB0bW13T2FvcTN6eE5uMzd1OG92aVBQNURZbzRzUnhmSlZEQT09Cg=="
   }
 }
